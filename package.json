@@ -19,7 +19,7 @@
   "bugs": {
     "url": "https://github.com/siakhooi/ts-box-drawing/issues"
   },
-  "homepage": "https://siakhooi.github.io/ts-box-drawing/",  
+  "homepage": "https://siakhooi.github.io/ts-box-drawing/",
   "devDependencies": {
     "@types/jest": "^29.2.4",
     "@types/node": "^14.11.2",
