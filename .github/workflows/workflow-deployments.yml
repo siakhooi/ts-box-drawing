@@ -1,0 +1,16 @@
+name: Deployment
+on:
+  release:
+    types: [created]
+
+jobs:
+  build:
+    uses: ./.github/workflows/build-npm-test.yml
+  npm:
+    uses: ./.github/workflows/publish-npm.yml
+    secrets:
+      PUBLISH_NPM_TOKEN: ${{ secrets.PUBLISH_NPM_TOKEN }}
+  gpr:
+    uses: ./.github/workflows/publish-gpr.yml
+    secrets:
+      PUBLISH_GITHUB_TOKEN: ${{ secrets.PUBLISH_GITHUB_TOKEN }}
