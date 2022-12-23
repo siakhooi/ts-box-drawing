@@ -1,9 +1,9 @@
 import util from 'util';
 
-class ConsoleClass{
-    println(format: string, ...text: any[]):void{
-        console.log(util.format(format, text));
+class ConsoleClass {
+    println(format: string, ...texts: string[]): void {
+        console.log(texts.length+' '+ util.format(format, ...texts));
     }
 }
 
-export const Console=new ConsoleClass();
+export const Console = new ConsoleClass();
