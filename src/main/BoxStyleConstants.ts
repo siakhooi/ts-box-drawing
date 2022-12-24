@@ -16,4 +16,12 @@ const THICK = new BoxStyle(
   '\u2517',
   '\u251B'
 );
-export {THIN, THICK};
+const DOUBLE = new BoxStyle(
+  '\u2550',
+  '\u2551',
+  '\u2554',
+  '\u2557',
+  '\u255A',
+  '\u255D'
+);
+export {THIN, THICK, DOUBLE};

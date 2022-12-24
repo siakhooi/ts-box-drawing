@@ -1,6 +1,6 @@
 import {BoxStyle} from './BoxStyle';
 import {Console} from './Console';
-import {THIN, THICK} from './BoxStyleConstants';
+import {THIN, THICK, DOUBLE} from './BoxStyleConstants';
 
 function drawBox(boxStyle: BoxStyle, text: string) {
   const w = text.length;
@@ -23,4 +23,7 @@ export function drawBoxThin(text: string) {
 }
 export function drawBoxThick(text: string) {
   drawBox(THICK, text);
+}
+export function drawBoxDouble(text: string) {
+  drawBox(DOUBLE, text);
 }

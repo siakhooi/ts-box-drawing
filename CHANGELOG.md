@@ -1,5 +1,9 @@
 # Change Log
 
+## `0.0.4` - 24 Dec 2022
+
+- add drawBoxDouble()
+
 ## `0.0.3` - 24 Dec 2022
 
 - add drawBoxThick()

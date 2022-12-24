@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`drawBoxDouble 1`] = `
+[
+  "╔═════╗",
+  "║hello║",
+  "╚═════╝",
+]
+`;
+
+exports[`drawBoxDouble 2`] = `
+[
+  "╔══╗",
+  "║hi║",
+  "╚══╝",
+]
+`;
+
+exports[`drawBoxDouble 3`] = `
+[
+  "╔══════════╗",
+  "║apa khabar║",
+  "╚══════════╝",
+]
+`;
+
+exports[`drawBoxDouble 4`] = `
+[
+  "╔═══════════╗",
+  "║Hello World║",
+  "╚═══════════╝",
+]
+`;

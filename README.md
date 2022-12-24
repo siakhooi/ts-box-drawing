@@ -72,18 +72,22 @@ npm package to draw box using unicode characters
 const x=require('@siakhooi/box-drawing');
 
 x.drawBoxThin('Hello World');
-
 //print
 ┌───────────┐
 │Hello World│
 └───────────┘
 
 x.drawBoxThick('Hello World');
-
 //print
 ┏━━━━━━━━━━━┓
 ┃Hello World┃
 ┗━━━━━━━━━━━┛
+
+x.drawBoxDouble('Hello World');
+//print
+╔═══════════╗
+║Hello World║
+╚═══════════╝
 ```
 
 ## Locations
