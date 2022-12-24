@@ -1,8 +1,11 @@
 import util from 'util';
 
 class ConsoleClass {
-  println(format: string, ...texts: string[]): void {
-    console.log(util.format(format, ...texts));
+  println(text: string): void {
+    console.log(text);
+  }
+  printf(format: string, ...texts: string[]): void {
+    this.println(util.format(format, ...texts));
   }
 }
 
