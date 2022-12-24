@@ -23,3 +23,11 @@ exports[`drawBoxThin 3`] = `
   "└──────────┘",
 ]
 `;
+
+exports[`drawBoxThin 4`] = `
+[
+  "┌───────────┐",
+  "│Hello World│",
+  "└───────────┘",
+]
+`;

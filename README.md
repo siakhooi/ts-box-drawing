@@ -77,6 +77,13 @@ x.drawBoxThin('Hello World');
 ┌───────────┐
 │Hello World│
 └───────────┘
+
+x.drawBoxThick('Hello World');
+
+//print
+┏━━━━━━━━━━━┓
+┃Hello World┃
+┗━━━━━━━━━━━┛
 ```
 
 ## Locations

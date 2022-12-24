@@ -1,13 +1,13 @@
 import {Console} from '../main/Console';
-import {drawBoxThin} from '../main/index';
+import {drawBoxThick} from '../main/index';
 
 test.each(['hello', 'hi', 'apa khabar', 'Hello World'])(
-  'drawBoxThin',
+  'drawBoxThick',
   (text: string) => {
     const allData: string[] = [];
     Console.println = jest.fn().mockImplementation(text => allData.push(text));
 
-    drawBoxThin(text);
+    drawBoxThick(text);
     expect(allData).toMatchSnapshot();
   }
 );
