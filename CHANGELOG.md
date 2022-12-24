@@ -1,5 +1,9 @@
 # Change Log
 
+## upcoming
+
+- add Console.test.ts
+
 ## `0.0.4` - 24 Dec 2022
 
 - add drawBoxDouble()
