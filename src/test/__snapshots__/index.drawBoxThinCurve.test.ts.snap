@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`drawBoxThinCurve 1`] = `
+[
+  "╭─────╮",
+  "│hello│",
+  "╰─────╯",
+]
+`;
+
+exports[`drawBoxThinCurve 2`] = `
+[
+  "╭──╮",
+  "│hi│",
+  "╰──╯",
+]
+`;
+
+exports[`drawBoxThinCurve 3`] = `
+[
+  "╭──────────╮",
+  "│apa khabar│",
+  "╰──────────╯",
+]
+`;
+
+exports[`drawBoxThinCurve 4`] = `
+[
+  "╭───────────╮",
+  "│Hello World│",
+  "╰───────────╯",
+]
+`;

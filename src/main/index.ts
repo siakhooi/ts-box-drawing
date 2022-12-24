@@ -1,6 +1,6 @@
 import {BoxStyle} from './BoxStyle';
 import {Console} from './Console';
-import {THIN, THICK, DOUBLE} from './BoxStyleConstants';
+import {THIN, THICK, DOUBLE, THINCURVE} from './BoxStyleConstants';
 
 function drawBox(boxStyle: BoxStyle, text: string) {
   const w = text.length;
@@ -26,4 +26,7 @@ export function drawBoxThick(text: string) {
 }
 export function drawBoxDouble(text: string) {
   drawBox(DOUBLE, text);
+}
+export function drawBoxThinCurve(text: string) {
+  drawBox(THINCURVE, text);
 }

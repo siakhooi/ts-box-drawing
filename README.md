@@ -77,6 +77,12 @@ x.drawBoxThin('Hello World');
 │Hello World│
 └───────────┘
 
+x.drawBoxThinCurve('Hello World');
+//print
+╭───────────╮
+│Hello World│
+╰───────────╯
+
 x.drawBoxThick('Hello World');
 //print
 ┏━━━━━━━━━━━┓

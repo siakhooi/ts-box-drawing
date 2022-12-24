@@ -24,4 +24,13 @@ const DOUBLE = new BoxStyle(
   '\u255A',
   '\u255D'
 );
-export {THIN, THICK, DOUBLE};
+const THINCURVE = new BoxStyle(
+  '\u2500',
+  '\u2502',
+  '\u256D',
+  '\u256E',
+  '\u2570',
+  '\u256F'
+);
+
+export {THIN, THICK, DOUBLE, THINCURVE};

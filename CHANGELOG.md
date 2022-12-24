@@ -1,8 +1,9 @@
 # Change Log
 
-## upcoming
+## `0.0.5` 25 Dec 2022
 
 - add Console.test.ts
+- add drawBoxThinCurve()
 
 ## `0.0.4` - 24 Dec 2022
 
