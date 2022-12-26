@@ -1,9 +1,10 @@
 # Change Log
 
-## `0.0.5` 25 Dec 2022
+## `0.0.5` 26 Dec 2022
 
 - add Console.test.ts
 - add drawBoxThinCurve()
+- rename up to top, down to bottom
 
 ## `0.0.4` - 24 Dec 2022
 

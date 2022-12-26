@@ -1,23 +1,23 @@
 export class BoxStyle {
   HORIZONTAL: string;
   VERTICAL: string;
-  UP_LEFT: string;
-  UP_RIGHT: string;
-  DOWN_LEFT: string;
-  DOWN_RIGHT: string;
+  TOP_LEFT: string;
+  TOP_RIGHT: string;
+  BOTTOM_LEFT: string;
+  BOTTOM_RIGHT: string;
   constructor(
     horizontal: string,
     vertical: string,
-    up_left: string,
-    up_right: string,
-    down_left: string,
-    down_right: string
+    top_left: string,
+    top_right: string,
+    bottom_left: string,
+    bottom_right: string
   ) {
     this.HORIZONTAL = horizontal;
     this.VERTICAL = vertical;
-    this.UP_LEFT = up_left;
-    this.UP_RIGHT = up_right;
-    this.DOWN_LEFT = down_left;
-    this.DOWN_RIGHT = down_right;
+    this.TOP_LEFT = top_left;
+    this.TOP_RIGHT = top_right;
+    this.BOTTOM_LEFT = bottom_left;
+    this.BOTTOM_RIGHT = bottom_right;
   }
 }
