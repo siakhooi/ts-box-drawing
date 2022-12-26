@@ -68,6 +68,7 @@ npm package to draw box using unicode characters
 
 ## Usage
 
+### Simple
 ```
 const x=require('@siakhooi/box-drawing');
 
@@ -94,6 +95,44 @@ x.drawBoxDouble('Hello World');
 ╔═══════════╗
 ║Hello World║
 ╚═══════════╝
+```
+### Table
+```
+const x=require('@siakhooi/box-drawing');
+
+const text = [
+  ['Cell 1-1', 'Cell 2-1'],
+  ['Cell 1-2', 'Cell 2-2'],
+];
+
+x.drawBoxThin(text);
+//print
+┌────────┬────────┐
+│Cell 1-1│Cell 2-1│
+├────────┼────────┤
+│Cell 1-2│Cell 2-2│
+└────────┴────────┘
+x.drawBoxThinCurve(text);
+//print
+╭────────┬────────╮
+│Cell 1-1│Cell 2-1│
+├────────┼────────┤
+│Cell 1-2│Cell 2-2│
+╰────────┴────────╯
+x.drawBoxThick(text);
+//print
+┏━━━━━━━━┳━━━━━━━━┓
+┃Cell 1-1┃Cell 2-1┃
+┣━━━━━━━━╋━━━━━━━━┫
+┃Cell 1-2┃Cell 2-2┃
+┗━━━━━━━━┻━━━━━━━━┛
+x.drawBoxDouble(text);
+//print
+╔════════╦════════╗
+║Cell 1-1║Cell 2-1║
+╠════════╬════════╣
+║Cell 1-2║Cell 2-2║
+╚════════╩════════╝
 ```
 
 ## Locations

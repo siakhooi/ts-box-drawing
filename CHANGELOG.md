@@ -5,6 +5,7 @@
 - add Console.test.ts
 - add drawBoxThinCurve()
 - rename up to top, down to bottom
+- add array support
 
 ## `0.0.4` - 24 Dec 2022
 
