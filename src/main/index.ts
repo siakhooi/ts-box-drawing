@@ -33,10 +33,11 @@ function getHorizontalLines(
 
   return [lineTop, lineMiddle, lineBottom];
 }
-function drawBox(boxStyle: BoxStyle, text: string | string[][]) {
-  const data: string[][] = typeof text === 'string' ? [[text]] : text;
-  const rowCount = data.length;
-  const columnCount = data.reduce((r, n) => Math.max(r, n.length), 0);
+function getColumnWidths(
+  rowCount: number,
+  columnCount: number,
+  data: string[][]
+): number[] {
   const columnWidths: number[] = [];
   for (let i = 0; i < columnCount; i++) {
     columnWidths[i] = 0;
@@ -46,6 +47,31 @@ function drawBox(boxStyle: BoxStyle, text: string | string[][]) {
       }
     }
   }
+  return columnWidths;
+}
+function getDataLine(
+  boxStyle: BoxStyle,
+  columnCount: number,
+  columnWidths: number[],
+  rowData: string[]
+): string {
+  let s = boxStyle.VERTICAL;
+  for (let i = 0; i < columnCount; i++) {
+    const cellData = rowData[i] === undefined ? '' : rowData[i];
+    s += cellData.padEnd(columnWidths[i], ' ');
+    if (i < columnCount - 1) s += boxStyle.VERTICAL;
+  }
+  s += boxStyle.VERTICAL;
+
+  return s;
+}
+function drawBox(boxStyle: BoxStyle, text: string | string[][]) {
+  const data: string[][] = typeof text === 'string' ? [[text]] : text;
+  const rowCount = data.length;
+  const columnCount = data.reduce((r, n) => Math.max(r, n.length), 0);
+
+  const columnWidths: number[] = getColumnWidths(rowCount, columnCount, data);
+
   let lineTop = '',
     lineMiddle = '',
     lineBottom = '';
@@ -58,14 +84,7 @@ function drawBox(boxStyle: BoxStyle, text: string | string[][]) {
   Console.println(lineTop);
 
   for (let j = 0; j < rowCount; j++) {
-    let s = boxStyle.VERTICAL;
-    for (let i = 0; i < columnCount; i++) {
-      const cellData = data[j][i] === undefined ? '' : data[j][i];
-      s += cellData.padEnd(columnWidths[i], ' ');
-      if (i < columnCount - 1) s += boxStyle.VERTICAL;
-    }
-    s += boxStyle.VERTICAL;
-    Console.println(s);
+    Console.println(getDataLine(boxStyle, columnCount, columnWidths, data[j]));
     if (j < rowCount - 1) Console.println(lineMiddle);
   }
 
