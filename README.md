@@ -77,19 +77,16 @@ x.drawBoxThin('Hello World');
 ┌───────────┐
 │Hello World│
 └───────────┘
-
 x.drawBoxThinCurve('Hello World');
 //print
 ╭───────────╮
 │Hello World│
 ╰───────────╯
-
 x.drawBoxThick('Hello World');
 //print
 ┏━━━━━━━━━━━┓
 ┃Hello World┃
 ┗━━━━━━━━━━━┛
-
 x.drawBoxDouble('Hello World');
 //print
 ╔═══════════╗
@@ -100,7 +97,11 @@ x.drawBoxHorizontalThinVerticalThick('Hello World');
 ┎───────────┒
 ┃Hello World┃
 ┖───────────┚
-
+x.drawBoxHorizontalThickVerticalThin('Hello World');
+//print
+┍━━━━━━━━━━━┑
+│Hello World│
+┕━━━━━━━━━━━┙
 ```
 ### Table
 ```
@@ -146,6 +147,13 @@ x.drawBoxHorizontalThinVerticalThick(text);
 ┠────────╂────────┨
 ┃Cell 1-2┃Cell 2-2┃
 ┖────────┸────────┚
+x.drawBoxHorizontalThickVerticalThin(text);
+//print
+┍━━━━━━━━┯━━━━━━━━┑
+│Cell 1-1│Cell 2-1│
+┝━━━━━━━━┿━━━━━━━━┥
+│Cell 1-2│Cell 2-2│
+┕━━━━━━━━┷━━━━━━━━┙
 ```
 
 ## Locations

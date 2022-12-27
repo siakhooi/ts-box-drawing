@@ -30,5 +30,18 @@ const HORIZONTAL_THIN_VERTICAL_THICK = new BoxStyle(
   '\u2542',
   ['\u2530', '\u2538', '\u2520', '\u2528']
 );
+const HORIZONTAL_THICK_VERTICAL_THIN = new BoxStyle(
+  ['\u2501', '\u2502'],
+  ['\u250d', '\u2511', '\u2515', '\u2519'],
+  '\u253f',
+  ['\u252f', '\u2537', '\u251d', '\u2525']
+);
 
-export {THIN, THICK, DOUBLE, THINCURVE, HORIZONTAL_THIN_VERTICAL_THICK};
+export {
+  THIN,
+  THICK,
+  DOUBLE,
+  THINCURVE,
+  HORIZONTAL_THIN_VERTICAL_THICK,
+  HORIZONTAL_THICK_VERTICAL_THIN,
+};
