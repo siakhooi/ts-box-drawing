@@ -4,6 +4,7 @@
 - add drawBoxHorizontalThinVerticalThick()
 - add drawBoxHorizontalThickVerticalThin()
 - add drawBoxHorizontalThinVerticalDouble()
+- add drawBoxHorizontalDoubleVerticalThin()
 
 ## `0.0.5` 26 Dec 2022
 
