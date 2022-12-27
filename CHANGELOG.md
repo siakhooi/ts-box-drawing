@@ -1,5 +1,8 @@
 # Change Log
 
+## `0.0.6` 27 Dec 2022
+- add drawBoxHorizontalThinVerticalThick()
+
 ## `0.0.5` 26 Dec 2022
 
 - add Console.test.ts
