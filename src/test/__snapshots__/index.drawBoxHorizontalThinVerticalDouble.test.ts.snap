@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`drawBoxHorizontalThinVerticalDouble 1`] = `
+[
+  "╓─────╖",
+  "║hello║",
+  "╙─────╜",
+]
+`;
+
+exports[`drawBoxHorizontalThinVerticalDouble 2`] = `
+[
+  "╓──╖",
+  "║hi║",
+  "╙──╜",
+]
+`;
+
+exports[`drawBoxHorizontalThinVerticalDouble 3`] = `
+[
+  "╓──────────╖",
+  "║apa khabar║",
+  "╙──────────╜",
+]
+`;
+
+exports[`drawBoxHorizontalThinVerticalDouble 4`] = `
+[
+  "╓───────────╖",
+  "║Hello World║",
+  "╙───────────╜",
+]
+`;

@@ -7,6 +7,7 @@ import {
   THINCURVE,
   HORIZONTAL_THIN_VERTICAL_THICK,
   HORIZONTAL_THICK_VERTICAL_THIN,
+  HORIZONTAL_THIN_VERTICAL_DOUBLE,
 } from './BoxStyleConstants';
 
 function getHorizontalLines(
@@ -114,4 +115,7 @@ export function drawBoxHorizontalThinVerticalThick(text: string | string[][]) {
 }
 export function drawBoxHorizontalThickVerticalThin(text: string | string[][]) {
   drawBox(HORIZONTAL_THICK_VERTICAL_THIN, text);
+}
+export function drawBoxHorizontalThinVerticalDouble(text: string | string[][]) {
+  drawBox(HORIZONTAL_THIN_VERTICAL_DOUBLE, text);
 }

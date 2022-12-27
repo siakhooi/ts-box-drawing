@@ -102,6 +102,11 @@ x.drawBoxHorizontalThickVerticalThin('Hello World');
 ┍━━━━━━━━━━━┑
 │Hello World│
 ┕━━━━━━━━━━━┙
+x.drawBoxHorizontalThinVerticalDouble('Hello World');
+//print
+╓───────────╖
+║Hello World║
+╙───────────╜
 ```
 ### Table
 ```
@@ -154,6 +159,13 @@ x.drawBoxHorizontalThickVerticalThin(text);
 ┝━━━━━━━━┿━━━━━━━━┥
 │Cell 1-2│Cell 2-2│
 ┕━━━━━━━━┷━━━━━━━━┙
+x.drawBoxHorizontalThinVerticalDouble(text);
+//print
+╓────────╥────────╖
+║Cell 1-1║Cell 2-1║
+╟────────╫────────╢
+║Cell 1-2║Cell 2-2║
+╙────────╨────────╜
 ```
 
 ## Locations

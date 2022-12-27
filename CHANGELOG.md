@@ -3,6 +3,7 @@
 ## `0.0.6` 27 Dec 2022
 - add drawBoxHorizontalThinVerticalThick()
 - add drawBoxHorizontalThickVerticalThin()
+- add drawBoxHorizontalThinVerticalDouble()
 
 ## `0.0.5` 26 Dec 2022
 
