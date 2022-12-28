@@ -14,6 +14,7 @@ import {
   INNER_THIN_OUTER_THICK,
   INNER_THICK_OUTER_THIN,
   INNER_DOUBLE_OUTER_THIN_CURVE,
+  INNER_THICK_OUTER_THIN_CURVE,
 } from './BoxStyleConstants';
 
 function getHorizontalLines(
@@ -141,4 +142,7 @@ export function drawBoxInnerThickOuterThin(text: string | string[][]) {
 }
 export function drawBoxInnerDoubleOuterThinCurve(text: string | string[][]) {
   drawBox(INNER_DOUBLE_OUTER_THIN_CURVE, text);
+}
+export function drawBoxInnerThickOuterThinCurve(text: string | string[][]) {
+  drawBox(INNER_THICK_OUTER_THIN_CURVE, text);
 }

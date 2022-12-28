@@ -7,7 +7,7 @@
 - add drawBoxInnerThinOuterThick()
 - add drawBoxInnerThickOuterThin()
 - add drawBoxInnerDoubleOuterThinCurve()
-
+- add drawBoxInnerThickOuterThinCurve()
 
 ## `0.0.6` 27 Dec 2022
 - add drawBoxHorizontalThinVerticalThick()
