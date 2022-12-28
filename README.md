@@ -192,7 +192,6 @@ x.drawBoxInnerThinOuterDouble(text);
 ╟────────┼────────╢
 ║Cell 1-2│Cell 2-2║
 ╚════════╧════════╝
-```
 x.drawBoxInnerThinOuterThick(text);
 //print
 ┏━━━━━━━━┯━━━━━━━━┓
@@ -221,6 +220,7 @@ x.drawBoxInnerThickOuterThinCurve(text);
 ┝━━━━━━━━╈━━━━━━━━┥
 │Cell 1-2┃Cell 2-2│
 ╰────────┸────────╯
+```
 ## Locations
 
 - <https://github.com/siakhooi/ts-box-drawing>
