@@ -25,10 +25,9 @@ function getHorizontalLines(
   lineBottom = boxStyle.BOTTOM_LEFT;
 
   for (let i = 0; i < columnCount; i++) {
-    const s = boxStyle.HORIZONTAL.repeat(columnWidths[i]);
-    lineTop += s;
-    lineMiddle += s;
-    lineBottom += s;
+    lineTop += boxStyle.HORIZONTAL_OUTER.repeat(columnWidths[i]);
+    lineMiddle += boxStyle.HORIZONTAL_INNER.repeat(columnWidths[i]);
+    lineBottom += boxStyle.HORIZONTAL_OUTER.repeat(columnWidths[i]);
 
     if (i < columnCount - 1) {
       lineTop += boxStyle.TOP_MIDDLE;
@@ -64,13 +63,13 @@ function getDataLine(
   columnWidths: number[],
   rowData: string[]
 ): string {
-  let s = boxStyle.VERTICAL;
+  let s = boxStyle.VERTICAL_OUTER;
   for (let i = 0; i < columnCount; i++) {
     const cellData = rowData[i] === undefined ? '' : rowData[i];
     s += cellData.padEnd(columnWidths[i], ' ');
-    if (i < columnCount - 1) s += boxStyle.VERTICAL;
+    if (i < columnCount - 1) s += boxStyle.VERTICAL_INNER;
   }
-  s += boxStyle.VERTICAL;
+  s += boxStyle.VERTICAL_OUTER;
 
   return s;
 }

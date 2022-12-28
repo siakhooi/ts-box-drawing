@@ -1,6 +1,8 @@
 export class BoxStyle {
-  HORIZONTAL: string;
-  VERTICAL: string;
+  HORIZONTAL_INNER: string;
+  HORIZONTAL_OUTER: string;
+  VERTICAL_INNER: string;
+  VERTICAL_OUTER: string;
   TOP_LEFT: string;
   TOP_RIGHT: string;
   BOTTOM_LEFT: string;
@@ -17,8 +19,10 @@ export class BoxStyle {
     cross: string,
     middles: string[]
   ) {
-    this.HORIZONTAL = horizontal_vertical[0];
-    this.VERTICAL = horizontal_vertical[1];
+    this.HORIZONTAL_INNER = horizontal_vertical[0];
+    this.HORIZONTAL_OUTER = horizontal_vertical[1];
+    this.VERTICAL_INNER = horizontal_vertical[2];
+    this.VERTICAL_OUTER = horizontal_vertical[3];
     this.TOP_LEFT = top_left_bottom_right[0];
     this.TOP_RIGHT = top_left_bottom_right[1];
     this.BOTTOM_LEFT = top_left_bottom_right[2];
