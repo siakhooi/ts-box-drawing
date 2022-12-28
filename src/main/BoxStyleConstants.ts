@@ -48,6 +48,12 @@ const HORIZONTAL_DOUBLE_VERTICAL_THIN = new BoxStyle(
   '\u256a',
   ['\u2564', '\u2567', '\u255e', '\u2561']
 );
+const INNER_DOUBLE_OUTER_THIN = new BoxStyle(
+  ['\u2550', '\u2500', '\u2551', '\u2502'],
+  ['\u250c', '\u2510', '\u2514', '\u2518'],
+  '\u256c',
+  ['\u2565', '\u2568', '\u255e', '\u2561']
+);
 
 export {
   THIN,
@@ -58,4 +64,5 @@ export {
   HORIZONTAL_THICK_VERTICAL_THIN,
   HORIZONTAL_THIN_VERTICAL_DOUBLE,
   HORIZONTAL_DOUBLE_VERTICAL_THIN,
+  INNER_DOUBLE_OUTER_THIN,
 };

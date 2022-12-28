@@ -2,6 +2,7 @@
 
 ## `0.0.7` 28 Dec 2022
 - add Horizontal/Vertical inner and outer
+- add drawBoxInnerDoubleOuterThin()
 
 ## `0.0.6` 27 Dec 2022
 - add drawBoxHorizontalThinVerticalThick()
