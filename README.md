@@ -178,6 +178,20 @@ x.drawBoxHorizontalDoubleVerticalThin(text);
 ╞════════╪════════╡
 │Cell 1-2│Cell 2-2│
 ╘════════╧════════╛
+x.drawBoxInnerDoubleOuterThin(text);
+//print
+┌────────╥────────┐
+│Cell 1-1║Cell 2-1│
+╞════════╬════════╡
+│Cell 1-2║Cell 2-2│
+└────────╨────────┘
+x.drawBoxInnerThinOuterDouble(text);
+//print
+╔════════╤════════╗
+║Cell 1-1│Cell 2-1║
+╟────────┼────────╢
+║Cell 1-2│Cell 2-2║
+╚════════╧════════╝
 ```
 
 ## Locations
