@@ -200,6 +200,13 @@ x.drawBoxInnerThinOuterThick(text);
 ┠────────┼────────┨
 ┃Cell 1-2│Cell 2-2┃
 ┗━━━━━━━━┷━━━━━━━━┛
+x.drawBoxInnerThickOuterThin(text);
+//print
+┌────────┰────────┐
+│Cell 1-1┃Cell 2-1│
+┝━━━━━━━━╈━━━━━━━━┥
+│Cell 1-2┃Cell 2-2│
+└────────┸────────┘
 
 ## Locations
 

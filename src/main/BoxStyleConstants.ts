@@ -66,6 +66,12 @@ const INNER_THIN_OUTER_THICK = new BoxStyle(
   '\u253c',
   ['\u252f', '\u2537', '\u2520', '\u2528']
 );
+const INNER_THICK_OUTER_THIN = new BoxStyle(
+  ['\u2501', '\u2500', '\u2503', '\u2502'],
+  ['\u250c', '\u2510', '\u2514', '\u2518'],
+  '\u2548',
+  ['\u2530', '\u2538', '\u251d', '\u2525']
+);
 
 export {
   THIN,
@@ -79,4 +85,5 @@ export {
   INNER_DOUBLE_OUTER_THIN,
   INNER_THIN_OUTER_DOUBLE,
   INNER_THIN_OUTER_THICK,
+  INNER_THICK_OUTER_THIN,
 };

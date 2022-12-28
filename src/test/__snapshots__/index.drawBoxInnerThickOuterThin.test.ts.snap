@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`drawBoxInnerThickOuterThin 1`] = `
+[
+  "┌─────┐",
+  "│hello│",
+  "└─────┘",
+]
+`;
+
+exports[`drawBoxInnerThickOuterThin 2`] = `
+[
+  "┌──┐",
+  "│hi│",
+  "└──┘",
+]
+`;
+
+exports[`drawBoxInnerThickOuterThin 3`] = `
+[
+  "┌──────────┐",
+  "│apa khabar│",
+  "└──────────┘",
+]
+`;
+
+exports[`drawBoxInnerThickOuterThin 4`] = `
+[
+  "┌───────────┐",
+  "│Hello World│",
+  "└───────────┘",
+]
+`;

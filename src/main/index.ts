@@ -12,6 +12,7 @@ import {
   INNER_DOUBLE_OUTER_THIN,
   INNER_THIN_OUTER_DOUBLE,
   INNER_THIN_OUTER_THICK,
+  INNER_THICK_OUTER_THIN,
 } from './BoxStyleConstants';
 
 function getHorizontalLines(
@@ -133,4 +134,7 @@ export function drawBoxInnerThinOuterDouble(text: string | string[][]) {
 }
 export function drawBoxInnerThinOuterThick(text: string | string[][]) {
   drawBox(INNER_THIN_OUTER_THICK, text);
+}
+export function drawBoxInnerThickOuterThin(text: string | string[][]) {
+  drawBox(INNER_THICK_OUTER_THIN, text);
 }
