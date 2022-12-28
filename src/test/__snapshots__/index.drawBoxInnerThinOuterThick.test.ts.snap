@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`drawBoxInnerThinOuterThick 1`] = `
+[
+  "┏━━━━━┓",
+  "┃hello┃",
+  "┗━━━━━┛",
+]
+`;
+
+exports[`drawBoxInnerThinOuterThick 2`] = `
+[
+  "┏━━┓",
+  "┃hi┃",
+  "┗━━┛",
+]
+`;
+
+exports[`drawBoxInnerThinOuterThick 3`] = `
+[
+  "┏━━━━━━━━━━┓",
+  "┃apa khabar┃",
+  "┗━━━━━━━━━━┛",
+]
+`;
+
+exports[`drawBoxInnerThinOuterThick 4`] = `
+[
+  "┏━━━━━━━━━━━┓",
+  "┃Hello World┃",
+  "┗━━━━━━━━━━━┛",
+]
+`;
