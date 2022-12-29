@@ -1,0 +1,421 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test drawBoxDouble [] 1`] = `
+[
+  "╔╗",
+  "╚╝",
+]
+`;
+
+exports[`Test drawBoxDouble [A] 1`] = `
+[
+  "╔═╗",
+  "║A║",
+  "╚═╝",
+]
+`;
+
+exports[`Test drawBoxDouble [Hello World] 1`] = `
+[
+  "╔═══════════╗",
+  "║Hello World║",
+  "╚═══════════╝",
+]
+`;
+
+exports[`Test drawBoxDouble [null] 1`] = `
+[
+  "╔╗",
+  "╚╝",
+]
+`;
+
+exports[`Test drawBoxHorizontalDoubleVerticalThin [] 1`] = `
+[
+  "╒╕",
+  "╘╛",
+]
+`;
+
+exports[`Test drawBoxHorizontalDoubleVerticalThin [A] 1`] = `
+[
+  "╒═╕",
+  "│A│",
+  "╘═╛",
+]
+`;
+
+exports[`Test drawBoxHorizontalDoubleVerticalThin [Hello World] 1`] = `
+[
+  "╒═══════════╕",
+  "│Hello World│",
+  "╘═══════════╛",
+]
+`;
+
+exports[`Test drawBoxHorizontalDoubleVerticalThin [null] 1`] = `
+[
+  "╒╕",
+  "╘╛",
+]
+`;
+
+exports[`Test drawBoxHorizontalThickVerticalThin [] 1`] = `
+[
+  "┍┑",
+  "┕┙",
+]
+`;
+
+exports[`Test drawBoxHorizontalThickVerticalThin [A] 1`] = `
+[
+  "┍━┑",
+  "│A│",
+  "┕━┙",
+]
+`;
+
+exports[`Test drawBoxHorizontalThickVerticalThin [Hello World] 1`] = `
+[
+  "┍━━━━━━━━━━━┑",
+  "│Hello World│",
+  "┕━━━━━━━━━━━┙",
+]
+`;
+
+exports[`Test drawBoxHorizontalThickVerticalThin [null] 1`] = `
+[
+  "┍┑",
+  "┕┙",
+]
+`;
+
+exports[`Test drawBoxHorizontalThinVerticalDouble [] 1`] = `
+[
+  "╓╖",
+  "╙╜",
+]
+`;
+
+exports[`Test drawBoxHorizontalThinVerticalDouble [A] 1`] = `
+[
+  "╓─╖",
+  "║A║",
+  "╙─╜",
+]
+`;
+
+exports[`Test drawBoxHorizontalThinVerticalDouble [Hello World] 1`] = `
+[
+  "╓───────────╖",
+  "║Hello World║",
+  "╙───────────╜",
+]
+`;
+
+exports[`Test drawBoxHorizontalThinVerticalDouble [null] 1`] = `
+[
+  "╓╖",
+  "╙╜",
+]
+`;
+
+exports[`Test drawBoxHorizontalThinVerticalThick [] 1`] = `
+[
+  "┎┒",
+  "┖┚",
+]
+`;
+
+exports[`Test drawBoxHorizontalThinVerticalThick [A] 1`] = `
+[
+  "┎─┒",
+  "┃A┃",
+  "┖─┚",
+]
+`;
+
+exports[`Test drawBoxHorizontalThinVerticalThick [Hello World] 1`] = `
+[
+  "┎───────────┒",
+  "┃Hello World┃",
+  "┖───────────┚",
+]
+`;
+
+exports[`Test drawBoxHorizontalThinVerticalThick [null] 1`] = `
+[
+  "┎┒",
+  "┖┚",
+]
+`;
+
+exports[`Test drawBoxInnerDoubleOuterThin [] 1`] = `
+[
+  "┌┐",
+  "└┘",
+]
+`;
+
+exports[`Test drawBoxInnerDoubleOuterThin [A] 1`] = `
+[
+  "┌─┐",
+  "│A│",
+  "└─┘",
+]
+`;
+
+exports[`Test drawBoxInnerDoubleOuterThin [Hello World] 1`] = `
+[
+  "┌───────────┐",
+  "│Hello World│",
+  "└───────────┘",
+]
+`;
+
+exports[`Test drawBoxInnerDoubleOuterThin [null] 1`] = `
+[
+  "┌┐",
+  "└┘",
+]
+`;
+
+exports[`Test drawBoxInnerDoubleOuterThinCurve [] 1`] = `
+[
+  "╭╮",
+  "╰╯",
+]
+`;
+
+exports[`Test drawBoxInnerDoubleOuterThinCurve [A] 1`] = `
+[
+  "╭─╮",
+  "│A│",
+  "╰─╯",
+]
+`;
+
+exports[`Test drawBoxInnerDoubleOuterThinCurve [Hello World] 1`] = `
+[
+  "╭───────────╮",
+  "│Hello World│",
+  "╰───────────╯",
+]
+`;
+
+exports[`Test drawBoxInnerDoubleOuterThinCurve [null] 1`] = `
+[
+  "╭╮",
+  "╰╯",
+]
+`;
+
+exports[`Test drawBoxInnerThickOuterThin [] 1`] = `
+[
+  "┌┐",
+  "└┘",
+]
+`;
+
+exports[`Test drawBoxInnerThickOuterThin [A] 1`] = `
+[
+  "┌─┐",
+  "│A│",
+  "└─┘",
+]
+`;
+
+exports[`Test drawBoxInnerThickOuterThin [Hello World] 1`] = `
+[
+  "┌───────────┐",
+  "│Hello World│",
+  "└───────────┘",
+]
+`;
+
+exports[`Test drawBoxInnerThickOuterThin [null] 1`] = `
+[
+  "┌┐",
+  "└┘",
+]
+`;
+
+exports[`Test drawBoxInnerThickOuterThinCurve [] 1`] = `
+[
+  "╭╮",
+  "╰╯",
+]
+`;
+
+exports[`Test drawBoxInnerThickOuterThinCurve [A] 1`] = `
+[
+  "╭─╮",
+  "│A│",
+  "╰─╯",
+]
+`;
+
+exports[`Test drawBoxInnerThickOuterThinCurve [Hello World] 1`] = `
+[
+  "╭───────────╮",
+  "│Hello World│",
+  "╰───────────╯",
+]
+`;
+
+exports[`Test drawBoxInnerThickOuterThinCurve [null] 1`] = `
+[
+  "╭╮",
+  "╰╯",
+]
+`;
+
+exports[`Test drawBoxInnerThinOuterDouble [] 1`] = `
+[
+  "╔╗",
+  "╚╝",
+]
+`;
+
+exports[`Test drawBoxInnerThinOuterDouble [A] 1`] = `
+[
+  "╔═╗",
+  "║A║",
+  "╚═╝",
+]
+`;
+
+exports[`Test drawBoxInnerThinOuterDouble [Hello World] 1`] = `
+[
+  "╔═══════════╗",
+  "║Hello World║",
+  "╚═══════════╝",
+]
+`;
+
+exports[`Test drawBoxInnerThinOuterDouble [null] 1`] = `
+[
+  "╔╗",
+  "╚╝",
+]
+`;
+
+exports[`Test drawBoxInnerThinOuterThick [] 1`] = `
+[
+  "┏┓",
+  "┗┛",
+]
+`;
+
+exports[`Test drawBoxInnerThinOuterThick [A] 1`] = `
+[
+  "┏━┓",
+  "┃A┃",
+  "┗━┛",
+]
+`;
+
+exports[`Test drawBoxInnerThinOuterThick [Hello World] 1`] = `
+[
+  "┏━━━━━━━━━━━┓",
+  "┃Hello World┃",
+  "┗━━━━━━━━━━━┛",
+]
+`;
+
+exports[`Test drawBoxInnerThinOuterThick [null] 1`] = `
+[
+  "┏┓",
+  "┗┛",
+]
+`;
+
+exports[`Test drawBoxThick [] 1`] = `
+[
+  "┏┓",
+  "┗┛",
+]
+`;
+
+exports[`Test drawBoxThick [A] 1`] = `
+[
+  "┏━┓",
+  "┃A┃",
+  "┗━┛",
+]
+`;
+
+exports[`Test drawBoxThick [Hello World] 1`] = `
+[
+  "┏━━━━━━━━━━━┓",
+  "┃Hello World┃",
+  "┗━━━━━━━━━━━┛",
+]
+`;
+
+exports[`Test drawBoxThick [null] 1`] = `
+[
+  "┏┓",
+  "┗┛",
+]
+`;
+
+exports[`Test drawBoxThin [] 1`] = `
+[
+  "┌┐",
+  "└┘",
+]
+`;
+
+exports[`Test drawBoxThin [A] 1`] = `
+[
+  "┌─┐",
+  "│A│",
+  "└─┘",
+]
+`;
+
+exports[`Test drawBoxThin [Hello World] 1`] = `
+[
+  "┌───────────┐",
+  "│Hello World│",
+  "└───────────┘",
+]
+`;
+
+exports[`Test drawBoxThin [null] 1`] = `
+[
+  "┌┐",
+  "└┘",
+]
+`;
+
+exports[`Test drawBoxThinCurve [] 1`] = `
+[
+  "╭╮",
+  "╰╯",
+]
+`;
+
+exports[`Test drawBoxThinCurve [A] 1`] = `
+[
+  "╭─╮",
+  "│A│",
+  "╰─╯",
+]
+`;
+
+exports[`Test drawBoxThinCurve [Hello World] 1`] = `
+[
+  "╭───────────╮",
+  "│Hello World│",
+  "╰───────────╯",
+]
+`;
+
+exports[`Test drawBoxThinCurve [null] 1`] = `
+[
+  "╭╮",
+  "╰╯",
+]
+`;

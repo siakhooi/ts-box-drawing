@@ -1,5 +1,9 @@
 # Change Log
 
+## `0.0.8`
+- refactor Simple Tests
+- fix null or '' error
+
 ## `0.0.7` 28 Dec 2022
 - add Horizontal/Vertical inner and outer
 - add drawBoxInnerDoubleOuterThin()

@@ -79,8 +79,12 @@ function getDataLine(
 
   return s;
 }
+function convertDataToArray(data: string | string[][]): string[][] {
+  if (data === '' || data === null) return [];
+  return typeof data === 'string' ? [[data]] : data;
+}
 function drawBox(boxStyle: BoxStyle, text: string | string[][]) {
-  const data: string[][] = typeof text === 'string' ? [[text]] : text;
+  const data: string[][] = convertDataToArray(text);
   const rowCount = data.length;
   const columnCount = data.reduce((r, n) => Math.max(r, n.length), 0);
 

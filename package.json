@@ -1,6 +1,6 @@
 {
   "name": "@siakhooi/box-drawing",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "description": "Library to draw boxes",
   "main": "dist/main/index.js",
   "repository": {
