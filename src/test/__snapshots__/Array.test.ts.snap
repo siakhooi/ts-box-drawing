@@ -1,0 +1,561 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Array drawBoxDouble [Simple 1X1] 1`] = `
+[
+  "╔════════════╗",
+  "║In 1x1 array║",
+  "╚════════════╝",
+]
+`;
+
+exports[`Array drawBoxDouble [Simple 2x2] 1`] = `
+[
+  "╔════════╦════════╗",
+  "║Cell 1-1║Cell 2-1║",
+  "╠════════╬════════╣",
+  "║Cell 1-2║Cell 2-2║",
+  "╚════════╩════════╝",
+]
+`;
+
+exports[`Array drawBoxDouble [Variable Row Lengths 1+1+3] 1`] = `
+[
+  "╔═════════════════╦════════════╦═════════════╗",
+  "║                 ║Cell 2-1 ABC║             ║",
+  "╠═════════════════╬════════════╬═════════════╣",
+  "║Cell 1-2 Avatar  ║            ║             ║",
+  "╠═════════════════╬════════════╬═════════════╣",
+  "║Cell 1-3 Lemmings║Cell 2-3 A  ║Cell 3-3 Bata║",
+  "╚═════════════════╩════════════╩═════════════╝",
+]
+`;
+
+exports[`Array drawBoxDouble [Variable Row Lengths 1+2] 1`] = `
+[
+  "╔════════╦════════╗",
+  "║Cell 1-1║        ║",
+  "╠════════╬════════╣",
+  "║Cell 1-2║Cell 2-2║",
+  "╚════════╩════════╝",
+]
+`;
+
+exports[`Array drawBoxHorizontalDoubleVerticalThin [Simple 1X1] 1`] = `
+[
+  "╒════════════╕",
+  "│In 1x1 array│",
+  "╘════════════╛",
+]
+`;
+
+exports[`Array drawBoxHorizontalDoubleVerticalThin [Simple 2x2] 1`] = `
+[
+  "╒════════╤════════╕",
+  "│Cell 1-1│Cell 2-1│",
+  "╞════════╪════════╡",
+  "│Cell 1-2│Cell 2-2│",
+  "╘════════╧════════╛",
+]
+`;
+
+exports[`Array drawBoxHorizontalDoubleVerticalThin [Variable Row Lengths 1+1+3] 1`] = `
+[
+  "╒═════════════════╤════════════╤═════════════╕",
+  "│                 │Cell 2-1 ABC│             │",
+  "╞═════════════════╪════════════╪═════════════╡",
+  "│Cell 1-2 Avatar  │            │             │",
+  "╞═════════════════╪════════════╪═════════════╡",
+  "│Cell 1-3 Lemmings│Cell 2-3 A  │Cell 3-3 Bata│",
+  "╘═════════════════╧════════════╧═════════════╛",
+]
+`;
+
+exports[`Array drawBoxHorizontalDoubleVerticalThin [Variable Row Lengths 1+2] 1`] = `
+[
+  "╒════════╤════════╕",
+  "│Cell 1-1│        │",
+  "╞════════╪════════╡",
+  "│Cell 1-2│Cell 2-2│",
+  "╘════════╧════════╛",
+]
+`;
+
+exports[`Array drawBoxHorizontalThickVerticalThin [Simple 1X1] 1`] = `
+[
+  "┍━━━━━━━━━━━━┑",
+  "│In 1x1 array│",
+  "┕━━━━━━━━━━━━┙",
+]
+`;
+
+exports[`Array drawBoxHorizontalThickVerticalThin [Simple 2x2] 1`] = `
+[
+  "┍━━━━━━━━┯━━━━━━━━┑",
+  "│Cell 1-1│Cell 2-1│",
+  "┝━━━━━━━━┿━━━━━━━━┥",
+  "│Cell 1-2│Cell 2-2│",
+  "┕━━━━━━━━┷━━━━━━━━┙",
+]
+`;
+
+exports[`Array drawBoxHorizontalThickVerticalThin [Variable Row Lengths 1+1+3] 1`] = `
+[
+  "┍━━━━━━━━━━━━━━━━━┯━━━━━━━━━━━━┯━━━━━━━━━━━━━┑",
+  "│                 │Cell 2-1 ABC│             │",
+  "┝━━━━━━━━━━━━━━━━━┿━━━━━━━━━━━━┿━━━━━━━━━━━━━┥",
+  "│Cell 1-2 Avatar  │            │             │",
+  "┝━━━━━━━━━━━━━━━━━┿━━━━━━━━━━━━┿━━━━━━━━━━━━━┥",
+  "│Cell 1-3 Lemmings│Cell 2-3 A  │Cell 3-3 Bata│",
+  "┕━━━━━━━━━━━━━━━━━┷━━━━━━━━━━━━┷━━━━━━━━━━━━━┙",
+]
+`;
+
+exports[`Array drawBoxHorizontalThickVerticalThin [Variable Row Lengths 1+2] 1`] = `
+[
+  "┍━━━━━━━━┯━━━━━━━━┑",
+  "│Cell 1-1│        │",
+  "┝━━━━━━━━┿━━━━━━━━┥",
+  "│Cell 1-2│Cell 2-2│",
+  "┕━━━━━━━━┷━━━━━━━━┙",
+]
+`;
+
+exports[`Array drawBoxHorizontalThinVerticalDouble [Simple 1X1] 1`] = `
+[
+  "╓────────────╖",
+  "║In 1x1 array║",
+  "╙────────────╜",
+]
+`;
+
+exports[`Array drawBoxHorizontalThinVerticalDouble [Simple 2x2] 1`] = `
+[
+  "╓────────╥────────╖",
+  "║Cell 1-1║Cell 2-1║",
+  "╟────────╫────────╢",
+  "║Cell 1-2║Cell 2-2║",
+  "╙────────╨────────╜",
+]
+`;
+
+exports[`Array drawBoxHorizontalThinVerticalDouble [Variable Row Lengths 1+1+3] 1`] = `
+[
+  "╓─────────────────╥────────────╥─────────────╖",
+  "║                 ║Cell 2-1 ABC║             ║",
+  "╟─────────────────╫────────────╫─────────────╢",
+  "║Cell 1-2 Avatar  ║            ║             ║",
+  "╟─────────────────╫────────────╫─────────────╢",
+  "║Cell 1-3 Lemmings║Cell 2-3 A  ║Cell 3-3 Bata║",
+  "╙─────────────────╨────────────╨─────────────╜",
+]
+`;
+
+exports[`Array drawBoxHorizontalThinVerticalDouble [Variable Row Lengths 1+2] 1`] = `
+[
+  "╓────────╥────────╖",
+  "║Cell 1-1║        ║",
+  "╟────────╫────────╢",
+  "║Cell 1-2║Cell 2-2║",
+  "╙────────╨────────╜",
+]
+`;
+
+exports[`Array drawBoxHorizontalThinVerticalThick [Simple 1X1] 1`] = `
+[
+  "┎────────────┒",
+  "┃In 1x1 array┃",
+  "┖────────────┚",
+]
+`;
+
+exports[`Array drawBoxHorizontalThinVerticalThick [Simple 2x2] 1`] = `
+[
+  "┎────────┰────────┒",
+  "┃Cell 1-1┃Cell 2-1┃",
+  "┠────────╂────────┨",
+  "┃Cell 1-2┃Cell 2-2┃",
+  "┖────────┸────────┚",
+]
+`;
+
+exports[`Array drawBoxHorizontalThinVerticalThick [Variable Row Lengths 1+1+3] 1`] = `
+[
+  "┎─────────────────┰────────────┰─────────────┒",
+  "┃                 ┃Cell 2-1 ABC┃             ┃",
+  "┠─────────────────╂────────────╂─────────────┨",
+  "┃Cell 1-2 Avatar  ┃            ┃             ┃",
+  "┠─────────────────╂────────────╂─────────────┨",
+  "┃Cell 1-3 Lemmings┃Cell 2-3 A  ┃Cell 3-3 Bata┃",
+  "┖─────────────────┸────────────┸─────────────┚",
+]
+`;
+
+exports[`Array drawBoxHorizontalThinVerticalThick [Variable Row Lengths 1+2] 1`] = `
+[
+  "┎────────┰────────┒",
+  "┃Cell 1-1┃        ┃",
+  "┠────────╂────────┨",
+  "┃Cell 1-2┃Cell 2-2┃",
+  "┖────────┸────────┚",
+]
+`;
+
+exports[`Array drawBoxInnerDoubleOuterThin [Simple 1X1] 1`] = `
+[
+  "┌────────────┐",
+  "│In 1x1 array│",
+  "└────────────┘",
+]
+`;
+
+exports[`Array drawBoxInnerDoubleOuterThin [Simple 2x2] 1`] = `
+[
+  "┌────────╥────────┐",
+  "│Cell 1-1║Cell 2-1│",
+  "╞════════╬════════╡",
+  "│Cell 1-2║Cell 2-2│",
+  "└────────╨────────┘",
+]
+`;
+
+exports[`Array drawBoxInnerDoubleOuterThin [Variable Row Lengths 1+1+3] 1`] = `
+[
+  "┌─────────────────╥────────────╥─────────────┐",
+  "│                 ║Cell 2-1 ABC║             │",
+  "╞═════════════════╬════════════╬═════════════╡",
+  "│Cell 1-2 Avatar  ║            ║             │",
+  "╞═════════════════╬════════════╬═════════════╡",
+  "│Cell 1-3 Lemmings║Cell 2-3 A  ║Cell 3-3 Bata│",
+  "└─────────────────╨────────────╨─────────────┘",
+]
+`;
+
+exports[`Array drawBoxInnerDoubleOuterThin [Variable Row Lengths 1+2] 1`] = `
+[
+  "┌────────╥────────┐",
+  "│Cell 1-1║        │",
+  "╞════════╬════════╡",
+  "│Cell 1-2║Cell 2-2│",
+  "└────────╨────────┘",
+]
+`;
+
+exports[`Array drawBoxInnerDoubleOuterThinCurve [Simple 1X1] 1`] = `
+[
+  "╭────────────╮",
+  "│In 1x1 array│",
+  "╰────────────╯",
+]
+`;
+
+exports[`Array drawBoxInnerDoubleOuterThinCurve [Simple 2x2] 1`] = `
+[
+  "╭────────╥────────╮",
+  "│Cell 1-1║Cell 2-1│",
+  "╞════════╬════════╡",
+  "│Cell 1-2║Cell 2-2│",
+  "╰────────╨────────╯",
+]
+`;
+
+exports[`Array drawBoxInnerDoubleOuterThinCurve [Variable Row Lengths 1+1+3] 1`] = `
+[
+  "╭─────────────────╥────────────╥─────────────╮",
+  "│                 ║Cell 2-1 ABC║             │",
+  "╞═════════════════╬════════════╬═════════════╡",
+  "│Cell 1-2 Avatar  ║            ║             │",
+  "╞═════════════════╬════════════╬═════════════╡",
+  "│Cell 1-3 Lemmings║Cell 2-3 A  ║Cell 3-3 Bata│",
+  "╰─────────────────╨────────────╨─────────────╯",
+]
+`;
+
+exports[`Array drawBoxInnerDoubleOuterThinCurve [Variable Row Lengths 1+2] 1`] = `
+[
+  "╭────────╥────────╮",
+  "│Cell 1-1║        │",
+  "╞════════╬════════╡",
+  "│Cell 1-2║Cell 2-2│",
+  "╰────────╨────────╯",
+]
+`;
+
+exports[`Array drawBoxInnerThickOuterThin [Simple 1X1] 1`] = `
+[
+  "┌────────────┐",
+  "│In 1x1 array│",
+  "└────────────┘",
+]
+`;
+
+exports[`Array drawBoxInnerThickOuterThin [Simple 2x2] 1`] = `
+[
+  "┌────────┰────────┐",
+  "│Cell 1-1┃Cell 2-1│",
+  "┝━━━━━━━━╈━━━━━━━━┥",
+  "│Cell 1-2┃Cell 2-2│",
+  "└────────┸────────┘",
+]
+`;
+
+exports[`Array drawBoxInnerThickOuterThin [Variable Row Lengths 1+1+3] 1`] = `
+[
+  "┌─────────────────┰────────────┰─────────────┐",
+  "│                 ┃Cell 2-1 ABC┃             │",
+  "┝━━━━━━━━━━━━━━━━━╈━━━━━━━━━━━━╈━━━━━━━━━━━━━┥",
+  "│Cell 1-2 Avatar  ┃            ┃             │",
+  "┝━━━━━━━━━━━━━━━━━╈━━━━━━━━━━━━╈━━━━━━━━━━━━━┥",
+  "│Cell 1-3 Lemmings┃Cell 2-3 A  ┃Cell 3-3 Bata│",
+  "└─────────────────┸────────────┸─────────────┘",
+]
+`;
+
+exports[`Array drawBoxInnerThickOuterThin [Variable Row Lengths 1+2] 1`] = `
+[
+  "┌────────┰────────┐",
+  "│Cell 1-1┃        │",
+  "┝━━━━━━━━╈━━━━━━━━┥",
+  "│Cell 1-2┃Cell 2-2│",
+  "└────────┸────────┘",
+]
+`;
+
+exports[`Array drawBoxInnerThickOuterThinCurve [Simple 1X1] 1`] = `
+[
+  "╭────────────╮",
+  "│In 1x1 array│",
+  "╰────────────╯",
+]
+`;
+
+exports[`Array drawBoxInnerThickOuterThinCurve [Simple 2x2] 1`] = `
+[
+  "╭────────┰────────╮",
+  "│Cell 1-1┃Cell 2-1│",
+  "┝━━━━━━━━╈━━━━━━━━┥",
+  "│Cell 1-2┃Cell 2-2│",
+  "╰────────┸────────╯",
+]
+`;
+
+exports[`Array drawBoxInnerThickOuterThinCurve [Variable Row Lengths 1+1+3] 1`] = `
+[
+  "╭─────────────────┰────────────┰─────────────╮",
+  "│                 ┃Cell 2-1 ABC┃             │",
+  "┝━━━━━━━━━━━━━━━━━╈━━━━━━━━━━━━╈━━━━━━━━━━━━━┥",
+  "│Cell 1-2 Avatar  ┃            ┃             │",
+  "┝━━━━━━━━━━━━━━━━━╈━━━━━━━━━━━━╈━━━━━━━━━━━━━┥",
+  "│Cell 1-3 Lemmings┃Cell 2-3 A  ┃Cell 3-3 Bata│",
+  "╰─────────────────┸────────────┸─────────────╯",
+]
+`;
+
+exports[`Array drawBoxInnerThickOuterThinCurve [Variable Row Lengths 1+2] 1`] = `
+[
+  "╭────────┰────────╮",
+  "│Cell 1-1┃        │",
+  "┝━━━━━━━━╈━━━━━━━━┥",
+  "│Cell 1-2┃Cell 2-2│",
+  "╰────────┸────────╯",
+]
+`;
+
+exports[`Array drawBoxInnerThinOuterDouble [Simple 1X1] 1`] = `
+[
+  "╔════════════╗",
+  "║In 1x1 array║",
+  "╚════════════╝",
+]
+`;
+
+exports[`Array drawBoxInnerThinOuterDouble [Simple 2x2] 1`] = `
+[
+  "╔════════╤════════╗",
+  "║Cell 1-1│Cell 2-1║",
+  "╟────────┼────────╢",
+  "║Cell 1-2│Cell 2-2║",
+  "╚════════╧════════╝",
+]
+`;
+
+exports[`Array drawBoxInnerThinOuterDouble [Variable Row Lengths 1+1+3] 1`] = `
+[
+  "╔═════════════════╤════════════╤═════════════╗",
+  "║                 │Cell 2-1 ABC│             ║",
+  "╟─────────────────┼────────────┼─────────────╢",
+  "║Cell 1-2 Avatar  │            │             ║",
+  "╟─────────────────┼────────────┼─────────────╢",
+  "║Cell 1-3 Lemmings│Cell 2-3 A  │Cell 3-3 Bata║",
+  "╚═════════════════╧════════════╧═════════════╝",
+]
+`;
+
+exports[`Array drawBoxInnerThinOuterDouble [Variable Row Lengths 1+2] 1`] = `
+[
+  "╔════════╤════════╗",
+  "║Cell 1-1│        ║",
+  "╟────────┼────────╢",
+  "║Cell 1-2│Cell 2-2║",
+  "╚════════╧════════╝",
+]
+`;
+
+exports[`Array drawBoxInnerThinOuterThick [Simple 1X1] 1`] = `
+[
+  "┏━━━━━━━━━━━━┓",
+  "┃In 1x1 array┃",
+  "┗━━━━━━━━━━━━┛",
+]
+`;
+
+exports[`Array drawBoxInnerThinOuterThick [Simple 2x2] 1`] = `
+[
+  "┏━━━━━━━━┯━━━━━━━━┓",
+  "┃Cell 1-1│Cell 2-1┃",
+  "┠────────┼────────┨",
+  "┃Cell 1-2│Cell 2-2┃",
+  "┗━━━━━━━━┷━━━━━━━━┛",
+]
+`;
+
+exports[`Array drawBoxInnerThinOuterThick [Variable Row Lengths 1+1+3] 1`] = `
+[
+  "┏━━━━━━━━━━━━━━━━━┯━━━━━━━━━━━━┯━━━━━━━━━━━━━┓",
+  "┃                 │Cell 2-1 ABC│             ┃",
+  "┠─────────────────┼────────────┼─────────────┨",
+  "┃Cell 1-2 Avatar  │            │             ┃",
+  "┠─────────────────┼────────────┼─────────────┨",
+  "┃Cell 1-3 Lemmings│Cell 2-3 A  │Cell 3-3 Bata┃",
+  "┗━━━━━━━━━━━━━━━━━┷━━━━━━━━━━━━┷━━━━━━━━━━━━━┛",
+]
+`;
+
+exports[`Array drawBoxInnerThinOuterThick [Variable Row Lengths 1+2] 1`] = `
+[
+  "┏━━━━━━━━┯━━━━━━━━┓",
+  "┃Cell 1-1│        ┃",
+  "┠────────┼────────┨",
+  "┃Cell 1-2│Cell 2-2┃",
+  "┗━━━━━━━━┷━━━━━━━━┛",
+]
+`;
+
+exports[`Array drawBoxThick [Simple 1X1] 1`] = `
+[
+  "┏━━━━━━━━━━━━┓",
+  "┃In 1x1 array┃",
+  "┗━━━━━━━━━━━━┛",
+]
+`;
+
+exports[`Array drawBoxThick [Simple 2x2] 1`] = `
+[
+  "┏━━━━━━━━┳━━━━━━━━┓",
+  "┃Cell 1-1┃Cell 2-1┃",
+  "┣━━━━━━━━╋━━━━━━━━┫",
+  "┃Cell 1-2┃Cell 2-2┃",
+  "┗━━━━━━━━┻━━━━━━━━┛",
+]
+`;
+
+exports[`Array drawBoxThick [Variable Row Lengths 1+1+3] 1`] = `
+[
+  "┏━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━┳━━━━━━━━━━━━━┓",
+  "┃                 ┃Cell 2-1 ABC┃             ┃",
+  "┣━━━━━━━━━━━━━━━━━╋━━━━━━━━━━━━╋━━━━━━━━━━━━━┫",
+  "┃Cell 1-2 Avatar  ┃            ┃             ┃",
+  "┣━━━━━━━━━━━━━━━━━╋━━━━━━━━━━━━╋━━━━━━━━━━━━━┫",
+  "┃Cell 1-3 Lemmings┃Cell 2-3 A  ┃Cell 3-3 Bata┃",
+  "┗━━━━━━━━━━━━━━━━━┻━━━━━━━━━━━━┻━━━━━━━━━━━━━┛",
+]
+`;
+
+exports[`Array drawBoxThick [Variable Row Lengths 1+2] 1`] = `
+[
+  "┏━━━━━━━━┳━━━━━━━━┓",
+  "┃Cell 1-1┃        ┃",
+  "┣━━━━━━━━╋━━━━━━━━┫",
+  "┃Cell 1-2┃Cell 2-2┃",
+  "┗━━━━━━━━┻━━━━━━━━┛",
+]
+`;
+
+exports[`Array drawBoxThin [Simple 1X1] 1`] = `
+[
+  "┌────────────┐",
+  "│In 1x1 array│",
+  "└────────────┘",
+]
+`;
+
+exports[`Array drawBoxThin [Simple 2x2] 1`] = `
+[
+  "┌────────┬────────┐",
+  "│Cell 1-1│Cell 2-1│",
+  "├────────┼────────┤",
+  "│Cell 1-2│Cell 2-2│",
+  "└────────┴────────┘",
+]
+`;
+
+exports[`Array drawBoxThin [Variable Row Lengths 1+1+3] 1`] = `
+[
+  "┌─────────────────┬────────────┬─────────────┐",
+  "│                 │Cell 2-1 ABC│             │",
+  "├─────────────────┼────────────┼─────────────┤",
+  "│Cell 1-2 Avatar  │            │             │",
+  "├─────────────────┼────────────┼─────────────┤",
+  "│Cell 1-3 Lemmings│Cell 2-3 A  │Cell 3-3 Bata│",
+  "└─────────────────┴────────────┴─────────────┘",
+]
+`;
+
+exports[`Array drawBoxThin [Variable Row Lengths 1+2] 1`] = `
+[
+  "┌────────┬────────┐",
+  "│Cell 1-1│        │",
+  "├────────┼────────┤",
+  "│Cell 1-2│Cell 2-2│",
+  "└────────┴────────┘",
+]
+`;
+
+exports[`Array drawBoxThinCurve [Simple 1X1] 1`] = `
+[
+  "╭────────────╮",
+  "│In 1x1 array│",
+  "╰────────────╯",
+]
+`;
+
+exports[`Array drawBoxThinCurve [Simple 2x2] 1`] = `
+[
+  "╭────────┬────────╮",
+  "│Cell 1-1│Cell 2-1│",
+  "├────────┼────────┤",
+  "│Cell 1-2│Cell 2-2│",
+  "╰────────┴────────╯",
+]
+`;
+
+exports[`Array drawBoxThinCurve [Variable Row Lengths 1+1+3] 1`] = `
+[
+  "╭─────────────────┬────────────┬─────────────╮",
+  "│                 │Cell 2-1 ABC│             │",
+  "├─────────────────┼────────────┼─────────────┤",
+  "│Cell 1-2 Avatar  │            │             │",
+  "├─────────────────┼────────────┼─────────────┤",
+  "│Cell 1-3 Lemmings│Cell 2-3 A  │Cell 3-3 Bata│",
+  "╰─────────────────┴────────────┴─────────────╯",
+]
+`;
+
+exports[`Array drawBoxThinCurve [Variable Row Lengths 1+2] 1`] = `
+[
+  "╭────────┬────────╮",
+  "│Cell 1-1│        │",
+  "├────────┼────────┤",
+  "│Cell 1-2│Cell 2-2│",
+  "╰────────┴────────╯",
+]
+`;
