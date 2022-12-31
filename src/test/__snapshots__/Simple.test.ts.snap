@@ -1,13 +1,13 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Test drawBoxDouble [] 1`] = `
+exports[`Simple drawBoxDouble [] 1`] = `
 [
   "╔╗",
   "╚╝",
 ]
 `;
 
-exports[`Test drawBoxDouble [A] 1`] = `
+exports[`Simple drawBoxDouble [A] 1`] = `
 [
   "╔═╗",
   "║A║",
@@ -15,7 +15,7 @@ exports[`Test drawBoxDouble [A] 1`] = `
 ]
 `;
 
-exports[`Test drawBoxDouble [Hello World] 1`] = `
+exports[`Simple drawBoxDouble [Hello World] 1`] = `
 [
   "╔═══════════╗",
   "║Hello World║",
@@ -23,21 +23,21 @@ exports[`Test drawBoxDouble [Hello World] 1`] = `
 ]
 `;
 
-exports[`Test drawBoxDouble [null] 1`] = `
+exports[`Simple drawBoxDouble [null] 1`] = `
 [
   "╔╗",
   "╚╝",
 ]
 `;
 
-exports[`Test drawBoxHorizontalDoubleVerticalThin [] 1`] = `
+exports[`Simple drawBoxHorizontalDoubleVerticalThin [] 1`] = `
 [
   "╒╕",
   "╘╛",
 ]
 `;
 
-exports[`Test drawBoxHorizontalDoubleVerticalThin [A] 1`] = `
+exports[`Simple drawBoxHorizontalDoubleVerticalThin [A] 1`] = `
 [
   "╒═╕",
   "│A│",
@@ -45,7 +45,7 @@ exports[`Test drawBoxHorizontalDoubleVerticalThin [A] 1`] = `
 ]
 `;
 
-exports[`Test drawBoxHorizontalDoubleVerticalThin [Hello World] 1`] = `
+exports[`Simple drawBoxHorizontalDoubleVerticalThin [Hello World] 1`] = `
 [
   "╒═══════════╕",
   "│Hello World│",
@@ -53,21 +53,21 @@ exports[`Test drawBoxHorizontalDoubleVerticalThin [Hello World] 1`] = `
 ]
 `;
 
-exports[`Test drawBoxHorizontalDoubleVerticalThin [null] 1`] = `
+exports[`Simple drawBoxHorizontalDoubleVerticalThin [null] 1`] = `
 [
   "╒╕",
   "╘╛",
 ]
 `;
 
-exports[`Test drawBoxHorizontalThickVerticalThin [] 1`] = `
+exports[`Simple drawBoxHorizontalThickVerticalThin [] 1`] = `
 [
   "┍┑",
   "┕┙",
 ]
 `;
 
-exports[`Test drawBoxHorizontalThickVerticalThin [A] 1`] = `
+exports[`Simple drawBoxHorizontalThickVerticalThin [A] 1`] = `
 [
   "┍━┑",
   "│A│",
@@ -75,7 +75,7 @@ exports[`Test drawBoxHorizontalThickVerticalThin [A] 1`] = `
 ]
 `;
 
-exports[`Test drawBoxHorizontalThickVerticalThin [Hello World] 1`] = `
+exports[`Simple drawBoxHorizontalThickVerticalThin [Hello World] 1`] = `
 [
   "┍━━━━━━━━━━━┑",
   "│Hello World│",
@@ -83,21 +83,21 @@ exports[`Test drawBoxHorizontalThickVerticalThin [Hello World] 1`] = `
 ]
 `;
 
-exports[`Test drawBoxHorizontalThickVerticalThin [null] 1`] = `
+exports[`Simple drawBoxHorizontalThickVerticalThin [null] 1`] = `
 [
   "┍┑",
   "┕┙",
 ]
 `;
 
-exports[`Test drawBoxHorizontalThinVerticalDouble [] 1`] = `
+exports[`Simple drawBoxHorizontalThinVerticalDouble [] 1`] = `
 [
   "╓╖",
   "╙╜",
 ]
 `;
 
-exports[`Test drawBoxHorizontalThinVerticalDouble [A] 1`] = `
+exports[`Simple drawBoxHorizontalThinVerticalDouble [A] 1`] = `
 [
   "╓─╖",
   "║A║",
@@ -105,7 +105,7 @@ exports[`Test drawBoxHorizontalThinVerticalDouble [A] 1`] = `
 ]
 `;
 
-exports[`Test drawBoxHorizontalThinVerticalDouble [Hello World] 1`] = `
+exports[`Simple drawBoxHorizontalThinVerticalDouble [Hello World] 1`] = `
 [
   "╓───────────╖",
   "║Hello World║",
@@ -113,21 +113,21 @@ exports[`Test drawBoxHorizontalThinVerticalDouble [Hello World] 1`] = `
 ]
 `;
 
-exports[`Test drawBoxHorizontalThinVerticalDouble [null] 1`] = `
+exports[`Simple drawBoxHorizontalThinVerticalDouble [null] 1`] = `
 [
   "╓╖",
   "╙╜",
 ]
 `;
 
-exports[`Test drawBoxHorizontalThinVerticalThick [] 1`] = `
+exports[`Simple drawBoxHorizontalThinVerticalThick [] 1`] = `
 [
   "┎┒",
   "┖┚",
 ]
 `;
 
-exports[`Test drawBoxHorizontalThinVerticalThick [A] 1`] = `
+exports[`Simple drawBoxHorizontalThinVerticalThick [A] 1`] = `
 [
   "┎─┒",
   "┃A┃",
@@ -135,7 +135,7 @@ exports[`Test drawBoxHorizontalThinVerticalThick [A] 1`] = `
 ]
 `;
 
-exports[`Test drawBoxHorizontalThinVerticalThick [Hello World] 1`] = `
+exports[`Simple drawBoxHorizontalThinVerticalThick [Hello World] 1`] = `
 [
   "┎───────────┒",
   "┃Hello World┃",
@@ -143,21 +143,21 @@ exports[`Test drawBoxHorizontalThinVerticalThick [Hello World] 1`] = `
 ]
 `;
 
-exports[`Test drawBoxHorizontalThinVerticalThick [null] 1`] = `
+exports[`Simple drawBoxHorizontalThinVerticalThick [null] 1`] = `
 [
   "┎┒",
   "┖┚",
 ]
 `;
 
-exports[`Test drawBoxInnerDoubleOuterThin [] 1`] = `
+exports[`Simple drawBoxInnerDoubleOuterThin [] 1`] = `
 [
   "┌┐",
   "└┘",
 ]
 `;
 
-exports[`Test drawBoxInnerDoubleOuterThin [A] 1`] = `
+exports[`Simple drawBoxInnerDoubleOuterThin [A] 1`] = `
 [
   "┌─┐",
   "│A│",
@@ -165,7 +165,7 @@ exports[`Test drawBoxInnerDoubleOuterThin [A] 1`] = `
 ]
 `;
 
-exports[`Test drawBoxInnerDoubleOuterThin [Hello World] 1`] = `
+exports[`Simple drawBoxInnerDoubleOuterThin [Hello World] 1`] = `
 [
   "┌───────────┐",
   "│Hello World│",
@@ -173,21 +173,21 @@ exports[`Test drawBoxInnerDoubleOuterThin [Hello World] 1`] = `
 ]
 `;
 
-exports[`Test drawBoxInnerDoubleOuterThin [null] 1`] = `
+exports[`Simple drawBoxInnerDoubleOuterThin [null] 1`] = `
 [
   "┌┐",
   "└┘",
 ]
 `;
 
-exports[`Test drawBoxInnerDoubleOuterThinCurve [] 1`] = `
+exports[`Simple drawBoxInnerDoubleOuterThinCurve [] 1`] = `
 [
   "╭╮",
   "╰╯",
 ]
 `;
 
-exports[`Test drawBoxInnerDoubleOuterThinCurve [A] 1`] = `
+exports[`Simple drawBoxInnerDoubleOuterThinCurve [A] 1`] = `
 [
   "╭─╮",
   "│A│",
@@ -195,7 +195,7 @@ exports[`Test drawBoxInnerDoubleOuterThinCurve [A] 1`] = `
 ]
 `;
 
-exports[`Test drawBoxInnerDoubleOuterThinCurve [Hello World] 1`] = `
+exports[`Simple drawBoxInnerDoubleOuterThinCurve [Hello World] 1`] = `
 [
   "╭───────────╮",
   "│Hello World│",
@@ -203,21 +203,21 @@ exports[`Test drawBoxInnerDoubleOuterThinCurve [Hello World] 1`] = `
 ]
 `;
 
-exports[`Test drawBoxInnerDoubleOuterThinCurve [null] 1`] = `
+exports[`Simple drawBoxInnerDoubleOuterThinCurve [null] 1`] = `
 [
   "╭╮",
   "╰╯",
 ]
 `;
 
-exports[`Test drawBoxInnerThickOuterThin [] 1`] = `
+exports[`Simple drawBoxInnerThickOuterThin [] 1`] = `
 [
   "┌┐",
   "└┘",
 ]
 `;
 
-exports[`Test drawBoxInnerThickOuterThin [A] 1`] = `
+exports[`Simple drawBoxInnerThickOuterThin [A] 1`] = `
 [
   "┌─┐",
   "│A│",
@@ -225,7 +225,7 @@ exports[`Test drawBoxInnerThickOuterThin [A] 1`] = `
 ]
 `;
 
-exports[`Test drawBoxInnerThickOuterThin [Hello World] 1`] = `
+exports[`Simple drawBoxInnerThickOuterThin [Hello World] 1`] = `
 [
   "┌───────────┐",
   "│Hello World│",
@@ -233,21 +233,21 @@ exports[`Test drawBoxInnerThickOuterThin [Hello World] 1`] = `
 ]
 `;
 
-exports[`Test drawBoxInnerThickOuterThin [null] 1`] = `
+exports[`Simple drawBoxInnerThickOuterThin [null] 1`] = `
 [
   "┌┐",
   "└┘",
 ]
 `;
 
-exports[`Test drawBoxInnerThickOuterThinCurve [] 1`] = `
+exports[`Simple drawBoxInnerThickOuterThinCurve [] 1`] = `
 [
   "╭╮",
   "╰╯",
 ]
 `;
 
-exports[`Test drawBoxInnerThickOuterThinCurve [A] 1`] = `
+exports[`Simple drawBoxInnerThickOuterThinCurve [A] 1`] = `
 [
   "╭─╮",
   "│A│",
@@ -255,7 +255,7 @@ exports[`Test drawBoxInnerThickOuterThinCurve [A] 1`] = `
 ]
 `;
 
-exports[`Test drawBoxInnerThickOuterThinCurve [Hello World] 1`] = `
+exports[`Simple drawBoxInnerThickOuterThinCurve [Hello World] 1`] = `
 [
   "╭───────────╮",
   "│Hello World│",
@@ -263,21 +263,21 @@ exports[`Test drawBoxInnerThickOuterThinCurve [Hello World] 1`] = `
 ]
 `;
 
-exports[`Test drawBoxInnerThickOuterThinCurve [null] 1`] = `
+exports[`Simple drawBoxInnerThickOuterThinCurve [null] 1`] = `
 [
   "╭╮",
   "╰╯",
 ]
 `;
 
-exports[`Test drawBoxInnerThinOuterDouble [] 1`] = `
+exports[`Simple drawBoxInnerThinOuterDouble [] 1`] = `
 [
   "╔╗",
   "╚╝",
 ]
 `;
 
-exports[`Test drawBoxInnerThinOuterDouble [A] 1`] = `
+exports[`Simple drawBoxInnerThinOuterDouble [A] 1`] = `
 [
   "╔═╗",
   "║A║",
@@ -285,7 +285,7 @@ exports[`Test drawBoxInnerThinOuterDouble [A] 1`] = `
 ]
 `;
 
-exports[`Test drawBoxInnerThinOuterDouble [Hello World] 1`] = `
+exports[`Simple drawBoxInnerThinOuterDouble [Hello World] 1`] = `
 [
   "╔═══════════╗",
   "║Hello World║",
@@ -293,21 +293,21 @@ exports[`Test drawBoxInnerThinOuterDouble [Hello World] 1`] = `
 ]
 `;
 
-exports[`Test drawBoxInnerThinOuterDouble [null] 1`] = `
+exports[`Simple drawBoxInnerThinOuterDouble [null] 1`] = `
 [
   "╔╗",
   "╚╝",
 ]
 `;
 
-exports[`Test drawBoxInnerThinOuterThick [] 1`] = `
+exports[`Simple drawBoxInnerThinOuterThick [] 1`] = `
 [
   "┏┓",
   "┗┛",
 ]
 `;
 
-exports[`Test drawBoxInnerThinOuterThick [A] 1`] = `
+exports[`Simple drawBoxInnerThinOuterThick [A] 1`] = `
 [
   "┏━┓",
   "┃A┃",
@@ -315,7 +315,7 @@ exports[`Test drawBoxInnerThinOuterThick [A] 1`] = `
 ]
 `;
 
-exports[`Test drawBoxInnerThinOuterThick [Hello World] 1`] = `
+exports[`Simple drawBoxInnerThinOuterThick [Hello World] 1`] = `
 [
   "┏━━━━━━━━━━━┓",
   "┃Hello World┃",
@@ -323,21 +323,21 @@ exports[`Test drawBoxInnerThinOuterThick [Hello World] 1`] = `
 ]
 `;
 
-exports[`Test drawBoxInnerThinOuterThick [null] 1`] = `
+exports[`Simple drawBoxInnerThinOuterThick [null] 1`] = `
 [
   "┏┓",
   "┗┛",
 ]
 `;
 
-exports[`Test drawBoxThick [] 1`] = `
+exports[`Simple drawBoxThick [] 1`] = `
 [
   "┏┓",
   "┗┛",
 ]
 `;
 
-exports[`Test drawBoxThick [A] 1`] = `
+exports[`Simple drawBoxThick [A] 1`] = `
 [
   "┏━┓",
   "┃A┃",
@@ -345,7 +345,7 @@ exports[`Test drawBoxThick [A] 1`] = `
 ]
 `;
 
-exports[`Test drawBoxThick [Hello World] 1`] = `
+exports[`Simple drawBoxThick [Hello World] 1`] = `
 [
   "┏━━━━━━━━━━━┓",
   "┃Hello World┃",
@@ -353,21 +353,21 @@ exports[`Test drawBoxThick [Hello World] 1`] = `
 ]
 `;
 
-exports[`Test drawBoxThick [null] 1`] = `
+exports[`Simple drawBoxThick [null] 1`] = `
 [
   "┏┓",
   "┗┛",
 ]
 `;
 
-exports[`Test drawBoxThin [] 1`] = `
+exports[`Simple drawBoxThin [] 1`] = `
 [
   "┌┐",
   "└┘",
 ]
 `;
 
-exports[`Test drawBoxThin [A] 1`] = `
+exports[`Simple drawBoxThin [A] 1`] = `
 [
   "┌─┐",
   "│A│",
@@ -375,7 +375,7 @@ exports[`Test drawBoxThin [A] 1`] = `
 ]
 `;
 
-exports[`Test drawBoxThin [Hello World] 1`] = `
+exports[`Simple drawBoxThin [Hello World] 1`] = `
 [
   "┌───────────┐",
   "│Hello World│",
@@ -383,21 +383,21 @@ exports[`Test drawBoxThin [Hello World] 1`] = `
 ]
 `;
 
-exports[`Test drawBoxThin [null] 1`] = `
+exports[`Simple drawBoxThin [null] 1`] = `
 [
   "┌┐",
   "└┘",
 ]
 `;
 
-exports[`Test drawBoxThinCurve [] 1`] = `
+exports[`Simple drawBoxThinCurve [] 1`] = `
 [
   "╭╮",
   "╰╯",
 ]
 `;
 
-exports[`Test drawBoxThinCurve [A] 1`] = `
+exports[`Simple drawBoxThinCurve [A] 1`] = `
 [
   "╭─╮",
   "│A│",
@@ -405,7 +405,7 @@ exports[`Test drawBoxThinCurve [A] 1`] = `
 ]
 `;
 
-exports[`Test drawBoxThinCurve [Hello World] 1`] = `
+exports[`Simple drawBoxThinCurve [Hello World] 1`] = `
 [
   "╭───────────╮",
   "│Hello World│",
@@ -413,7 +413,7 @@ exports[`Test drawBoxThinCurve [Hello World] 1`] = `
 ]
 `;
 
-exports[`Test drawBoxThinCurve [null] 1`] = `
+exports[`Simple drawBoxThinCurve [null] 1`] = `
 [
   "╭╮",
   "╰╯",

@@ -1,9 +1,9 @@
 import {Console} from '../main/Console';
 import {SIMPLE_TEST_DATA, ALL_FUNCTIONS} from './TestData';
 
-describe.each(ALL_FUNCTIONS)('Test', (drawBoxFunction: Function) => {
+describe.each(ALL_FUNCTIONS)('Simple', (drawBoxFunction: Function) => {
   test.each(SIMPLE_TEST_DATA)(
-    drawBoxFunction.name + ' [%s]',
+    `${drawBoxFunction.name} [%s]`,
     (text: string | null) => {
       const allData: string[] = [];
       Console.println = jest
