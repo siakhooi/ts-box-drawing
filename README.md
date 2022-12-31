@@ -68,158 +68,52 @@ npm package to draw box using unicode characters
 
 ## Usage
 
-### Simple
+See Demo in Replit: <https://replit.com/@siakhooi/siakhooibox-drawing-Demo?v=1>
+
+### Simple Text
+see [Demo_HelloWorld](Demo_HelloWorld)
 ```
 const x=require('@siakhooi/box-drawing');
 
-x.drawBoxThin('Hello World');
-//print
-┌───────────┐
-│Hello World│
-└───────────┘
-x.drawBoxThinCurve('Hello World');
-//print
-╭───────────╮
-│Hello World│
-╰───────────╯
-x.drawBoxThick('Hello World');
-//print
-┏━━━━━━━━━━━┓
-┃Hello World┃
-┗━━━━━━━━━━━┛
-x.drawBoxDouble('Hello World');
-//print
-╔═══════════╗
-║Hello World║
-╚═══════════╝
-x.drawBoxHorizontalThinVerticalThick('Hello World');
-//print
-┎───────────┒
-┃Hello World┃
-┖───────────┚
-x.drawBoxHorizontalThickVerticalThin('Hello World');
-//print
-┍━━━━━━━━━━━┑
-│Hello World│
-┕━━━━━━━━━━━┙
-x.drawBoxHorizontalThinVerticalDouble('Hello World');
-//print
-╓───────────╖
-║Hello World║
-╙───────────╜
-x.drawBoxHorizontalDoubleVerticalThin('Hello World');
-//print
-╒═══════════╕
-│Hello World│
-╘═══════════╛
+x.drawBoxThin(text);
+x.drawBoxThick(text);
+x.drawBoxDouble(text);
+x.drawBoxThinCurve(text);
+x.drawBoxHorizontalThinVerticalThick(text);
+x.drawBoxHorizontalThickVerticalThin(text);
+x.drawBoxHorizontalThinVerticalDouble(text);
+x.drawBoxHorizontalDoubleVerticalThin(text);
+x.drawBoxInnerDoubleOuterThin(text);
+x.drawBoxInnerThinOuterDouble(text);
+x.drawBoxInnerThinOuterThick(text);
+x.drawBoxInnerThickOuterThin(text);
+x.drawBoxInnerDoubleOuterThinCurve(text);
+x.drawBoxInnerThickOuterThinCurve(text);
 ```
-### Table
+### Array
+see [Demo_Array](Demo_Array)
 ```
 const x=require('@siakhooi/box-drawing');
 
-const text = [
+const textInArray = [
   ['Cell 1-1', 'Cell 2-1'],
   ['Cell 1-2', 'Cell 2-2'],
 ];
 
-x.drawBoxThin(text);
-//print
-┌────────┬────────┐
-│Cell 1-1│Cell 2-1│
-├────────┼────────┤
-│Cell 1-2│Cell 2-2│
-└────────┴────────┘
-x.drawBoxThinCurve(text);
-//print
-╭────────┬────────╮
-│Cell 1-1│Cell 2-1│
-├────────┼────────┤
-│Cell 1-2│Cell 2-2│
-╰────────┴────────╯
-x.drawBoxThick(text);
-//print
-┏━━━━━━━━┳━━━━━━━━┓
-┃Cell 1-1┃Cell 2-1┃
-┣━━━━━━━━╋━━━━━━━━┫
-┃Cell 1-2┃Cell 2-2┃
-┗━━━━━━━━┻━━━━━━━━┛
-x.drawBoxDouble(text);
-//print
-╔════════╦════════╗
-║Cell 1-1║Cell 2-1║
-╠════════╬════════╣
-║Cell 1-2║Cell 2-2║
-╚════════╩════════╝
-x.drawBoxHorizontalThinVerticalThick(text);
-//print
-┎────────┰────────┒
-┃Cell 1-1┃Cell 2-1┃
-┠────────╂────────┨
-┃Cell 1-2┃Cell 2-2┃
-┖────────┸────────┚
-x.drawBoxHorizontalThickVerticalThin(text);
-//print
-┍━━━━━━━━┯━━━━━━━━┑
-│Cell 1-1│Cell 2-1│
-┝━━━━━━━━┿━━━━━━━━┥
-│Cell 1-2│Cell 2-2│
-┕━━━━━━━━┷━━━━━━━━┙
-x.drawBoxHorizontalThinVerticalDouble(text);
-//print
-╓────────╥────────╖
-║Cell 1-1║Cell 2-1║
-╟────────╫────────╢
-║Cell 1-2║Cell 2-2║
-╙────────╨────────╜
-x.drawBoxHorizontalDoubleVerticalThin(text);
-//print
-╒════════╤════════╕
-│Cell 1-1│Cell 2-1│
-╞════════╪════════╡
-│Cell 1-2│Cell 2-2│
-╘════════╧════════╛
-x.drawBoxInnerDoubleOuterThin(text);
-//print
-┌────────╥────────┐
-│Cell 1-1║Cell 2-1│
-╞════════╬════════╡
-│Cell 1-2║Cell 2-2│
-└────────╨────────┘
-x.drawBoxInnerThinOuterDouble(text);
-//print
-╔════════╤════════╗
-║Cell 1-1│Cell 2-1║
-╟────────┼────────╢
-║Cell 1-2│Cell 2-2║
-╚════════╧════════╝
-x.drawBoxInnerThinOuterThick(text);
-//print
-┏━━━━━━━━┯━━━━━━━━┓
-┃Cell 1-1│Cell 2-1┃
-┠────────┼────────┨
-┃Cell 1-2│Cell 2-2┃
-┗━━━━━━━━┷━━━━━━━━┛
-x.drawBoxInnerThickOuterThin(text);
-//print
-┌────────┰────────┐
-│Cell 1-1┃Cell 2-1│
-┝━━━━━━━━╈━━━━━━━━┥
-│Cell 1-2┃Cell 2-2│
-└────────┸────────┘
-x.drawBoxInnerDoubleOuterThinCurve(text);
-//print
-╭────────╥────────╮
-│Cell 1-1║Cell 2-1│
-╞════════╬════════╡
-│Cell 1-2║Cell 2-2│
-╰────────╨────────╯
-x.drawBoxInnerThickOuterThinCurve(text);
-//print
-╭────────┰────────╮
-│Cell 1-1┃Cell 2-1│
-┝━━━━━━━━╈━━━━━━━━┥
-│Cell 1-2┃Cell 2-2│
-╰────────┸────────╯
+x.drawBoxThin(textInArray);
+x.drawBoxThick(textInArray);
+x.drawBoxDouble(textInArray);
+x.drawBoxThinCurve(textInArray);
+x.drawBoxHorizontalThinVerticalThick(textInArray);
+x.drawBoxHorizontalThickVerticalThin(textInArray);
+x.drawBoxHorizontalThinVerticalDouble(textInArray);
+x.drawBoxHorizontalDoubleVerticalThin(textInArray);
+x.drawBoxInnerDoubleOuterThin(textInArray);
+x.drawBoxInnerThinOuterDouble(textInArray);
+x.drawBoxInnerThinOuterThick(textInArray);
+x.drawBoxInnerThickOuterThin(textInArray);
+x.drawBoxInnerDoubleOuterThinCurve(textInArray);
+x.drawBoxInnerThickOuterThinCurve(textInArray);
 ```
 ## Locations
 
