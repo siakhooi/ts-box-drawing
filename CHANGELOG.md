@@ -7,6 +7,7 @@
 - refactor Array Tests
 - update README.md
 - fix bug on InnerThickOuterThin and InnerThickOuterThinCurve.
+- refactor to BoxDrawingBuilder class.
 
 ## `0.0.7` 28 Dec 2022
 
