@@ -1,6 +1,6 @@
 # Change Log
 
-## `0.0.8`
+## `0.0.8` 1 Jan 2023
 
 - refactor Simple Tests
 - fix null or '' error
@@ -8,6 +8,7 @@
 - update README.md
 - fix bug on InnerThickOuterThin and InnerThickOuterThinCurve.
 - refactor to BoxDrawingBuilder class.
+- export BoxDrawingBuilder
 
 ## `0.0.7` 28 Dec 2022
 

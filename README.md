@@ -121,6 +121,48 @@ x.drawBoxInnerDoubleOuterThinCurve(textInArray);
 x.drawBoxInnerThickOuterThinCurve(textInArray);
 ```
 
+### BoxDrawingBuilder
+
+```
+const {
+  BoxDrawingBuilder,
+  THIN,
+  THICK,
+  DOUBLE,
+  THINCURVE,
+  HORIZONTAL_THIN_VERTICAL_THICK,
+  HORIZONTAL_THICK_VERTICAL_THIN,
+  HORIZONTAL_THIN_VERTICAL_DOUBLE,
+  HORIZONTAL_DOUBLE_VERTICAL_THIN,
+  INNER_DOUBLE_OUTER_THIN,
+  INNER_THIN_OUTER_DOUBLE,
+  INNER_THIN_OUTER_THICK,
+  INNER_THICK_OUTER_THIN,
+  INNER_THICK_OUTER_THIN_CURVE,
+  INNER_DOUBLE_OUTER_THIN_CURVE,
+} = require('@siakhooi/box-drawing');
+
+const textInArray = [
+  ['Cell 1-1', 'Cell 2-1'],
+  ['Cell 1-2', 'Cell 2-2'],
+];
+
+new BoxDrawingBuilder().setData(textInArray).setStyle(THIN).drawBox();
+new BoxDrawingBuilder().setData(textInArray).setStyle(THICK).drawBox();
+new BoxDrawingBuilder().setData(textInArray).setStyle(DOUBLE).drawBox();
+new BoxDrawingBuilder().setData(textInArray).setStyle(THINCURVE).drawBox();
+new BoxDrawingBuilder().setData(textInArray).setStyle(HORIZONTAL_THIN_VERTICAL_THICK).drawBox();
+new BoxDrawingBuilder().setData(textInArray).setStyle(HORIZONTAL_THICK_VERTICAL_THIN).drawBox();
+new BoxDrawingBuilder().setData(textInArray).setStyle(HORIZONTAL_THIN_VERTICAL_DOUBLE).drawBox();
+new BoxDrawingBuilder().setData(textInArray).setStyle(HORIZONTAL_DOUBLE_VERTICAL_THIN).drawBox();
+new BoxDrawingBuilder().setData(textInArray).setStyle(INNER_DOUBLE_OUTER_THIN).drawBox();
+new BoxDrawingBuilder().setData(textInArray).setStyle(INNER_THIN_OUTER_DOUBLE).drawBox();
+new BoxDrawingBuilder().setData(textInArray).setStyle(INNER_THIN_OUTER_THICK).drawBox();
+new BoxDrawingBuilder().setData(textInArray).setStyle(INNER_THICK_OUTER_THIN).drawBox();
+new BoxDrawingBuilder().setData(textInArray).setStyle(INNER_THICK_OUTER_THIN_CURVE).drawBox();
+new BoxDrawingBuilder().setData(textInArray).setStyle(INNER_DOUBLE_OUTER_THIN_CURVE).drawBox();
+```
+
 ## Locations
 
 - <https://github.com/siakhooi/ts-box-drawing>

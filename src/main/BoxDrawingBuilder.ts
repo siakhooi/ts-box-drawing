@@ -1,5 +1,5 @@
 import {BoxStyle} from './BoxStyle';
-import {THIN} from './BoxStyleConstants';
+import {THIN} from './BoxStyles';
 import {Console} from './Console';
 
 function getHorizontalLines(
@@ -64,20 +64,20 @@ function getDataLine(
 
   return s;
 }
-function convertDataToArray(data: string | string[][]): string[][] {
+function convertDataToArray(data: null | string | string[][]): string[][] {
   if (data === '' || data === null) return [];
   return typeof data === 'string' ? [[data]] : data;
 }
 
 export class BoxDrawingBuilder {
-  private data: string | string[][];
+  private data: null | string | string[][];
   private style: BoxStyle;
   constructor() {
     this.data = [];
     this.style = THIN;
   }
 
-  setData(data: string | string[][]): BoxDrawingBuilder {
+  setData(data: null | string | string[][]): BoxDrawingBuilder {
     this.data = data;
     return this;
   }
