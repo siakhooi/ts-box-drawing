@@ -1,4 +1,5 @@
 # ts-box-drawing
+
 npm package to draw box using unicode characters
 
 ![GitHub](https://img.shields.io/github/license/siakhooi/ts-box-drawing?logo=github)
@@ -62,7 +63,6 @@ npm package to draw box using unicode characters
 [![Generic badge](https://img.shields.io/badge/Funding-Ko%20Fi-33cb56.svg)](https://ko-fi.com/siakhooi)
 ![visitors](https://visitor-badge.glitch.me/badge?page_id=siakhooi.box-drawing&left_color=grey&right_color=#33cb56)
 
-
 - <https://en.wikipedia.org/wiki/Box_Drawing>
 - <https://www.unicode.org/charts/PDF/U2500.pdf>
 
@@ -71,9 +71,11 @@ npm package to draw box using unicode characters
 See Demo in Replit: <https://replit.com/@siakhooi/siakhooibox-drawing-Demo?v=1>
 
 ### Simple Text
+
 see [Demo_HelloWorld](Demo_HelloWorld)
-```
-const x=require('@siakhooi/box-drawing');
+
+```javascript
+const x = require('@siakhooi/box-drawing');
 
 x.drawBoxThin(text);
 x.drawBoxThick(text);
@@ -90,10 +92,13 @@ x.drawBoxInnerThickOuterThin(text);
 x.drawBoxInnerDoubleOuterThinCurve(text);
 x.drawBoxInnerThickOuterThinCurve(text);
 ```
+
 ### Array
+
 see [Demo_Array](Demo_Array)
-```
-const x=require('@siakhooi/box-drawing');
+
+```javascript
+const x = require('@siakhooi/box-drawing');
 
 const textInArray = [
   ['Cell 1-1', 'Cell 2-1'],
@@ -115,6 +120,7 @@ x.drawBoxInnerThickOuterThin(textInArray);
 x.drawBoxInnerDoubleOuterThinCurve(textInArray);
 x.drawBoxInnerThickOuterThinCurve(textInArray);
 ```
+
 ## Locations
 
 - <https://github.com/siakhooi/ts-box-drawing>
