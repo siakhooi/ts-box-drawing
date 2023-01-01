@@ -19,6 +19,10 @@
   "bugs": {
     "url": "https://github.com/siakhooi/ts-box-drawing/issues"
   },
+  "funding": [
+    "https://www.buymeacoffee.com/siakhooi",
+    "https://ko-fi.com/siakhooi"
+  ],
   "homepage": "https://siakhooi.github.io/ts-box-drawing/",
   "devDependencies": {
     "@types/jest": "^29.2.4",
