@@ -1,12 +1,15 @@
 # Change Log
 
 ## `0.0.8`
+
 - refactor Simple Tests
 - fix null or '' error
 - refactor Array Tests
 - update README.md
+- fix bug on InnerThickOuterThin and InnerThickOuterThinCurve.
 
 ## `0.0.7` 28 Dec 2022
+
 - add Horizontal/Vertical inner and outer
 - add drawBoxInnerDoubleOuterThin()
 - add drawBoxInnerThinOuterDouble()
@@ -16,6 +19,7 @@
 - add drawBoxInnerThickOuterThinCurve()
 
 ## `0.0.6` 27 Dec 2022
+
 - add drawBoxHorizontalThinVerticalThick()
 - add drawBoxHorizontalThickVerticalThin()
 - add drawBoxHorizontalThinVerticalDouble()
