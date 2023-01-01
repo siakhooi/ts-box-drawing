@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Builder padLeft DOUBLE [Simple 2x2] 1`] = `
+exports[`PadLeft[(0,5),(1,2)] DOUBLE [Simple 2x2] 1`] = `
 [
   "╔═════════════╦══════════╗",
   "║     Cell 1-1║  Cell 2-1║",
@@ -10,7 +10,7 @@ exports[`Builder padLeft DOUBLE [Simple 2x2] 1`] = `
 ]
 `;
 
-exports[`Builder padLeft HORIZONTAL_DOUBLE_VERTICAL_THIN [Simple 2x2] 1`] = `
+exports[`PadLeft[(0,5),(1,2)] HORIZONTAL_DOUBLE_VERTICAL_THIN [Simple 2x2] 1`] = `
 [
   "╒═════════════╤══════════╕",
   "│     Cell 1-1│  Cell 2-1│",
@@ -20,7 +20,7 @@ exports[`Builder padLeft HORIZONTAL_DOUBLE_VERTICAL_THIN [Simple 2x2] 1`] = `
 ]
 `;
 
-exports[`Builder padLeft HORIZONTAL_THICK_VERTICAL_THIN [Simple 2x2] 1`] = `
+exports[`PadLeft[(0,5),(1,2)] HORIZONTAL_THICK_VERTICAL_THIN [Simple 2x2] 1`] = `
 [
   "┍━━━━━━━━━━━━━┯━━━━━━━━━━┑",
   "│     Cell 1-1│  Cell 2-1│",
@@ -30,7 +30,7 @@ exports[`Builder padLeft HORIZONTAL_THICK_VERTICAL_THIN [Simple 2x2] 1`] = `
 ]
 `;
 
-exports[`Builder padLeft HORIZONTAL_THIN_VERTICAL_DOUBLE [Simple 2x2] 1`] = `
+exports[`PadLeft[(0,5),(1,2)] HORIZONTAL_THIN_VERTICAL_DOUBLE [Simple 2x2] 1`] = `
 [
   "╓─────────────╥──────────╖",
   "║     Cell 1-1║  Cell 2-1║",
@@ -40,7 +40,7 @@ exports[`Builder padLeft HORIZONTAL_THIN_VERTICAL_DOUBLE [Simple 2x2] 1`] = `
 ]
 `;
 
-exports[`Builder padLeft HORIZONTAL_THIN_VERTICAL_THICK [Simple 2x2] 1`] = `
+exports[`PadLeft[(0,5),(1,2)] HORIZONTAL_THIN_VERTICAL_THICK [Simple 2x2] 1`] = `
 [
   "┎─────────────┰──────────┒",
   "┃     Cell 1-1┃  Cell 2-1┃",
@@ -50,7 +50,7 @@ exports[`Builder padLeft HORIZONTAL_THIN_VERTICAL_THICK [Simple 2x2] 1`] = `
 ]
 `;
 
-exports[`Builder padLeft INNER_DOUBLE_OUTER_THIN [Simple 2x2] 1`] = `
+exports[`PadLeft[(0,5),(1,2)] INNER_DOUBLE_OUTER_THIN [Simple 2x2] 1`] = `
 [
   "┌─────────────╥──────────┐",
   "│     Cell 1-1║  Cell 2-1│",
@@ -60,7 +60,7 @@ exports[`Builder padLeft INNER_DOUBLE_OUTER_THIN [Simple 2x2] 1`] = `
 ]
 `;
 
-exports[`Builder padLeft INNER_DOUBLE_OUTER_THIN_CURVE [Simple 2x2] 1`] = `
+exports[`PadLeft[(0,5),(1,2)] INNER_DOUBLE_OUTER_THIN_CURVE [Simple 2x2] 1`] = `
 [
   "╭─────────────╥──────────╮",
   "│     Cell 1-1║  Cell 2-1│",
@@ -70,7 +70,7 @@ exports[`Builder padLeft INNER_DOUBLE_OUTER_THIN_CURVE [Simple 2x2] 1`] = `
 ]
 `;
 
-exports[`Builder padLeft INNER_THICK_OUTER_THIN [Simple 2x2] 1`] = `
+exports[`PadLeft[(0,5),(1,2)] INNER_THICK_OUTER_THIN [Simple 2x2] 1`] = `
 [
   "┌─────────────┰──────────┐",
   "│     Cell 1-1┃  Cell 2-1│",
@@ -80,7 +80,7 @@ exports[`Builder padLeft INNER_THICK_OUTER_THIN [Simple 2x2] 1`] = `
 ]
 `;
 
-exports[`Builder padLeft INNER_THICK_OUTER_THIN_CURVE [Simple 2x2] 1`] = `
+exports[`PadLeft[(0,5),(1,2)] INNER_THICK_OUTER_THIN_CURVE [Simple 2x2] 1`] = `
 [
   "╭─────────────┰──────────╮",
   "│     Cell 1-1┃  Cell 2-1│",
@@ -90,7 +90,7 @@ exports[`Builder padLeft INNER_THICK_OUTER_THIN_CURVE [Simple 2x2] 1`] = `
 ]
 `;
 
-exports[`Builder padLeft INNER_THIN_OUTER_DOUBLE [Simple 2x2] 1`] = `
+exports[`PadLeft[(0,5),(1,2)] INNER_THIN_OUTER_DOUBLE [Simple 2x2] 1`] = `
 [
   "╔═════════════╤══════════╗",
   "║     Cell 1-1│  Cell 2-1║",
@@ -100,7 +100,7 @@ exports[`Builder padLeft INNER_THIN_OUTER_DOUBLE [Simple 2x2] 1`] = `
 ]
 `;
 
-exports[`Builder padLeft INNER_THIN_OUTER_THICK [Simple 2x2] 1`] = `
+exports[`PadLeft[(0,5),(1,2)] INNER_THIN_OUTER_THICK [Simple 2x2] 1`] = `
 [
   "┏━━━━━━━━━━━━━┯━━━━━━━━━━┓",
   "┃     Cell 1-1│  Cell 2-1┃",
@@ -110,7 +110,7 @@ exports[`Builder padLeft INNER_THIN_OUTER_THICK [Simple 2x2] 1`] = `
 ]
 `;
 
-exports[`Builder padLeft THICK [Simple 2x2] 1`] = `
+exports[`PadLeft[(0,5),(1,2)] THICK [Simple 2x2] 1`] = `
 [
   "┏━━━━━━━━━━━━━┳━━━━━━━━━━┓",
   "┃     Cell 1-1┃  Cell 2-1┃",
@@ -120,7 +120,7 @@ exports[`Builder padLeft THICK [Simple 2x2] 1`] = `
 ]
 `;
 
-exports[`Builder padLeft THIN [Simple 2x2] 1`] = `
+exports[`PadLeft[(0,5),(1,2)] THIN [Simple 2x2] 1`] = `
 [
   "┌─────────────┬──────────┐",
   "│     Cell 1-1│  Cell 2-1│",
@@ -130,7 +130,7 @@ exports[`Builder padLeft THIN [Simple 2x2] 1`] = `
 ]
 `;
 
-exports[`Builder padLeft THINCURVE [Simple 2x2] 1`] = `
+exports[`PadLeft[(0,5),(1,2)] THINCURVE [Simple 2x2] 1`] = `
 [
   "╭─────────────┬──────────╮",
   "│     Cell 1-1│  Cell 2-1│",

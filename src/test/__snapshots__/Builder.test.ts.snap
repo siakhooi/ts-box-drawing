@@ -1,120 +1,13 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Simple Builder [] 1`] = `
-[
-  "┌┐",
-  "└┘",
-]
-`;
-
-exports[`Simple Builder [] 2`] = `
-[
-  "┏┓",
-  "┗┛",
-]
-`;
-
-exports[`Simple Builder [] 3`] = `
+exports[`Builder DOUBLE [] 1`] = `
 [
   "╔╗",
   "╚╝",
 ]
 `;
 
-exports[`Simple Builder [] 4`] = `
-[
-  "╭╮",
-  "╰╯",
-]
-`;
-
-exports[`Simple Builder [] 5`] = `
-[
-  "┎┒",
-  "┖┚",
-]
-`;
-
-exports[`Simple Builder [] 6`] = `
-[
-  "┍┑",
-  "┕┙",
-]
-`;
-
-exports[`Simple Builder [] 7`] = `
-[
-  "╓╖",
-  "╙╜",
-]
-`;
-
-exports[`Simple Builder [] 8`] = `
-[
-  "╒╕",
-  "╘╛",
-]
-`;
-
-exports[`Simple Builder [] 9`] = `
-[
-  "┌┐",
-  "└┘",
-]
-`;
-
-exports[`Simple Builder [] 10`] = `
-[
-  "╔╗",
-  "╚╝",
-]
-`;
-
-exports[`Simple Builder [] 11`] = `
-[
-  "┏┓",
-  "┗┛",
-]
-`;
-
-exports[`Simple Builder [] 12`] = `
-[
-  "┌┐",
-  "└┘",
-]
-`;
-
-exports[`Simple Builder [] 13`] = `
-[
-  "╭╮",
-  "╰╯",
-]
-`;
-
-exports[`Simple Builder [] 14`] = `
-[
-  "╭╮",
-  "╰╯",
-]
-`;
-
-exports[`Simple Builder [A] 1`] = `
-[
-  "┌─┐",
-  "│A│",
-  "└─┘",
-]
-`;
-
-exports[`Simple Builder [A] 2`] = `
-[
-  "┏━┓",
-  "┃A┃",
-  "┗━┛",
-]
-`;
-
-exports[`Simple Builder [A] 3`] = `
+exports[`Builder DOUBLE [A] 1`] = `
 [
   "╔═╗",
   "║A║",
@@ -122,39 +15,29 @@ exports[`Simple Builder [A] 3`] = `
 ]
 `;
 
-exports[`Simple Builder [A] 4`] = `
+exports[`Builder DOUBLE [Hello World] 1`] = `
 [
-  "╭─╮",
-  "│A│",
-  "╰─╯",
+  "╔═══════════╗",
+  "║Hello World║",
+  "╚═══════════╝",
 ]
 `;
 
-exports[`Simple Builder [A] 5`] = `
+exports[`Builder DOUBLE [null] 1`] = `
 [
-  "┎─┒",
-  "┃A┃",
-  "┖─┚",
+  "╔╗",
+  "╚╝",
 ]
 `;
 
-exports[`Simple Builder [A] 6`] = `
+exports[`Builder HORIZONTAL_DOUBLE_VERTICAL_THIN [] 1`] = `
 [
-  "┍━┑",
-  "│A│",
-  "┕━┙",
+  "╒╕",
+  "╘╛",
 ]
 `;
 
-exports[`Simple Builder [A] 7`] = `
-[
-  "╓─╖",
-  "║A║",
-  "╙─╜",
-]
-`;
-
-exports[`Simple Builder [A] 8`] = `
+exports[`Builder HORIZONTAL_DOUBLE_VERTICAL_THIN [A] 1`] = `
 [
   "╒═╕",
   "│A│",
@@ -162,111 +45,7 @@ exports[`Simple Builder [A] 8`] = `
 ]
 `;
 
-exports[`Simple Builder [A] 9`] = `
-[
-  "┌─┐",
-  "│A│",
-  "└─┘",
-]
-`;
-
-exports[`Simple Builder [A] 10`] = `
-[
-  "╔═╗",
-  "║A║",
-  "╚═╝",
-]
-`;
-
-exports[`Simple Builder [A] 11`] = `
-[
-  "┏━┓",
-  "┃A┃",
-  "┗━┛",
-]
-`;
-
-exports[`Simple Builder [A] 12`] = `
-[
-  "┌─┐",
-  "│A│",
-  "└─┘",
-]
-`;
-
-exports[`Simple Builder [A] 13`] = `
-[
-  "╭─╮",
-  "│A│",
-  "╰─╯",
-]
-`;
-
-exports[`Simple Builder [A] 14`] = `
-[
-  "╭─╮",
-  "│A│",
-  "╰─╯",
-]
-`;
-
-exports[`Simple Builder [Hello World] 1`] = `
-[
-  "┌───────────┐",
-  "│Hello World│",
-  "└───────────┘",
-]
-`;
-
-exports[`Simple Builder [Hello World] 2`] = `
-[
-  "┏━━━━━━━━━━━┓",
-  "┃Hello World┃",
-  "┗━━━━━━━━━━━┛",
-]
-`;
-
-exports[`Simple Builder [Hello World] 3`] = `
-[
-  "╔═══════════╗",
-  "║Hello World║",
-  "╚═══════════╝",
-]
-`;
-
-exports[`Simple Builder [Hello World] 4`] = `
-[
-  "╭───────────╮",
-  "│Hello World│",
-  "╰───────────╯",
-]
-`;
-
-exports[`Simple Builder [Hello World] 5`] = `
-[
-  "┎───────────┒",
-  "┃Hello World┃",
-  "┖───────────┚",
-]
-`;
-
-exports[`Simple Builder [Hello World] 6`] = `
-[
-  "┍━━━━━━━━━━━┑",
-  "│Hello World│",
-  "┕━━━━━━━━━━━┙",
-]
-`;
-
-exports[`Simple Builder [Hello World] 7`] = `
-[
-  "╓───────────╖",
-  "║Hello World║",
-  "╙───────────╜",
-]
-`;
-
-exports[`Simple Builder [Hello World] 8`] = `
+exports[`Builder HORIZONTAL_DOUBLE_VERTICAL_THIN [Hello World] 1`] = `
 [
   "╒═══════════╕",
   "│Hello World│",
@@ -274,7 +53,119 @@ exports[`Simple Builder [Hello World] 8`] = `
 ]
 `;
 
-exports[`Simple Builder [Hello World] 9`] = `
+exports[`Builder HORIZONTAL_DOUBLE_VERTICAL_THIN [null] 1`] = `
+[
+  "╒╕",
+  "╘╛",
+]
+`;
+
+exports[`Builder HORIZONTAL_THICK_VERTICAL_THIN [] 1`] = `
+[
+  "┍┑",
+  "┕┙",
+]
+`;
+
+exports[`Builder HORIZONTAL_THICK_VERTICAL_THIN [A] 1`] = `
+[
+  "┍━┑",
+  "│A│",
+  "┕━┙",
+]
+`;
+
+exports[`Builder HORIZONTAL_THICK_VERTICAL_THIN [Hello World] 1`] = `
+[
+  "┍━━━━━━━━━━━┑",
+  "│Hello World│",
+  "┕━━━━━━━━━━━┙",
+]
+`;
+
+exports[`Builder HORIZONTAL_THICK_VERTICAL_THIN [null] 1`] = `
+[
+  "┍┑",
+  "┕┙",
+]
+`;
+
+exports[`Builder HORIZONTAL_THIN_VERTICAL_DOUBLE [] 1`] = `
+[
+  "╓╖",
+  "╙╜",
+]
+`;
+
+exports[`Builder HORIZONTAL_THIN_VERTICAL_DOUBLE [A] 1`] = `
+[
+  "╓─╖",
+  "║A║",
+  "╙─╜",
+]
+`;
+
+exports[`Builder HORIZONTAL_THIN_VERTICAL_DOUBLE [Hello World] 1`] = `
+[
+  "╓───────────╖",
+  "║Hello World║",
+  "╙───────────╜",
+]
+`;
+
+exports[`Builder HORIZONTAL_THIN_VERTICAL_DOUBLE [null] 1`] = `
+[
+  "╓╖",
+  "╙╜",
+]
+`;
+
+exports[`Builder HORIZONTAL_THIN_VERTICAL_THICK [] 1`] = `
+[
+  "┎┒",
+  "┖┚",
+]
+`;
+
+exports[`Builder HORIZONTAL_THIN_VERTICAL_THICK [A] 1`] = `
+[
+  "┎─┒",
+  "┃A┃",
+  "┖─┚",
+]
+`;
+
+exports[`Builder HORIZONTAL_THIN_VERTICAL_THICK [Hello World] 1`] = `
+[
+  "┎───────────┒",
+  "┃Hello World┃",
+  "┖───────────┚",
+]
+`;
+
+exports[`Builder HORIZONTAL_THIN_VERTICAL_THICK [null] 1`] = `
+[
+  "┎┒",
+  "┖┚",
+]
+`;
+
+exports[`Builder INNER_DOUBLE_OUTER_THIN [] 1`] = `
+[
+  "┌┐",
+  "└┘",
+]
+`;
+
+exports[`Builder INNER_DOUBLE_OUTER_THIN [A] 1`] = `
+[
+  "┌─┐",
+  "│A│",
+  "└─┘",
+]
+`;
+
+exports[`Builder INNER_DOUBLE_OUTER_THIN [Hello World] 1`] = `
 [
   "┌───────────┐",
   "│Hello World│",
@@ -282,7 +173,119 @@ exports[`Simple Builder [Hello World] 9`] = `
 ]
 `;
 
-exports[`Simple Builder [Hello World] 10`] = `
+exports[`Builder INNER_DOUBLE_OUTER_THIN [null] 1`] = `
+[
+  "┌┐",
+  "└┘",
+]
+`;
+
+exports[`Builder INNER_DOUBLE_OUTER_THIN_CURVE [] 1`] = `
+[
+  "╭╮",
+  "╰╯",
+]
+`;
+
+exports[`Builder INNER_DOUBLE_OUTER_THIN_CURVE [A] 1`] = `
+[
+  "╭─╮",
+  "│A│",
+  "╰─╯",
+]
+`;
+
+exports[`Builder INNER_DOUBLE_OUTER_THIN_CURVE [Hello World] 1`] = `
+[
+  "╭───────────╮",
+  "│Hello World│",
+  "╰───────────╯",
+]
+`;
+
+exports[`Builder INNER_DOUBLE_OUTER_THIN_CURVE [null] 1`] = `
+[
+  "╭╮",
+  "╰╯",
+]
+`;
+
+exports[`Builder INNER_THICK_OUTER_THIN [] 1`] = `
+[
+  "┌┐",
+  "└┘",
+]
+`;
+
+exports[`Builder INNER_THICK_OUTER_THIN [A] 1`] = `
+[
+  "┌─┐",
+  "│A│",
+  "└─┘",
+]
+`;
+
+exports[`Builder INNER_THICK_OUTER_THIN [Hello World] 1`] = `
+[
+  "┌───────────┐",
+  "│Hello World│",
+  "└───────────┘",
+]
+`;
+
+exports[`Builder INNER_THICK_OUTER_THIN [null] 1`] = `
+[
+  "┌┐",
+  "└┘",
+]
+`;
+
+exports[`Builder INNER_THICK_OUTER_THIN_CURVE [] 1`] = `
+[
+  "╭╮",
+  "╰╯",
+]
+`;
+
+exports[`Builder INNER_THICK_OUTER_THIN_CURVE [A] 1`] = `
+[
+  "╭─╮",
+  "│A│",
+  "╰─╯",
+]
+`;
+
+exports[`Builder INNER_THICK_OUTER_THIN_CURVE [Hello World] 1`] = `
+[
+  "╭───────────╮",
+  "│Hello World│",
+  "╰───────────╯",
+]
+`;
+
+exports[`Builder INNER_THICK_OUTER_THIN_CURVE [null] 1`] = `
+[
+  "╭╮",
+  "╰╯",
+]
+`;
+
+exports[`Builder INNER_THIN_OUTER_DOUBLE [] 1`] = `
+[
+  "╔╗",
+  "╚╝",
+]
+`;
+
+exports[`Builder INNER_THIN_OUTER_DOUBLE [A] 1`] = `
+[
+  "╔═╗",
+  "║A║",
+  "╚═╝",
+]
+`;
+
+exports[`Builder INNER_THIN_OUTER_DOUBLE [Hello World] 1`] = `
 [
   "╔═══════════╗",
   "║Hello World║",
@@ -290,7 +293,29 @@ exports[`Simple Builder [Hello World] 10`] = `
 ]
 `;
 
-exports[`Simple Builder [Hello World] 11`] = `
+exports[`Builder INNER_THIN_OUTER_DOUBLE [null] 1`] = `
+[
+  "╔╗",
+  "╚╝",
+]
+`;
+
+exports[`Builder INNER_THIN_OUTER_THICK [] 1`] = `
+[
+  "┏┓",
+  "┗┛",
+]
+`;
+
+exports[`Builder INNER_THIN_OUTER_THICK [A] 1`] = `
+[
+  "┏━┓",
+  "┃A┃",
+  "┗━┛",
+]
+`;
+
+exports[`Builder INNER_THIN_OUTER_THICK [Hello World] 1`] = `
 [
   "┏━━━━━━━━━━━┓",
   "┃Hello World┃",
@@ -298,7 +323,59 @@ exports[`Simple Builder [Hello World] 11`] = `
 ]
 `;
 
-exports[`Simple Builder [Hello World] 12`] = `
+exports[`Builder INNER_THIN_OUTER_THICK [null] 1`] = `
+[
+  "┏┓",
+  "┗┛",
+]
+`;
+
+exports[`Builder THICK [] 1`] = `
+[
+  "┏┓",
+  "┗┛",
+]
+`;
+
+exports[`Builder THICK [A] 1`] = `
+[
+  "┏━┓",
+  "┃A┃",
+  "┗━┛",
+]
+`;
+
+exports[`Builder THICK [Hello World] 1`] = `
+[
+  "┏━━━━━━━━━━━┓",
+  "┃Hello World┃",
+  "┗━━━━━━━━━━━┛",
+]
+`;
+
+exports[`Builder THICK [null] 1`] = `
+[
+  "┏┓",
+  "┗┛",
+]
+`;
+
+exports[`Builder THIN [] 1`] = `
+[
+  "┌┐",
+  "└┘",
+]
+`;
+
+exports[`Builder THIN [A] 1`] = `
+[
+  "┌─┐",
+  "│A│",
+  "└─┘",
+]
+`;
+
+exports[`Builder THIN [Hello World] 1`] = `
 [
   "┌───────────┐",
   "│Hello World│",
@@ -306,7 +383,29 @@ exports[`Simple Builder [Hello World] 12`] = `
 ]
 `;
 
-exports[`Simple Builder [Hello World] 13`] = `
+exports[`Builder THIN [null] 1`] = `
+[
+  "┌┐",
+  "└┘",
+]
+`;
+
+exports[`Builder THINCURVE [] 1`] = `
+[
+  "╭╮",
+  "╰╯",
+]
+`;
+
+exports[`Builder THINCURVE [A] 1`] = `
+[
+  "╭─╮",
+  "│A│",
+  "╰─╯",
+]
+`;
+
+exports[`Builder THINCURVE [Hello World] 1`] = `
 [
   "╭───────────╮",
   "│Hello World│",
@@ -314,106 +413,7 @@ exports[`Simple Builder [Hello World] 13`] = `
 ]
 `;
 
-exports[`Simple Builder [Hello World] 14`] = `
-[
-  "╭───────────╮",
-  "│Hello World│",
-  "╰───────────╯",
-]
-`;
-
-exports[`Simple Builder [null] 1`] = `
-[
-  "┌┐",
-  "└┘",
-]
-`;
-
-exports[`Simple Builder [null] 2`] = `
-[
-  "┏┓",
-  "┗┛",
-]
-`;
-
-exports[`Simple Builder [null] 3`] = `
-[
-  "╔╗",
-  "╚╝",
-]
-`;
-
-exports[`Simple Builder [null] 4`] = `
-[
-  "╭╮",
-  "╰╯",
-]
-`;
-
-exports[`Simple Builder [null] 5`] = `
-[
-  "┎┒",
-  "┖┚",
-]
-`;
-
-exports[`Simple Builder [null] 6`] = `
-[
-  "┍┑",
-  "┕┙",
-]
-`;
-
-exports[`Simple Builder [null] 7`] = `
-[
-  "╓╖",
-  "╙╜",
-]
-`;
-
-exports[`Simple Builder [null] 8`] = `
-[
-  "╒╕",
-  "╘╛",
-]
-`;
-
-exports[`Simple Builder [null] 9`] = `
-[
-  "┌┐",
-  "└┘",
-]
-`;
-
-exports[`Simple Builder [null] 10`] = `
-[
-  "╔╗",
-  "╚╝",
-]
-`;
-
-exports[`Simple Builder [null] 11`] = `
-[
-  "┏┓",
-  "┗┛",
-]
-`;
-
-exports[`Simple Builder [null] 12`] = `
-[
-  "┌┐",
-  "└┘",
-]
-`;
-
-exports[`Simple Builder [null] 13`] = `
-[
-  "╭╮",
-  "╰╯",
-]
-`;
-
-exports[`Simple Builder [null] 14`] = `
+exports[`Builder THINCURVE [null] 1`] = `
 [
   "╭╮",
   "╰╯",

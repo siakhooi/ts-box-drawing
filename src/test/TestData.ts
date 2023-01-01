@@ -84,28 +84,12 @@ export const ALL_FUNCTIONS = [
   drawBoxInnerDoubleOuterThinCurve,
   drawBoxInnerThickOuterThinCurve,
 ];
-export const ALL_STYLES = [
-  THIN,
-  THICK,
-  DOUBLE,
-  THINCURVE,
-  HORIZONTAL_THIN_VERTICAL_THICK,
-  HORIZONTAL_THICK_VERTICAL_THIN,
-  HORIZONTAL_THIN_VERTICAL_DOUBLE,
-  HORIZONTAL_DOUBLE_VERTICAL_THIN,
-  INNER_DOUBLE_OUTER_THIN,
-  INNER_THIN_OUTER_DOUBLE,
-  INNER_THIN_OUTER_THICK,
-  INNER_THICK_OUTER_THIN,
-  INNER_DOUBLE_OUTER_THIN_CURVE,
-  INNER_THICK_OUTER_THIN_CURVE,
-];
 export type TestStyleUnit = {
   title: string;
   style: BoxStyle;
 };
 
-export const ALL_STYLES_WITH_NAME: TestStyleUnit[] = [
+export const ALL_STYLES: TestStyleUnit[] = [
   {title: 'THIN', style: THIN},
   {title: 'THICK', style: THICK},
   {title: 'DOUBLE', style: DOUBLE},
