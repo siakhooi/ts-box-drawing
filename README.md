@@ -123,6 +123,11 @@ x.drawBoxInnerThickOuterThinCurve(textInArray);
 
 ### BoxDrawingBuilder
 
+- setData(data)
+- setStyle(boxStyle)
+- padLeft(column, spaces)
+- drawBox()
+
 ```
 const {
   BoxDrawingBuilder,
@@ -161,6 +166,14 @@ new BoxDrawingBuilder().setData(textInArray).setStyle(INNER_THIN_OUTER_THICK).dr
 new BoxDrawingBuilder().setData(textInArray).setStyle(INNER_THICK_OUTER_THIN).drawBox();
 new BoxDrawingBuilder().setData(textInArray).setStyle(INNER_THICK_OUTER_THIN_CURVE).drawBox();
 new BoxDrawingBuilder().setData(textInArray).setStyle(INNER_DOUBLE_OUTER_THIN_CURVE).drawBox();
+
+// padLeft
+new BoxDrawingBuilder()
+   .setData(textInArray)
+   .setStyle(THIN)
+   .padLeft(0, 5)
+   .drawBox();
+
 ```
 
 ## Locations

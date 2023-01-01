@@ -1,5 +1,9 @@
 # Change Log
 
+## `0.0.9`
+
+- add BoxDrawingBuilder().padLeft(column, spaces)
+
 ## `0.0.8` 1 Jan 2023
 
 - refactor Simple Tests

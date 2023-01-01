@@ -1,3 +1,4 @@
+import {BoxStyle} from '../main/BoxStyle';
 import {
   drawBoxDouble,
   drawBoxHorizontalDoubleVerticalThin,
@@ -58,6 +59,15 @@ export const ARRAY_TEST_DATA: TestDataUnit[] = [
     ],
   },
 ];
+export const PAD_TEST_DATA: TestDataUnit[] = [
+  {
+    title: 'Simple 2x2',
+    data: [
+      ['Cell 1-1', 'Cell 2-1'],
+      ['Cell 1-2', 'Cell 2-2'],
+    ],
+  },
+];
 export const ALL_FUNCTIONS = [
   drawBoxThin,
   drawBoxThick,
@@ -89,4 +99,40 @@ export const ALL_STYLES = [
   INNER_THICK_OUTER_THIN,
   INNER_DOUBLE_OUTER_THIN_CURVE,
   INNER_THICK_OUTER_THIN_CURVE,
+];
+export type TestStyleUnit = {
+  title: string;
+  style: BoxStyle;
+};
+
+export const ALL_STYLES_WITH_NAME: TestStyleUnit[] = [
+  {title: 'THIN', style: THIN},
+  {title: 'THICK', style: THICK},
+  {title: 'DOUBLE', style: DOUBLE},
+  {title: 'THINCURVE', style: THINCURVE},
+  {
+    title: 'HORIZONTAL_THIN_VERTICAL_THICK',
+    style: HORIZONTAL_THIN_VERTICAL_THICK,
+  },
+  {
+    title: 'HORIZONTAL_THICK_VERTICAL_THIN',
+    style: HORIZONTAL_THICK_VERTICAL_THIN,
+  },
+  {
+    title: 'HORIZONTAL_THIN_VERTICAL_DOUBLE',
+    style: HORIZONTAL_THIN_VERTICAL_DOUBLE,
+  },
+  {
+    title: 'HORIZONTAL_DOUBLE_VERTICAL_THIN',
+    style: HORIZONTAL_DOUBLE_VERTICAL_THIN,
+  },
+  {title: 'INNER_DOUBLE_OUTER_THIN', style: INNER_DOUBLE_OUTER_THIN},
+  {title: 'INNER_THIN_OUTER_DOUBLE', style: INNER_THIN_OUTER_DOUBLE},
+  {title: 'INNER_THIN_OUTER_THICK', style: INNER_THIN_OUTER_THICK},
+  {title: 'INNER_THICK_OUTER_THIN', style: INNER_THICK_OUTER_THIN},
+  {
+    title: 'INNER_DOUBLE_OUTER_THIN_CURVE',
+    style: INNER_DOUBLE_OUTER_THIN_CURVE,
+  },
+  {title: 'INNER_THICK_OUTER_THIN_CURVE', style: INNER_THICK_OUTER_THIN_CURVE},
 ];
