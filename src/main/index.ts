@@ -1,6 +1,5 @@
 import {BoxDrawingBuilder} from './BoxDrawingBuilder';
 import {BoxStyle} from './BoxStyle';
-
 import {
   DOUBLE,
   HORIZONTAL_DOUBLE_VERTICAL_THIN,
@@ -16,7 +15,25 @@ import {
   THICK,
   THIN,
   THINCURVE,
-} from './BoxStyleConstants';
+} from './BoxStyles';
+
+export {BoxDrawingBuilder} from './BoxDrawingBuilder';
+export {
+  DOUBLE,
+  HORIZONTAL_DOUBLE_VERTICAL_THIN,
+  HORIZONTAL_THICK_VERTICAL_THIN,
+  HORIZONTAL_THIN_VERTICAL_DOUBLE,
+  HORIZONTAL_THIN_VERTICAL_THICK,
+  INNER_DOUBLE_OUTER_THIN,
+  INNER_DOUBLE_OUTER_THIN_CURVE,
+  INNER_THICK_OUTER_THIN,
+  INNER_THICK_OUTER_THIN_CURVE,
+  INNER_THIN_OUTER_DOUBLE,
+  INNER_THIN_OUTER_THICK,
+  THICK,
+  THIN,
+  THINCURVE,
+} from './BoxStyles';
 
 function drawBox(boxStyle: BoxStyle, data: string | string[][]) {
   new BoxDrawingBuilder().setData(data).setStyle(boxStyle).drawBox();
