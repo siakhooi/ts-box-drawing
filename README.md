@@ -72,7 +72,7 @@ See Demo in Replit: <https://replit.com/@siakhooi/siakhooibox-drawing-Demo?v=1>
 
 ### Simple Text
 
-see [Demo_HelloWorld](Demo_HelloWorld)
+see [Demo_HelloWorld](Demo_HelloWorld.md)
 
 ```javascript
 const x = require('@siakhooi/box-drawing');
@@ -95,7 +95,7 @@ x.drawBoxInnerThickOuterThinCurve(text);
 
 ### Array
 
-see [Demo_Array](Demo_Array)
+see [Demo_Array](Demo_Array.md)
 
 ```javascript
 const x = require('@siakhooi/box-drawing');
@@ -123,7 +123,7 @@ x.drawBoxInnerThickOuterThinCurve(textInArray);
 
 ### BoxDrawingBuilder
 
-see [Demo_Builder](Demo_Builder)
+see [Demo_Builder](Demo_Builder.md)
 
 - setData(data)
 - setStyle(boxStyle)
