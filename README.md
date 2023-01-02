@@ -123,6 +123,8 @@ x.drawBoxInnerThickOuterThinCurve(textInArray);
 
 ### BoxDrawingBuilder
 
+see [Demo_Builder](Demo_Builder)
+
 - setData(data)
 - setStyle(boxStyle)
 - padLeft(column, spaces)
@@ -167,11 +169,12 @@ new BoxDrawingBuilder().setData(textInArray).setStyle(INNER_THICK_OUTER_THIN).dr
 new BoxDrawingBuilder().setData(textInArray).setStyle(INNER_THICK_OUTER_THIN_CURVE).drawBox();
 new BoxDrawingBuilder().setData(textInArray).setStyle(INNER_DOUBLE_OUTER_THIN_CURVE).drawBox();
 
-// padLeft
+// padLeft, padRight
 new BoxDrawingBuilder()
    .setData(textInArray)
    .setStyle(THIN)
    .padLeft(0, 5)
+   .padRight(1, 2)
    .drawBox();
 
 ```

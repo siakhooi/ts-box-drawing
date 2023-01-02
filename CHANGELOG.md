@@ -4,6 +4,7 @@
 
 - add BoxDrawingBuilder().padLeft(column, spaces)
 - add funding
+- add BoxDrawingBuilder().padRight(column, spaces)
 
 ## `0.0.8` 1 Jan 2023
 

@@ -28,11 +28,13 @@ export class BoxDrawingBuilder {
   private data: null | string | string[][];
   private style: BoxStyle;
   private padLeftData: number[];
+  private padRightData: number[];
 
   constructor() {
     this.data = [];
     this.style = THIN;
     this.padLeftData = [];
+    this.padRightData = [];
   }
 
   setData(data: null | string | string[][]): BoxDrawingBuilder {
@@ -47,11 +49,20 @@ export class BoxDrawingBuilder {
     this.padLeftData[column] = number_of_spaces;
     return this;
   }
+  padRight(column: number, number_of_spaces: number): BoxDrawingBuilder {
+    this.padRightData[column] = number_of_spaces;
+    return this;
+  }
 
   private getPadLeft(column: number): number {
     return this.padLeftData[column] === undefined
       ? 0
       : this.padLeftData[column];
+  }
+  private getPadRight(column: number): number {
+    return this.padRightData[column] === undefined
+      ? 0
+      : this.padRightData[column];
   }
   getHorizontalLines(columnCount: number, columnWidths: number[]): string[] {
     let lineTop = '',
@@ -65,7 +76,8 @@ export class BoxDrawingBuilder {
 
     for (let i = 0; i < columnCount; i++) {
       const padLeft = this.getPadLeft(i);
-      const columnWidth = columnWidths[i] + padLeft;
+      const padRight = this.getPadRight(i);
+      const columnWidth = columnWidths[i] + padLeft + padRight;
       lineTop += boxStyle.HORIZONTAL_OUTER.repeat(columnWidth);
       lineMiddle += boxStyle.HORIZONTAL_INNER.repeat(columnWidth);
       lineBottom += boxStyle.HORIZONTAL_OUTER.repeat(columnWidth);
@@ -91,9 +103,11 @@ export class BoxDrawingBuilder {
     let s = boxStyle.VERTICAL_OUTER;
     for (let i = 0; i < columnCount; i++) {
       const padLeft = this.getPadLeft(i);
+      const padRight = this.getPadRight(i);
       const cellData = rowData[i] === undefined ? '' : rowData[i];
       s += ' '.repeat(padLeft);
       s += cellData.padEnd(columnWidths[i], ' ');
+      s += ' '.repeat(padRight);
       if (i < columnCount - 1) s += boxStyle.VERTICAL_INNER;
     }
     s += boxStyle.VERTICAL_OUTER;
