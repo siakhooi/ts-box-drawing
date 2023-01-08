@@ -4,6 +4,7 @@
 
 - create type for union type - fix sonarcloud code smell
 - npm up
+- add BoxDrawingBuilder().setDefaultPadLeft(spaces)
 
 ## `0.0.9` 2 Jan 2023
 

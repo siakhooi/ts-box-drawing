@@ -31,6 +31,7 @@ export class BoxDrawingBuilder {
   private style: BoxStyle;
   private padLeftData: number[];
   private padRightData: number[];
+  private defaultPadLeft = 0;
 
   constructor() {
     this.data = [];
@@ -47,6 +48,10 @@ export class BoxDrawingBuilder {
     this.style = style;
     return this;
   }
+  setDefaultPadLeft(number_of_spaces: number): BoxDrawingBuilder {
+    this.defaultPadLeft = number_of_spaces;
+    return this;
+  }
   padLeft(column: number, number_of_spaces: number): BoxDrawingBuilder {
     this.padLeftData[column] = number_of_spaces;
     return this;
@@ -58,7 +63,7 @@ export class BoxDrawingBuilder {
 
   private getPadLeft(column: number): number {
     return this.padLeftData[column] === undefined
-      ? 0
+      ? this.defaultPadLeft
       : this.padLeftData[column];
   }
   private getPadRight(column: number): number {
@@ -66,7 +71,10 @@ export class BoxDrawingBuilder {
       ? 0
       : this.padRightData[column];
   }
-  getHorizontalLines(columnCount: number, columnWidths: number[]): string[] {
+  private getHorizontalLines(
+    columnCount: number,
+    columnWidths: number[]
+  ): string[] {
     let lineTop = '',
       lineMiddle = '',
       lineBottom = '';
@@ -96,7 +104,7 @@ export class BoxDrawingBuilder {
 
     return [lineTop, lineMiddle, lineBottom];
   }
-  getDataLine(
+  private getDataLine(
     columnCount: number,
     columnWidths: number[],
     rowData: string[]

@@ -128,6 +128,7 @@ see [Demo_Builder](Demo_Builder.md)
 - setData(data)
 - setStyle(boxStyle)
 - padLeft(column, spaces)
+- setDefaultPadLeft(spaces)
 - drawBox()
 
 ```
@@ -173,6 +174,7 @@ new BoxDrawingBuilder().setData(textInArray).setStyle(INNER_DOUBLE_OUTER_THIN_CU
 new BoxDrawingBuilder()
    .setData(textInArray)
    .setStyle(THIN)
+   .setDefaultPadLeft(1)
    .padLeft(0, 5)
    .padRight(1, 2)
    .drawBox();
