@@ -1,6 +1,10 @@
 # Change Log
 
-## `0.0.9`
+## `1.0.0` 8 Jan 2023
+
+- create type for union type - fix sonarcloud code smell
+
+## `0.0.9` 2 Jan 2023
 
 - add BoxDrawingBuilder().padLeft(column, spaces)
 - add funding

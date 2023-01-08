@@ -2,6 +2,8 @@ import {BoxStyle} from './BoxStyle';
 import {THIN} from './BoxStyles';
 import {Console} from './Console';
 
+type BoxDataType = null | string | string[][];
+
 function getColumnWidths(
   rowCount: number,
   columnCount: number,
@@ -19,13 +21,13 @@ function getColumnWidths(
   return columnWidths;
 }
 
-function convertDataToArray(data: null | string | string[][]): string[][] {
+function convertDataToArray(data: BoxDataType): string[][] {
   if (data === '' || data === null) return [];
   return typeof data === 'string' ? [[data]] : data;
 }
 
 export class BoxDrawingBuilder {
-  private data: null | string | string[][];
+  private data: BoxDataType;
   private style: BoxStyle;
   private padLeftData: number[];
   private padRightData: number[];
@@ -37,7 +39,7 @@ export class BoxDrawingBuilder {
     this.padRightData = [];
   }
 
-  setData(data: null | string | string[][]): BoxDrawingBuilder {
+  setData(data: BoxDataType): BoxDrawingBuilder {
     this.data = data;
     return this;
   }
