@@ -6,6 +6,7 @@
 - npm up
 - add BoxDrawingBuilder().setDefaultPadLeft(spaces)
 - add BoxDrawingBuilder().setDefaultPadRight(spaces)
+- create BoxStyles object - fix codeclimate duplication
 
 ## `0.0.9` 2 Jan 2023
 

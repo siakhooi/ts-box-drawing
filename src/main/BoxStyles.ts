@@ -85,7 +85,7 @@ const INNER_THICK_OUTER_THIN_CURVE = new BoxStyle(
   ['\u2530', '\u2538', '\u251d', '\u2525']
 );
 
-export {
+export const BoxStyles = {
   THIN,
   THICK,
   DOUBLE,

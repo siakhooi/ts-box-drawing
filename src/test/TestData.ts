@@ -14,20 +14,7 @@ import {
   drawBoxThick,
   drawBoxThin,
   drawBoxThinCurve,
-  THIN,
-  THICK,
-  DOUBLE,
-  THINCURVE,
-  HORIZONTAL_THIN_VERTICAL_THICK,
-  HORIZONTAL_THICK_VERTICAL_THIN,
-  HORIZONTAL_THIN_VERTICAL_DOUBLE,
-  HORIZONTAL_DOUBLE_VERTICAL_THIN,
-  INNER_DOUBLE_OUTER_THIN,
-  INNER_THIN_OUTER_DOUBLE,
-  INNER_THIN_OUTER_THICK,
-  INNER_THICK_OUTER_THIN,
-  INNER_DOUBLE_OUTER_THIN_CURVE,
-  INNER_THICK_OUTER_THIN_CURVE,
+  BoxStyles,
 } from '../main/index';
 
 export const SIMPLE_TEST_DATA = ['A', '', 'Hello World', null];
@@ -90,33 +77,36 @@ export type TestStyleUnit = {
 };
 
 export const ALL_STYLES: TestStyleUnit[] = [
-  {title: 'THIN', style: THIN},
-  {title: 'THICK', style: THICK},
-  {title: 'DOUBLE', style: DOUBLE},
-  {title: 'THINCURVE', style: THINCURVE},
+  {title: 'THIN', style: BoxStyles.THIN},
+  {title: 'THICK', style: BoxStyles.THICK},
+  {title: 'DOUBLE', style: BoxStyles.DOUBLE},
+  {title: 'THINCURVE', style: BoxStyles.THINCURVE},
   {
     title: 'HORIZONTAL_THIN_VERTICAL_THICK',
-    style: HORIZONTAL_THIN_VERTICAL_THICK,
+    style: BoxStyles.HORIZONTAL_THIN_VERTICAL_THICK,
   },
   {
     title: 'HORIZONTAL_THICK_VERTICAL_THIN',
-    style: HORIZONTAL_THICK_VERTICAL_THIN,
+    style: BoxStyles.HORIZONTAL_THICK_VERTICAL_THIN,
   },
   {
     title: 'HORIZONTAL_THIN_VERTICAL_DOUBLE',
-    style: HORIZONTAL_THIN_VERTICAL_DOUBLE,
+    style: BoxStyles.HORIZONTAL_THIN_VERTICAL_DOUBLE,
   },
   {
     title: 'HORIZONTAL_DOUBLE_VERTICAL_THIN',
-    style: HORIZONTAL_DOUBLE_VERTICAL_THIN,
+    style: BoxStyles.HORIZONTAL_DOUBLE_VERTICAL_THIN,
   },
-  {title: 'INNER_DOUBLE_OUTER_THIN', style: INNER_DOUBLE_OUTER_THIN},
-  {title: 'INNER_THIN_OUTER_DOUBLE', style: INNER_THIN_OUTER_DOUBLE},
-  {title: 'INNER_THIN_OUTER_THICK', style: INNER_THIN_OUTER_THICK},
-  {title: 'INNER_THICK_OUTER_THIN', style: INNER_THICK_OUTER_THIN},
+  {title: 'INNER_DOUBLE_OUTER_THIN', style: BoxStyles.INNER_DOUBLE_OUTER_THIN},
+  {title: 'INNER_THIN_OUTER_DOUBLE', style: BoxStyles.INNER_THIN_OUTER_DOUBLE},
+  {title: 'INNER_THIN_OUTER_THICK', style: BoxStyles.INNER_THIN_OUTER_THICK},
+  {title: 'INNER_THICK_OUTER_THIN', style: BoxStyles.INNER_THICK_OUTER_THIN},
   {
     title: 'INNER_DOUBLE_OUTER_THIN_CURVE',
-    style: INNER_DOUBLE_OUTER_THIN_CURVE,
+    style: BoxStyles.INNER_DOUBLE_OUTER_THIN_CURVE,
   },
-  {title: 'INNER_THICK_OUTER_THIN_CURVE', style: INNER_THICK_OUTER_THIN_CURVE},
+  {
+    title: 'INNER_THICK_OUTER_THIN_CURVE',
+    style: BoxStyles.INNER_THICK_OUTER_THIN_CURVE,
+  },
 ];

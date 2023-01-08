@@ -1,5 +1,5 @@
 import {BoxStyle} from './BoxStyle';
-import {THIN} from './BoxStyles';
+import {BoxStyles} from './BoxStyles';
 import {Console} from './Console';
 
 type BoxDataType = null | string | string[][];
@@ -36,7 +36,7 @@ export class BoxDrawingBuilder {
 
   constructor() {
     this.data = [];
-    this.style = THIN;
+    this.style = BoxStyles.THIN;
     this.padLeftData = [];
     this.padRightData = [];
   }
