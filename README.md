@@ -129,6 +129,7 @@ see [Demo_Builder](Demo_Builder.md)
 - setStyle(boxStyle)
 - padLeft(column, spaces)
 - setDefaultPadLeft(spaces)
+- setDefaultPadRight(spaces)
 - drawBox()
 
 ```
