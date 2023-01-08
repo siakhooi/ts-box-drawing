@@ -3,6 +3,7 @@
 ## `1.0.0` 8 Jan 2023
 
 - create type for union type - fix sonarcloud code smell
+- npm up
 
 ## `0.0.9` 2 Jan 2023
 
