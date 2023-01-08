@@ -7,6 +7,7 @@
 - add BoxDrawingBuilder().setDefaultPadLeft(spaces)
 - add BoxDrawingBuilder().setDefaultPadRight(spaces)
 - create BoxStyles object - fix codeclimate duplication
+- remove BoxDrawingBuilder() constructor
 
 ## `0.0.9` 2 Jan 2023
 

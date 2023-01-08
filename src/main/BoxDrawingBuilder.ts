@@ -27,19 +27,12 @@ function convertDataToArray(data: BoxDataType): string[][] {
 }
 
 export class BoxDrawingBuilder {
-  private data: BoxDataType;
-  private style: BoxStyle;
-  private padLeftData: number[];
-  private padRightData: number[];
+  private data: BoxDataType = [];
+  private style = BoxStyles.THIN;
+  private padLeftData: number[] = [];
+  private padRightData: number[] = [];
   private defaultPadLeft = 0;
   private defaultPadRight = 0;
-
-  constructor() {
-    this.data = [];
-    this.style = BoxStyles.THIN;
-    this.padLeftData = [];
-    this.padRightData = [];
-  }
 
   setData(data: BoxDataType): BoxDrawingBuilder {
     this.data = data;
