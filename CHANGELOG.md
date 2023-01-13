@@ -1,6 +1,8 @@
 # Change Log
 
-## `1.1.0`
+## `1.1.0` 13 Jan 2023
+
+- add BoxDrawingBuilder().padRightAll(spaces[])
 - add BoxDrawingBuilder().padLeftAll(spaces[])
 - refactor into Padding()
 - add BoxDrawingBuilder().pad(column, left_spaces, right_spaces)
