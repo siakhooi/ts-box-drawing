@@ -1,6 +1,7 @@
 # Change Log
 
 ## `1.1.0`
+- add BoxDrawingBuilder().pad(column, left_spaces, right_spaces)
 
 ## `1.0.0` 8 Jan 2023
 

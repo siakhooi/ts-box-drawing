@@ -58,6 +58,15 @@ export class BoxDrawingBuilder {
     this.padRightData[column] = number_of_spaces;
     return this;
   }
+  pad(
+    column: number,
+    number_of_spaces_on_left: number,
+    number_of_spaces_on_right: number
+  ): BoxDrawingBuilder {
+    this.padLeft(column, number_of_spaces_on_left);
+    this.padRight(column, number_of_spaces_on_right);
+    return this;
+  }
 
   private getPadLeft(column: number): number {
     return this.padLeftData[column] === undefined
