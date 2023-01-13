@@ -129,6 +129,7 @@ see [Demo_Builder](Demo_Builder.md)
 - setStyle(boxStyle)
 - padLeft(column, spaces)
 - padRight(column, spaces)
+- padLeftAll(spaces[])
 - pad(column, left_spaces, right_spaces)
 - setDefaultPadLeft(spaces)
 - setDefaultPadRight(spaces)
@@ -153,6 +154,7 @@ new BoxDrawingBuilder()
    .padLeft(0, 5)
    .padRight(1, 2)
    .pad(3, 1, 2)
+   .padLeftAll([1,2,3,4,5])
    .drawBox();
 ```
 

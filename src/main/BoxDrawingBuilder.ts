@@ -50,6 +50,10 @@ export class BoxDrawingBuilder {
     this.paddingRight.setDefault(number_of_spaces);
     return this;
   }
+  padLeftAll(numbers_of_spaces: number[]): BoxDrawingBuilder {
+    this.paddingLeft.padAll(numbers_of_spaces);
+    return this;
+  }
   padLeft(column: number, number_of_spaces: number): BoxDrawingBuilder {
     this.paddingLeft.setPadding(column, number_of_spaces);
     return this;

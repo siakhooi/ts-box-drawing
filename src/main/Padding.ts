@@ -13,4 +13,9 @@ export class Padding {
       ? this.defaultPad
       : this.padByColumn[column];
   }
+  padAll(numbers_of_spaces: number[]) {
+    numbers_of_spaces.forEach((value, index) => {
+      this.setPadding(index, value);
+    });
+  }
 }
