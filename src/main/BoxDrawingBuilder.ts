@@ -1,6 +1,7 @@
 import {BoxStyle} from './BoxStyle';
 import {BoxStyles} from './BoxStyles';
 import {Console} from './Console';
+import {Padding} from './Padding';
 
 type BoxDataType = null | string | string[][];
 
@@ -29,10 +30,9 @@ function convertDataToArray(data: BoxDataType): string[][] {
 export class BoxDrawingBuilder {
   private data: BoxDataType = [];
   private style = BoxStyles.THIN;
-  private padLeftData: number[] = [];
-  private padRightData: number[] = [];
-  private defaultPadLeft = 0;
-  private defaultPadRight = 0;
+
+  private paddingLeft = new Padding();
+  private paddingRight = new Padding();
 
   setData(data: BoxDataType): BoxDrawingBuilder {
     this.data = data;
@@ -43,19 +43,19 @@ export class BoxDrawingBuilder {
     return this;
   }
   setDefaultPadLeft(number_of_spaces: number): BoxDrawingBuilder {
-    this.defaultPadLeft = number_of_spaces;
+    this.paddingLeft.setDefault(number_of_spaces);
     return this;
   }
   setDefaultPadRight(number_of_spaces: number): BoxDrawingBuilder {
-    this.defaultPadRight = number_of_spaces;
+    this.paddingRight.setDefault(number_of_spaces);
     return this;
   }
   padLeft(column: number, number_of_spaces: number): BoxDrawingBuilder {
-    this.padLeftData[column] = number_of_spaces;
+    this.paddingLeft.setPadding(column, number_of_spaces);
     return this;
   }
   padRight(column: number, number_of_spaces: number): BoxDrawingBuilder {
-    this.padRightData[column] = number_of_spaces;
+    this.paddingRight.setPadding(column, number_of_spaces);
     return this;
   }
   pad(
@@ -66,17 +66,6 @@ export class BoxDrawingBuilder {
     this.padLeft(column, number_of_spaces_on_left);
     this.padRight(column, number_of_spaces_on_right);
     return this;
-  }
-
-  private getPadLeft(column: number): number {
-    return this.padLeftData[column] === undefined
-      ? this.defaultPadLeft
-      : this.padLeftData[column];
-  }
-  private getPadRight(column: number): number {
-    return this.padRightData[column] === undefined
-      ? this.defaultPadRight
-      : this.padRightData[column];
   }
   private getHorizontalLines(
     columnCount: number,
@@ -92,8 +81,8 @@ export class BoxDrawingBuilder {
     lineBottom = boxStyle.BOTTOM_LEFT;
 
     for (let i = 0; i < columnCount; i++) {
-      const padLeft = this.getPadLeft(i);
-      const padRight = this.getPadRight(i);
+      const padLeft = this.paddingLeft.getPad(i);
+      const padRight = this.paddingRight.getPad(i);
       const columnWidth = columnWidths[i] + padLeft + padRight;
       lineTop += boxStyle.HORIZONTAL_OUTER.repeat(columnWidth);
       lineMiddle += boxStyle.HORIZONTAL_INNER.repeat(columnWidth);
@@ -119,8 +108,8 @@ export class BoxDrawingBuilder {
     const boxStyle = this.style;
     let s = boxStyle.VERTICAL_OUTER;
     for (let i = 0; i < columnCount; i++) {
-      const padLeft = this.getPadLeft(i);
-      const padRight = this.getPadRight(i);
+      const padLeft = this.paddingLeft.getPad(i);
+      const padRight = this.paddingRight.getPad(i);
       const cellData = rowData[i] === undefined ? '' : rowData[i];
       s += ' '.repeat(padLeft);
       s += cellData.padEnd(columnWidths[i], ' ');
