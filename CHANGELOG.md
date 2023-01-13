@@ -1,5 +1,7 @@
 # Change Log
 
+## `1.1.0`
+
 ## `1.0.0` 8 Jan 2023
 
 - create type for union type - fix sonarcloud code smell
