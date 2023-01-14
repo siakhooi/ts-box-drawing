@@ -63,6 +63,28 @@ npm package to draw box using unicode characters
 [![Generic badge](https://img.shields.io/badge/Funding-Ko%20Fi-33cb56.svg)](https://ko-fi.com/siakhooi)
 ![visitors](https://visitor-badge.glitch.me/badge?page_id=siakhooi.box-drawing&left_color=grey&right_color=#33cb56)
 
+## Locations
+
+### Demo
+
+- <https://replit.com/@siakhooi/siakhooibox-drawing-Demo?v=1>
+
+### Source Code
+
+- <https://github.com/siakhooi/ts-box-drawing>
+
+### Distribution
+
+- <https://www.npmjs.com/package/@siakhooi/box-drawing>
+- <https://github.com/siakhooi/ts-box-drawing/pkgs/npm/box-drawing>
+
+### Code Quality
+
+- <https://sonarcloud.io/project/overview?id=siakhooi_ts-box-drawing>
+- <https://codeclimate.com/github/siakhooi/ts-box-drawing>
+
+### Reference
+
 - <https://en.wikipedia.org/wiki/Box_Drawing>
 - <https://www.unicode.org/charts/PDF/U2500.pdf>
 
@@ -136,11 +158,8 @@ see [Demo_Builder](Demo_Builder.md)
 - setDefaultPadRight(spaces)
 - drawBox()
 
-```
-const {
-  BoxDrawingBuilder,
-  THINCURVE
-} = require('@siakhooi/box-drawing');
+```javascript
+const {BoxDrawingBuilder, THINCURVE} = require('@siakhooi/box-drawing');
 
 const textInArray = [
   ['Cell 1-1', 'Cell 2-1'],
@@ -148,21 +167,14 @@ const textInArray = [
 ];
 
 new BoxDrawingBuilder()
-   .setData(textInArray)
-   .setStyle(THINCURVE)
-   .setDefaultPadLeft(1)
-   .setDefaultPadRight(2)
-   .padLeft(0, 5)
-   .padRight(1, 2)
-   .pad(3, 1, 2)
-   .padLeftAll([1,2,3,4,5])
-   .padRightAll([5,4,3,2,1])
-   .drawBox();
+  .setData(textInArray)
+  .setStyle(THINCURVE)
+  .setDefaultPadLeft(1)
+  .setDefaultPadRight(2)
+  .padLeft(0, 5)
+  .padRight(1, 2)
+  .pad(3, 1, 2)
+  .padLeftAll([1, 2, 3, 4, 5])
+  .padRightAll([5, 4, 3, 2, 1])
+  .drawBox();
 ```
-
-## Locations
-
-- <https://github.com/siakhooi/ts-box-drawing>
-- <https://www.npmjs.com/package/@siakhooi/box-drawing>
-- <https://sonarcloud.io/project/overview?id=siakhooi_ts-box-drawing>
-- <https://codeclimate.com/github/siakhooi/ts-box-drawing>
