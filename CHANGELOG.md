@@ -1,5 +1,9 @@
 # Change Log
 
+## `1.2.0`
+
+- add BoxDrawingBuilder().align(column, HorizontalAlignment)
+
 ## `1.1.0` 13 Jan 2023
 
 - add BoxDrawingBuilder().padRightAll(spaces[])

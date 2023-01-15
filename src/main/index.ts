@@ -5,6 +5,8 @@ import {BoxStyles} from './BoxStyles';
 export {BoxDrawingBuilder} from './BoxDrawingBuilder';
 export {BoxStyles} from './BoxStyles';
 
+export {HorizontalAlignmentEnum} from './HorizontalAlignmentEnum';
+
 function drawBox(boxStyle: BoxStyle, data: string | string[][]) {
   new BoxDrawingBuilder().setData(data).setStyle(boxStyle).drawBox();
 }

@@ -2,6 +2,8 @@ import {BoxStyle} from './BoxStyle';
 import {BoxStyles} from './BoxStyles';
 import {Console} from './Console';
 import {Padding} from './Padding';
+import {HorizontalAlignmentEnum} from './HorizontalAlignmentEnum';
+import {HorizontalAlignment} from './HorizontalAlignment';
 
 type BoxDataType = null | string | string[][];
 
@@ -33,6 +35,7 @@ export class BoxDrawingBuilder {
 
   private paddingLeft = new Padding();
   private paddingRight = new Padding();
+  private horizontalAlignment = new HorizontalAlignment();
 
   setData(data: BoxDataType): BoxDrawingBuilder {
     this.data = data;
@@ -73,6 +76,10 @@ export class BoxDrawingBuilder {
   ): BoxDrawingBuilder {
     this.padLeft(column, number_of_spaces_on_left);
     this.padRight(column, number_of_spaces_on_right);
+    return this;
+  }
+  align(column: number, alignment: HorizontalAlignmentEnum) {
+    this.horizontalAlignment.setAlign(column, alignment);
     return this;
   }
   private getHorizontalLines(
@@ -120,7 +127,8 @@ export class BoxDrawingBuilder {
       const padRight = this.paddingRight.getPad(i);
       const cellData = rowData[i] === undefined ? '' : rowData[i];
       s += ' '.repeat(padLeft);
-      s += cellData.padEnd(columnWidths[i], ' ');
+      s += this.horizontalAlignment.getLine(i, cellData, columnWidths[i]);
+      //s += cellData.padEnd(columnWidths[i], ' ');
       s += ' '.repeat(padRight);
       if (i < columnCount - 1) s += boxStyle.VERTICAL_INNER;
     }

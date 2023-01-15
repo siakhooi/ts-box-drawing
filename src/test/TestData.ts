@@ -1,5 +1,6 @@
 import {BoxStyle} from '../main/BoxStyle';
 import {
+  BoxStyles,
   drawBoxDouble,
   drawBoxHorizontalDoubleVerticalThin,
   drawBoxHorizontalThickVerticalThin,
@@ -14,7 +15,6 @@ import {
   drawBoxThick,
   drawBoxThin,
   drawBoxThinCurve,
-  BoxStyles,
 } from '../main/index';
 
 export const SIMPLE_TEST_DATA = ['A', '', 'Hello World', null];
@@ -52,6 +52,16 @@ export const PAD_TEST_DATA: TestDataUnit[] = [
     data: [
       ['Cell 1-1', 'Cell 2-1'],
       ['Cell 1-2', 'Cell 2-2'],
+    ],
+  },
+];
+export const ALIGN_TEST_DATA: TestDataUnit[] = [
+  {
+    title: 'Simple 2x2',
+    data: [
+      ['Column 1', 'Column 2', 'Column 3A', 'Column 4'],
+      ['Left', 'Ctr', 'Ctr', 'Right'],
+      ['Left 1', 'Ctr2', 'Ctr3', 'Right 4'],
     ],
   },
 ];

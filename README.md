@@ -147,16 +147,20 @@ x.drawBoxInnerThickOuterThinCurve(textInArray);
 
 see [Demo_Builder](Demo_Builder.md)
 
-- setData(data)
-- setStyle(boxStyle)
-- padLeft(column, spaces)
-- padRight(column, spaces)
-- padLeftAll(spaces[])
-- padRightAll(spaces[])
-- pad(column, left_spaces, right_spaces)
-- setDefaultPadLeft(spaces)
-- setDefaultPadRight(spaces)
-- drawBox()
+- Basic
+  - setData(data)
+  - setStyle(boxStyle)
+  - drawBox()
+- Padding
+  - padLeft(column, spaces)
+  - padRight(column, spaces)
+  - padLeftAll(spaces[])
+  - padRightAll(spaces[])
+  - pad(column, left_spaces, right_spaces)
+  - setDefaultPadLeft(spaces)
+  - setDefaultPadRight(spaces)
+- Horizontal Alignment
+  - align(column, HorizontalAlignmentEnum)
 
 #### Basic
 
@@ -191,5 +195,23 @@ new BoxDrawingBuilder()
   .pad(3, 1, 2)
   .padLeftAll([1, 2, 3, 4, 5])
   .padRightAll([5, 4, 3, 2, 1])
+  .drawBox();
+```
+
+#### Horizontal Alignment
+
+```javascript
+const {BoxDrawingBuilder, THINCURVE} = require('@siakhooi/box-drawing');
+
+const textInArray = [
+  ['Cell 1-1', 'Cell 2-1'],
+  ['Cell 1-2', 'Cell 2-2'],
+];
+
+new BoxDrawingBuilder()
+  .setData(textInArray)
+  .setStyle(THINCURVE)
+  .align(0, HorizontalAlignmentEnum.LEFT)
+  .align(1, HorizontalAlignmentEnum.RIGHT)
   .drawBox();
 ```
