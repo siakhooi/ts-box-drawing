@@ -158,6 +158,21 @@ see [Demo_Builder](Demo_Builder.md)
 - setDefaultPadRight(spaces)
 - drawBox()
 
+#### Basic
+
+```javascript
+const {BoxDrawingBuilder, THINCURVE} = require('@siakhooi/box-drawing');
+
+const textInArray = [
+  ['Cell 1-1', 'Cell 2-1'],
+  ['Cell 1-2', 'Cell 2-2'],
+];
+
+new BoxDrawingBuilder().setData(textInArray).setStyle(THINCURVE).drawBox();
+```
+
+#### Padding
+
 ```javascript
 const {BoxDrawingBuilder, THINCURVE} = require('@siakhooi/box-drawing');
 
