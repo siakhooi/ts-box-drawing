@@ -1,9 +1,9 @@
 import {BoxStyle} from './BoxStyle';
 import {BoxStyles} from './BoxStyles';
 import {Console} from './Console';
-import {Padding} from './Padding';
-import {HorizontalAlignmentEnum} from './HorizontalAlignmentEnum';
 import {HorizontalAlignment} from './HorizontalAlignment';
+import {HorizontalAlignmentEnum} from './HorizontalAlignmentEnum';
+import {Padding} from './Padding';
 
 type BoxDataType = null | string | string[][];
 
@@ -51,6 +51,14 @@ export class BoxDrawingBuilder {
   }
   setDefaultPadRight(number_of_spaces: number): BoxDrawingBuilder {
     this.paddingRight.setDefault(number_of_spaces);
+    return this;
+  }
+  setDefaultPad(
+    number_of_spaces_on_left: number,
+    number_of_spaces_on_right: number
+  ): BoxDrawingBuilder {
+    this.setDefaultPadLeft(number_of_spaces_on_left);
+    this.setDefaultPadRight(number_of_spaces_on_right);
     return this;
   }
   padLeftAll(numbers_of_spaces: number[]): BoxDrawingBuilder {

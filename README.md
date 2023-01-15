@@ -159,6 +159,7 @@ see [Demo_Builder](Demo_Builder.md)
   - pad(column, left_spaces, right_spaces)
   - setDefaultPadLeft(spaces)
   - setDefaultPadRight(spaces)
+  - setDefaultPad(left_spaces, right_spaces)
 - Horizontal Alignment
   - align(column, HorizontalAlignmentEnum)
 

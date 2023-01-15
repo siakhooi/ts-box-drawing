@@ -3,6 +3,7 @@
 ## `1.2.0`
 
 - add BoxDrawingBuilder().align(column, HorizontalAlignment)
+- add BoxDrawingBuilder().setDefaultPad(left_spaces, right_spaces)
 
 ## `1.1.0` 13 Jan 2023
 
