@@ -86,8 +86,12 @@ export class BoxDrawingBuilder {
     this.padRight(column, number_of_spaces_on_right);
     return this;
   }
-  align(column: number, alignment: HorizontalAlignmentEnum) {
+  align(column: number, alignment: HorizontalAlignmentEnum): BoxDrawingBuilder {
     this.horizontalAlignment.setAlign(column, alignment);
+    return this;
+  }
+  alignLeft(columns: number[]): BoxDrawingBuilder {
+    this.horizontalAlignment.alignAll(HorizontalAlignmentEnum.LEFT, columns);
     return this;
   }
   private getHorizontalLines(
@@ -136,7 +140,6 @@ export class BoxDrawingBuilder {
       const cellData = rowData[i] === undefined ? '' : rowData[i];
       s += ' '.repeat(padLeft);
       s += this.horizontalAlignment.getLine(i, cellData, columnWidths[i]);
-      //s += cellData.padEnd(columnWidths[i], ' ');
       s += ' '.repeat(padRight);
       if (i < columnCount - 1) s += boxStyle.VERTICAL_INNER;
     }
