@@ -206,7 +206,11 @@ new BoxDrawingBuilder()
 #### Horizontal Alignment
 
 ```javascript
-const {BoxDrawingBuilder, THINCURVE} = require('@siakhooi/box-drawing');
+const {
+  BoxDrawingBuilder,
+  THINCURVE,
+  HorizontalAlignmentEnum,
+} = require('@siakhooi/box-drawing');
 
 const textInArray = [
   ['Cell 1-1', 'Cell 2-1'],
