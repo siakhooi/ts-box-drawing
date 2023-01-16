@@ -164,6 +164,7 @@ see [Demo_Builder](Demo_Builder.md)
   - align(column, HorizontalAlignmentEnum)
   - alignLeft(columns[])
   - alignRight(columns[])
+  - alignCenter(columns[])
 
 #### Basic
 

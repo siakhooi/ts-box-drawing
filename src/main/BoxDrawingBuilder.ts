@@ -98,6 +98,10 @@ export class BoxDrawingBuilder {
     this.horizontalAlignment.alignAll(HorizontalAlignmentEnum.RIGHT, columns);
     return this;
   }
+  alignCenter(columns: number[]): BoxDrawingBuilder {
+    this.horizontalAlignment.alignAll(HorizontalAlignmentEnum.CENTER, columns);
+    return this;
+  }
   private getHorizontalLines(
     columnCount: number,
     columnWidths: number[]
