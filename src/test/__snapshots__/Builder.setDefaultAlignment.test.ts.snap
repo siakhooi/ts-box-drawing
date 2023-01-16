@@ -1,0 +1,505 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`setDefaultAlignment() Center DOUBLE [Simple 2x2] 1`] = `
+[
+  "╔════════╦════════╦═════════╦════════╗",
+  "║Column 1║Column 2║Column 3A║Column 4║",
+  "╠════════╬════════╬═════════╬════════╣",
+  "║  Left  ║  Ctr   ║   Ctr   ║ Right  ║",
+  "╠════════╬════════╬═════════╬════════╣",
+  "║ Left 1 ║  Ctr2  ║  Ctr3   ║Right 4 ║",
+  "╚════════╩════════╩═════════╩════════╝",
+]
+`;
+
+exports[`setDefaultAlignment() Center HORIZONTAL_DOUBLE_VERTICAL_THIN [Simple 2x2] 1`] = `
+[
+  "╒════════╤════════╤═════════╤════════╕",
+  "│Column 1│Column 2│Column 3A│Column 4│",
+  "╞════════╪════════╪═════════╪════════╡",
+  "│  Left  │  Ctr   │   Ctr   │ Right  │",
+  "╞════════╪════════╪═════════╪════════╡",
+  "│ Left 1 │  Ctr2  │  Ctr3   │Right 4 │",
+  "╘════════╧════════╧═════════╧════════╛",
+]
+`;
+
+exports[`setDefaultAlignment() Center HORIZONTAL_THICK_VERTICAL_THIN [Simple 2x2] 1`] = `
+[
+  "┍━━━━━━━━┯━━━━━━━━┯━━━━━━━━━┯━━━━━━━━┑",
+  "│Column 1│Column 2│Column 3A│Column 4│",
+  "┝━━━━━━━━┿━━━━━━━━┿━━━━━━━━━┿━━━━━━━━┥",
+  "│  Left  │  Ctr   │   Ctr   │ Right  │",
+  "┝━━━━━━━━┿━━━━━━━━┿━━━━━━━━━┿━━━━━━━━┥",
+  "│ Left 1 │  Ctr2  │  Ctr3   │Right 4 │",
+  "┕━━━━━━━━┷━━━━━━━━┷━━━━━━━━━┷━━━━━━━━┙",
+]
+`;
+
+exports[`setDefaultAlignment() Center HORIZONTAL_THIN_VERTICAL_DOUBLE [Simple 2x2] 1`] = `
+[
+  "╓────────╥────────╥─────────╥────────╖",
+  "║Column 1║Column 2║Column 3A║Column 4║",
+  "╟────────╫────────╫─────────╫────────╢",
+  "║  Left  ║  Ctr   ║   Ctr   ║ Right  ║",
+  "╟────────╫────────╫─────────╫────────╢",
+  "║ Left 1 ║  Ctr2  ║  Ctr3   ║Right 4 ║",
+  "╙────────╨────────╨─────────╨────────╜",
+]
+`;
+
+exports[`setDefaultAlignment() Center HORIZONTAL_THIN_VERTICAL_THICK [Simple 2x2] 1`] = `
+[
+  "┎────────┰────────┰─────────┰────────┒",
+  "┃Column 1┃Column 2┃Column 3A┃Column 4┃",
+  "┠────────╂────────╂─────────╂────────┨",
+  "┃  Left  ┃  Ctr   ┃   Ctr   ┃ Right  ┃",
+  "┠────────╂────────╂─────────╂────────┨",
+  "┃ Left 1 ┃  Ctr2  ┃  Ctr3   ┃Right 4 ┃",
+  "┖────────┸────────┸─────────┸────────┚",
+]
+`;
+
+exports[`setDefaultAlignment() Center INNER_DOUBLE_OUTER_THIN [Simple 2x2] 1`] = `
+[
+  "┌────────╥────────╥─────────╥────────┐",
+  "│Column 1║Column 2║Column 3A║Column 4│",
+  "╞════════╬════════╬═════════╬════════╡",
+  "│  Left  ║  Ctr   ║   Ctr   ║ Right  │",
+  "╞════════╬════════╬═════════╬════════╡",
+  "│ Left 1 ║  Ctr2  ║  Ctr3   ║Right 4 │",
+  "└────────╨────────╨─────────╨────────┘",
+]
+`;
+
+exports[`setDefaultAlignment() Center INNER_DOUBLE_OUTER_THIN_CURVE [Simple 2x2] 1`] = `
+[
+  "╭────────╥────────╥─────────╥────────╮",
+  "│Column 1║Column 2║Column 3A║Column 4│",
+  "╞════════╬════════╬═════════╬════════╡",
+  "│  Left  ║  Ctr   ║   Ctr   ║ Right  │",
+  "╞════════╬════════╬═════════╬════════╡",
+  "│ Left 1 ║  Ctr2  ║  Ctr3   ║Right 4 │",
+  "╰────────╨────────╨─────────╨────────╯",
+]
+`;
+
+exports[`setDefaultAlignment() Center INNER_THICK_OUTER_THIN [Simple 2x2] 1`] = `
+[
+  "┌────────┰────────┰─────────┰────────┐",
+  "│Column 1┃Column 2┃Column 3A┃Column 4│",
+  "┝━━━━━━━━╋━━━━━━━━╋━━━━━━━━━╋━━━━━━━━┥",
+  "│  Left  ┃  Ctr   ┃   Ctr   ┃ Right  │",
+  "┝━━━━━━━━╋━━━━━━━━╋━━━━━━━━━╋━━━━━━━━┥",
+  "│ Left 1 ┃  Ctr2  ┃  Ctr3   ┃Right 4 │",
+  "└────────┸────────┸─────────┸────────┘",
+]
+`;
+
+exports[`setDefaultAlignment() Center INNER_THICK_OUTER_THIN_CURVE [Simple 2x2] 1`] = `
+[
+  "╭────────┰────────┰─────────┰────────╮",
+  "│Column 1┃Column 2┃Column 3A┃Column 4│",
+  "┝━━━━━━━━╋━━━━━━━━╋━━━━━━━━━╋━━━━━━━━┥",
+  "│  Left  ┃  Ctr   ┃   Ctr   ┃ Right  │",
+  "┝━━━━━━━━╋━━━━━━━━╋━━━━━━━━━╋━━━━━━━━┥",
+  "│ Left 1 ┃  Ctr2  ┃  Ctr3   ┃Right 4 │",
+  "╰────────┸────────┸─────────┸────────╯",
+]
+`;
+
+exports[`setDefaultAlignment() Center INNER_THIN_OUTER_DOUBLE [Simple 2x2] 1`] = `
+[
+  "╔════════╤════════╤═════════╤════════╗",
+  "║Column 1│Column 2│Column 3A│Column 4║",
+  "╟────────┼────────┼─────────┼────────╢",
+  "║  Left  │  Ctr   │   Ctr   │ Right  ║",
+  "╟────────┼────────┼─────────┼────────╢",
+  "║ Left 1 │  Ctr2  │  Ctr3   │Right 4 ║",
+  "╚════════╧════════╧═════════╧════════╝",
+]
+`;
+
+exports[`setDefaultAlignment() Center INNER_THIN_OUTER_THICK [Simple 2x2] 1`] = `
+[
+  "┏━━━━━━━━┯━━━━━━━━┯━━━━━━━━━┯━━━━━━━━┓",
+  "┃Column 1│Column 2│Column 3A│Column 4┃",
+  "┠────────┼────────┼─────────┼────────┨",
+  "┃  Left  │  Ctr   │   Ctr   │ Right  ┃",
+  "┠────────┼────────┼─────────┼────────┨",
+  "┃ Left 1 │  Ctr2  │  Ctr3   │Right 4 ┃",
+  "┗━━━━━━━━┷━━━━━━━━┷━━━━━━━━━┷━━━━━━━━┛",
+]
+`;
+
+exports[`setDefaultAlignment() Center THICK [Simple 2x2] 1`] = `
+[
+  "┏━━━━━━━━┳━━━━━━━━┳━━━━━━━━━┳━━━━━━━━┓",
+  "┃Column 1┃Column 2┃Column 3A┃Column 4┃",
+  "┣━━━━━━━━╋━━━━━━━━╋━━━━━━━━━╋━━━━━━━━┫",
+  "┃  Left  ┃  Ctr   ┃   Ctr   ┃ Right  ┃",
+  "┣━━━━━━━━╋━━━━━━━━╋━━━━━━━━━╋━━━━━━━━┫",
+  "┃ Left 1 ┃  Ctr2  ┃  Ctr3   ┃Right 4 ┃",
+  "┗━━━━━━━━┻━━━━━━━━┻━━━━━━━━━┻━━━━━━━━┛",
+]
+`;
+
+exports[`setDefaultAlignment() Center THIN [Simple 2x2] 1`] = `
+[
+  "┌────────┬────────┬─────────┬────────┐",
+  "│Column 1│Column 2│Column 3A│Column 4│",
+  "├────────┼────────┼─────────┼────────┤",
+  "│  Left  │  Ctr   │   Ctr   │ Right  │",
+  "├────────┼────────┼─────────┼────────┤",
+  "│ Left 1 │  Ctr2  │  Ctr3   │Right 4 │",
+  "└────────┴────────┴─────────┴────────┘",
+]
+`;
+
+exports[`setDefaultAlignment() Center THINCURVE [Simple 2x2] 1`] = `
+[
+  "╭────────┬────────┬─────────┬────────╮",
+  "│Column 1│Column 2│Column 3A│Column 4│",
+  "├────────┼────────┼─────────┼────────┤",
+  "│  Left  │  Ctr   │   Ctr   │ Right  │",
+  "├────────┼────────┼─────────┼────────┤",
+  "│ Left 1 │  Ctr2  │  Ctr3   │Right 4 │",
+  "╰────────┴────────┴─────────┴────────╯",
+]
+`;
+
+exports[`setDefaultAlignment() Left DOUBLE [Simple 2x2] 1`] = `
+[
+  "╔════════╦════════╦═════════╦════════╗",
+  "║Column 1║Column 2║Column 3A║Column 4║",
+  "╠════════╬════════╬═════════╬════════╣",
+  "║Left    ║Ctr     ║Ctr      ║Right   ║",
+  "╠════════╬════════╬═════════╬════════╣",
+  "║Left 1  ║Ctr2    ║Ctr3     ║Right 4 ║",
+  "╚════════╩════════╩═════════╩════════╝",
+]
+`;
+
+exports[`setDefaultAlignment() Left HORIZONTAL_DOUBLE_VERTICAL_THIN [Simple 2x2] 1`] = `
+[
+  "╒════════╤════════╤═════════╤════════╕",
+  "│Column 1│Column 2│Column 3A│Column 4│",
+  "╞════════╪════════╪═════════╪════════╡",
+  "│Left    │Ctr     │Ctr      │Right   │",
+  "╞════════╪════════╪═════════╪════════╡",
+  "│Left 1  │Ctr2    │Ctr3     │Right 4 │",
+  "╘════════╧════════╧═════════╧════════╛",
+]
+`;
+
+exports[`setDefaultAlignment() Left HORIZONTAL_THICK_VERTICAL_THIN [Simple 2x2] 1`] = `
+[
+  "┍━━━━━━━━┯━━━━━━━━┯━━━━━━━━━┯━━━━━━━━┑",
+  "│Column 1│Column 2│Column 3A│Column 4│",
+  "┝━━━━━━━━┿━━━━━━━━┿━━━━━━━━━┿━━━━━━━━┥",
+  "│Left    │Ctr     │Ctr      │Right   │",
+  "┝━━━━━━━━┿━━━━━━━━┿━━━━━━━━━┿━━━━━━━━┥",
+  "│Left 1  │Ctr2    │Ctr3     │Right 4 │",
+  "┕━━━━━━━━┷━━━━━━━━┷━━━━━━━━━┷━━━━━━━━┙",
+]
+`;
+
+exports[`setDefaultAlignment() Left HORIZONTAL_THIN_VERTICAL_DOUBLE [Simple 2x2] 1`] = `
+[
+  "╓────────╥────────╥─────────╥────────╖",
+  "║Column 1║Column 2║Column 3A║Column 4║",
+  "╟────────╫────────╫─────────╫────────╢",
+  "║Left    ║Ctr     ║Ctr      ║Right   ║",
+  "╟────────╫────────╫─────────╫────────╢",
+  "║Left 1  ║Ctr2    ║Ctr3     ║Right 4 ║",
+  "╙────────╨────────╨─────────╨────────╜",
+]
+`;
+
+exports[`setDefaultAlignment() Left HORIZONTAL_THIN_VERTICAL_THICK [Simple 2x2] 1`] = `
+[
+  "┎────────┰────────┰─────────┰────────┒",
+  "┃Column 1┃Column 2┃Column 3A┃Column 4┃",
+  "┠────────╂────────╂─────────╂────────┨",
+  "┃Left    ┃Ctr     ┃Ctr      ┃Right   ┃",
+  "┠────────╂────────╂─────────╂────────┨",
+  "┃Left 1  ┃Ctr2    ┃Ctr3     ┃Right 4 ┃",
+  "┖────────┸────────┸─────────┸────────┚",
+]
+`;
+
+exports[`setDefaultAlignment() Left INNER_DOUBLE_OUTER_THIN [Simple 2x2] 1`] = `
+[
+  "┌────────╥────────╥─────────╥────────┐",
+  "│Column 1║Column 2║Column 3A║Column 4│",
+  "╞════════╬════════╬═════════╬════════╡",
+  "│Left    ║Ctr     ║Ctr      ║Right   │",
+  "╞════════╬════════╬═════════╬════════╡",
+  "│Left 1  ║Ctr2    ║Ctr3     ║Right 4 │",
+  "└────────╨────────╨─────────╨────────┘",
+]
+`;
+
+exports[`setDefaultAlignment() Left INNER_DOUBLE_OUTER_THIN_CURVE [Simple 2x2] 1`] = `
+[
+  "╭────────╥────────╥─────────╥────────╮",
+  "│Column 1║Column 2║Column 3A║Column 4│",
+  "╞════════╬════════╬═════════╬════════╡",
+  "│Left    ║Ctr     ║Ctr      ║Right   │",
+  "╞════════╬════════╬═════════╬════════╡",
+  "│Left 1  ║Ctr2    ║Ctr3     ║Right 4 │",
+  "╰────────╨────────╨─────────╨────────╯",
+]
+`;
+
+exports[`setDefaultAlignment() Left INNER_THICK_OUTER_THIN [Simple 2x2] 1`] = `
+[
+  "┌────────┰────────┰─────────┰────────┐",
+  "│Column 1┃Column 2┃Column 3A┃Column 4│",
+  "┝━━━━━━━━╋━━━━━━━━╋━━━━━━━━━╋━━━━━━━━┥",
+  "│Left    ┃Ctr     ┃Ctr      ┃Right   │",
+  "┝━━━━━━━━╋━━━━━━━━╋━━━━━━━━━╋━━━━━━━━┥",
+  "│Left 1  ┃Ctr2    ┃Ctr3     ┃Right 4 │",
+  "└────────┸────────┸─────────┸────────┘",
+]
+`;
+
+exports[`setDefaultAlignment() Left INNER_THICK_OUTER_THIN_CURVE [Simple 2x2] 1`] = `
+[
+  "╭────────┰────────┰─────────┰────────╮",
+  "│Column 1┃Column 2┃Column 3A┃Column 4│",
+  "┝━━━━━━━━╋━━━━━━━━╋━━━━━━━━━╋━━━━━━━━┥",
+  "│Left    ┃Ctr     ┃Ctr      ┃Right   │",
+  "┝━━━━━━━━╋━━━━━━━━╋━━━━━━━━━╋━━━━━━━━┥",
+  "│Left 1  ┃Ctr2    ┃Ctr3     ┃Right 4 │",
+  "╰────────┸────────┸─────────┸────────╯",
+]
+`;
+
+exports[`setDefaultAlignment() Left INNER_THIN_OUTER_DOUBLE [Simple 2x2] 1`] = `
+[
+  "╔════════╤════════╤═════════╤════════╗",
+  "║Column 1│Column 2│Column 3A│Column 4║",
+  "╟────────┼────────┼─────────┼────────╢",
+  "║Left    │Ctr     │Ctr      │Right   ║",
+  "╟────────┼────────┼─────────┼────────╢",
+  "║Left 1  │Ctr2    │Ctr3     │Right 4 ║",
+  "╚════════╧════════╧═════════╧════════╝",
+]
+`;
+
+exports[`setDefaultAlignment() Left INNER_THIN_OUTER_THICK [Simple 2x2] 1`] = `
+[
+  "┏━━━━━━━━┯━━━━━━━━┯━━━━━━━━━┯━━━━━━━━┓",
+  "┃Column 1│Column 2│Column 3A│Column 4┃",
+  "┠────────┼────────┼─────────┼────────┨",
+  "┃Left    │Ctr     │Ctr      │Right   ┃",
+  "┠────────┼────────┼─────────┼────────┨",
+  "┃Left 1  │Ctr2    │Ctr3     │Right 4 ┃",
+  "┗━━━━━━━━┷━━━━━━━━┷━━━━━━━━━┷━━━━━━━━┛",
+]
+`;
+
+exports[`setDefaultAlignment() Left THICK [Simple 2x2] 1`] = `
+[
+  "┏━━━━━━━━┳━━━━━━━━┳━━━━━━━━━┳━━━━━━━━┓",
+  "┃Column 1┃Column 2┃Column 3A┃Column 4┃",
+  "┣━━━━━━━━╋━━━━━━━━╋━━━━━━━━━╋━━━━━━━━┫",
+  "┃Left    ┃Ctr     ┃Ctr      ┃Right   ┃",
+  "┣━━━━━━━━╋━━━━━━━━╋━━━━━━━━━╋━━━━━━━━┫",
+  "┃Left 1  ┃Ctr2    ┃Ctr3     ┃Right 4 ┃",
+  "┗━━━━━━━━┻━━━━━━━━┻━━━━━━━━━┻━━━━━━━━┛",
+]
+`;
+
+exports[`setDefaultAlignment() Left THIN [Simple 2x2] 1`] = `
+[
+  "┌────────┬────────┬─────────┬────────┐",
+  "│Column 1│Column 2│Column 3A│Column 4│",
+  "├────────┼────────┼─────────┼────────┤",
+  "│Left    │Ctr     │Ctr      │Right   │",
+  "├────────┼────────┼─────────┼────────┤",
+  "│Left 1  │Ctr2    │Ctr3     │Right 4 │",
+  "└────────┴────────┴─────────┴────────┘",
+]
+`;
+
+exports[`setDefaultAlignment() Left THINCURVE [Simple 2x2] 1`] = `
+[
+  "╭────────┬────────┬─────────┬────────╮",
+  "│Column 1│Column 2│Column 3A│Column 4│",
+  "├────────┼────────┼─────────┼────────┤",
+  "│Left    │Ctr     │Ctr      │Right   │",
+  "├────────┼────────┼─────────┼────────┤",
+  "│Left 1  │Ctr2    │Ctr3     │Right 4 │",
+  "╰────────┴────────┴─────────┴────────╯",
+]
+`;
+
+exports[`setDefaultAlignment() Right DOUBLE [Simple 2x2] 1`] = `
+[
+  "╔════════╦════════╦═════════╦════════╗",
+  "║Column 1║Column 2║Column 3A║Column 4║",
+  "╠════════╬════════╬═════════╬════════╣",
+  "║    Left║     Ctr║      Ctr║   Right║",
+  "╠════════╬════════╬═════════╬════════╣",
+  "║  Left 1║    Ctr2║     Ctr3║ Right 4║",
+  "╚════════╩════════╩═════════╩════════╝",
+]
+`;
+
+exports[`setDefaultAlignment() Right HORIZONTAL_DOUBLE_VERTICAL_THIN [Simple 2x2] 1`] = `
+[
+  "╒════════╤════════╤═════════╤════════╕",
+  "│Column 1│Column 2│Column 3A│Column 4│",
+  "╞════════╪════════╪═════════╪════════╡",
+  "│    Left│     Ctr│      Ctr│   Right│",
+  "╞════════╪════════╪═════════╪════════╡",
+  "│  Left 1│    Ctr2│     Ctr3│ Right 4│",
+  "╘════════╧════════╧═════════╧════════╛",
+]
+`;
+
+exports[`setDefaultAlignment() Right HORIZONTAL_THICK_VERTICAL_THIN [Simple 2x2] 1`] = `
+[
+  "┍━━━━━━━━┯━━━━━━━━┯━━━━━━━━━┯━━━━━━━━┑",
+  "│Column 1│Column 2│Column 3A│Column 4│",
+  "┝━━━━━━━━┿━━━━━━━━┿━━━━━━━━━┿━━━━━━━━┥",
+  "│    Left│     Ctr│      Ctr│   Right│",
+  "┝━━━━━━━━┿━━━━━━━━┿━━━━━━━━━┿━━━━━━━━┥",
+  "│  Left 1│    Ctr2│     Ctr3│ Right 4│",
+  "┕━━━━━━━━┷━━━━━━━━┷━━━━━━━━━┷━━━━━━━━┙",
+]
+`;
+
+exports[`setDefaultAlignment() Right HORIZONTAL_THIN_VERTICAL_DOUBLE [Simple 2x2] 1`] = `
+[
+  "╓────────╥────────╥─────────╥────────╖",
+  "║Column 1║Column 2║Column 3A║Column 4║",
+  "╟────────╫────────╫─────────╫────────╢",
+  "║    Left║     Ctr║      Ctr║   Right║",
+  "╟────────╫────────╫─────────╫────────╢",
+  "║  Left 1║    Ctr2║     Ctr3║ Right 4║",
+  "╙────────╨────────╨─────────╨────────╜",
+]
+`;
+
+exports[`setDefaultAlignment() Right HORIZONTAL_THIN_VERTICAL_THICK [Simple 2x2] 1`] = `
+[
+  "┎────────┰────────┰─────────┰────────┒",
+  "┃Column 1┃Column 2┃Column 3A┃Column 4┃",
+  "┠────────╂────────╂─────────╂────────┨",
+  "┃    Left┃     Ctr┃      Ctr┃   Right┃",
+  "┠────────╂────────╂─────────╂────────┨",
+  "┃  Left 1┃    Ctr2┃     Ctr3┃ Right 4┃",
+  "┖────────┸────────┸─────────┸────────┚",
+]
+`;
+
+exports[`setDefaultAlignment() Right INNER_DOUBLE_OUTER_THIN [Simple 2x2] 1`] = `
+[
+  "┌────────╥────────╥─────────╥────────┐",
+  "│Column 1║Column 2║Column 3A║Column 4│",
+  "╞════════╬════════╬═════════╬════════╡",
+  "│    Left║     Ctr║      Ctr║   Right│",
+  "╞════════╬════════╬═════════╬════════╡",
+  "│  Left 1║    Ctr2║     Ctr3║ Right 4│",
+  "└────────╨────────╨─────────╨────────┘",
+]
+`;
+
+exports[`setDefaultAlignment() Right INNER_DOUBLE_OUTER_THIN_CURVE [Simple 2x2] 1`] = `
+[
+  "╭────────╥────────╥─────────╥────────╮",
+  "│Column 1║Column 2║Column 3A║Column 4│",
+  "╞════════╬════════╬═════════╬════════╡",
+  "│    Left║     Ctr║      Ctr║   Right│",
+  "╞════════╬════════╬═════════╬════════╡",
+  "│  Left 1║    Ctr2║     Ctr3║ Right 4│",
+  "╰────────╨────────╨─────────╨────────╯",
+]
+`;
+
+exports[`setDefaultAlignment() Right INNER_THICK_OUTER_THIN [Simple 2x2] 1`] = `
+[
+  "┌────────┰────────┰─────────┰────────┐",
+  "│Column 1┃Column 2┃Column 3A┃Column 4│",
+  "┝━━━━━━━━╋━━━━━━━━╋━━━━━━━━━╋━━━━━━━━┥",
+  "│    Left┃     Ctr┃      Ctr┃   Right│",
+  "┝━━━━━━━━╋━━━━━━━━╋━━━━━━━━━╋━━━━━━━━┥",
+  "│  Left 1┃    Ctr2┃     Ctr3┃ Right 4│",
+  "└────────┸────────┸─────────┸────────┘",
+]
+`;
+
+exports[`setDefaultAlignment() Right INNER_THICK_OUTER_THIN_CURVE [Simple 2x2] 1`] = `
+[
+  "╭────────┰────────┰─────────┰────────╮",
+  "│Column 1┃Column 2┃Column 3A┃Column 4│",
+  "┝━━━━━━━━╋━━━━━━━━╋━━━━━━━━━╋━━━━━━━━┥",
+  "│    Left┃     Ctr┃      Ctr┃   Right│",
+  "┝━━━━━━━━╋━━━━━━━━╋━━━━━━━━━╋━━━━━━━━┥",
+  "│  Left 1┃    Ctr2┃     Ctr3┃ Right 4│",
+  "╰────────┸────────┸─────────┸────────╯",
+]
+`;
+
+exports[`setDefaultAlignment() Right INNER_THIN_OUTER_DOUBLE [Simple 2x2] 1`] = `
+[
+  "╔════════╤════════╤═════════╤════════╗",
+  "║Column 1│Column 2│Column 3A│Column 4║",
+  "╟────────┼────────┼─────────┼────────╢",
+  "║    Left│     Ctr│      Ctr│   Right║",
+  "╟────────┼────────┼─────────┼────────╢",
+  "║  Left 1│    Ctr2│     Ctr3│ Right 4║",
+  "╚════════╧════════╧═════════╧════════╝",
+]
+`;
+
+exports[`setDefaultAlignment() Right INNER_THIN_OUTER_THICK [Simple 2x2] 1`] = `
+[
+  "┏━━━━━━━━┯━━━━━━━━┯━━━━━━━━━┯━━━━━━━━┓",
+  "┃Column 1│Column 2│Column 3A│Column 4┃",
+  "┠────────┼────────┼─────────┼────────┨",
+  "┃    Left│     Ctr│      Ctr│   Right┃",
+  "┠────────┼────────┼─────────┼────────┨",
+  "┃  Left 1│    Ctr2│     Ctr3│ Right 4┃",
+  "┗━━━━━━━━┷━━━━━━━━┷━━━━━━━━━┷━━━━━━━━┛",
+]
+`;
+
+exports[`setDefaultAlignment() Right THICK [Simple 2x2] 1`] = `
+[
+  "┏━━━━━━━━┳━━━━━━━━┳━━━━━━━━━┳━━━━━━━━┓",
+  "┃Column 1┃Column 2┃Column 3A┃Column 4┃",
+  "┣━━━━━━━━╋━━━━━━━━╋━━━━━━━━━╋━━━━━━━━┫",
+  "┃    Left┃     Ctr┃      Ctr┃   Right┃",
+  "┣━━━━━━━━╋━━━━━━━━╋━━━━━━━━━╋━━━━━━━━┫",
+  "┃  Left 1┃    Ctr2┃     Ctr3┃ Right 4┃",
+  "┗━━━━━━━━┻━━━━━━━━┻━━━━━━━━━┻━━━━━━━━┛",
+]
+`;
+
+exports[`setDefaultAlignment() Right THIN [Simple 2x2] 1`] = `
+[
+  "┌────────┬────────┬─────────┬────────┐",
+  "│Column 1│Column 2│Column 3A│Column 4│",
+  "├────────┼────────┼─────────┼────────┤",
+  "│    Left│     Ctr│      Ctr│   Right│",
+  "├────────┼────────┼─────────┼────────┤",
+  "│  Left 1│    Ctr2│     Ctr3│ Right 4│",
+  "└────────┴────────┴─────────┴────────┘",
+]
+`;
+
+exports[`setDefaultAlignment() Right THINCURVE [Simple 2x2] 1`] = `
+[
+  "╭────────┬────────┬─────────┬────────╮",
+  "│Column 1│Column 2│Column 3A│Column 4│",
+  "├────────┼────────┼─────────┼────────┤",
+  "│    Left│     Ctr│      Ctr│   Right│",
+  "├────────┼────────┼─────────┼────────┤",
+  "│  Left 1│    Ctr2│     Ctr3│ Right 4│",
+  "╰────────┴────────┴─────────┴────────╯",
+]
+`;

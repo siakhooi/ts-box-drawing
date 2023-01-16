@@ -86,6 +86,10 @@ export class BoxDrawingBuilder {
     this.padRight(column, number_of_spaces_on_right);
     return this;
   }
+  setDefaultAlignment(alignment: HorizontalAlignmentEnum): BoxDrawingBuilder {
+    this.horizontalAlignment.setDefaultAlignment(alignment);
+    return this;
+  }
   align(column: number, alignment: HorizontalAlignmentEnum): BoxDrawingBuilder {
     this.horizontalAlignment.setAlign(column, alignment);
     return this;

@@ -16,9 +16,11 @@ export class HorizontalAlignment {
         return (' '.repeat(left) + cellData).padEnd(columnWidth, ' ');
     }
   }
-
-  setAlign(column: number, alignment: HorizontalAlignmentEnum) {
-    this.alignmentByColumn[column] = alignment;
+  setDefaultAlignment(horizontalAlignment: HorizontalAlignmentEnum) {
+    this.defaultAlignment = horizontalAlignment;
+  }
+  setAlign(column: number, horizontalAlignment: HorizontalAlignmentEnum) {
+    this.alignmentByColumn[column] = horizontalAlignment;
   }
   private getAlignment(column: number): HorizontalAlignmentEnum {
     return this.alignmentByColumn[column] === undefined

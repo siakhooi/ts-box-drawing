@@ -148,23 +148,24 @@ x.drawBoxInnerThickOuterThinCurve(textInArray);
 see [Demo_Builder](Demo_Builder.md)
 
 - Basic
-  - setData(data)
-  - setStyle(boxStyle)
-  - drawBox()
+  - `setData(data)`
+  - `setStyle(boxStyle)`
+  - `drawBox()`
 - Padding
-  - padLeft(column, spaces)
-  - padRight(column, spaces)
-  - padLeftAll(spaces[])
-  - padRightAll(spaces[])
-  - pad(column, left_spaces, right_spaces)
-  - setDefaultPadLeft(spaces)
-  - setDefaultPadRight(spaces)
-  - setDefaultPad(left_spaces, right_spaces)
+  - `padLeft(column, spaces)`
+  - `padRight(column, spaces)`
+  - `padLeftAll(spaces[])`
+  - `padRightAll(spaces[])`
+  - `pad(column, left_spaces, right_spaces)`
+  - `setDefaultPadLeft(spaces)`
+  - `setDefaultPadRight(spaces)`
+  - `setDefaultPad(left_spaces, right_spaces)`
 - Horizontal Alignment
-  - align(column, HorizontalAlignmentEnum)
-  - alignLeft(columns[])
-  - alignRight(columns[])
-  - alignCenter(columns[])
+  - `align(column, horizontalAlignment)`
+  - `alignLeft(columns[])`
+  - `alignRight(columns[])`
+  - `alignCenter(columns[])`
+  - `setDefaultAlignment(horizontalAlignment)`
 
 #### Basic
 

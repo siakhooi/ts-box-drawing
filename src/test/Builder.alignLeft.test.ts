@@ -18,10 +18,7 @@ describe.each(ALL_STYLES)('AlignLeft([0,1])', (testStyle: TestStyleUnit) => {
       new BoxDrawingBuilder()
         .setData(testData.data)
         .setStyle(testStyle.style)
-        .align(0, HorizontalAlignmentEnum.RIGHT)
-        .align(1, HorizontalAlignmentEnum.RIGHT)
-        .align(2, HorizontalAlignmentEnum.RIGHT)
-        .align(3, HorizontalAlignmentEnum.RIGHT)
+        .setDefaultAlignment(HorizontalAlignmentEnum.RIGHT)
         .alignLeft([0, 1])
         .drawBox();
       expect(allData).toMatchSnapshot();

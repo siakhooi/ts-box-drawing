@@ -1,5 +1,5 @@
 export enum HorizontalAlignmentEnum {
-  LEFT,
-  CENTER,
-  RIGHT,
+  LEFT = 'Left',
+  CENTER = 'Center',
+  RIGHT = 'Right',
 }

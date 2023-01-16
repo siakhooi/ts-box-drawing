@@ -1,12 +1,13 @@
 # Change Log
 
-## `1.2.0`
+## `1.2.0` 15 Jan 2023
 
-- add BoxDrawingBuilder().align(column, HorizontalAlignment)
+- add BoxDrawingBuilder().align(column, horizontalAlignment)
 - add BoxDrawingBuilder().setDefaultPad(left_spaces, right_spaces)
 - add BoxDrawingBuilder().alignLeft(columns[])
 - add BoxDrawingBuilder().alignRight(columns[])
 - add BoxDrawingBuilder().alignCenter(columns[])
+- add BoxDrawingBuilder().setDefaultAlignment(horizontalAlignment)
 
 ## `1.1.0` 13 Jan 2023
 
