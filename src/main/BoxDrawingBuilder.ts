@@ -94,6 +94,10 @@ export class BoxDrawingBuilder {
     this.horizontalAlignment.alignAll(HorizontalAlignmentEnum.LEFT, columns);
     return this;
   }
+  alignRight(columns: number[]): BoxDrawingBuilder {
+    this.horizontalAlignment.alignAll(HorizontalAlignmentEnum.RIGHT, columns);
+    return this;
+  }
   private getHorizontalLines(
     columnCount: number,
     columnWidths: number[]

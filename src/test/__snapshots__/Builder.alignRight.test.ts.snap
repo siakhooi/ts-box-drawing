@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`AlignLeft([0,1]) DOUBLE [Simple 2x2] 1`] = `
+exports[`AlignRight([2,3]) DOUBLE [Simple 2x2] 1`] = `
 [
   "╔════════╦════════╦═════════╦════════╗",
   "║Column 1║Column 2║Column 3A║Column 4║",
@@ -12,7 +12,7 @@ exports[`AlignLeft([0,1]) DOUBLE [Simple 2x2] 1`] = `
 ]
 `;
 
-exports[`AlignLeft([0,1]) HORIZONTAL_DOUBLE_VERTICAL_THIN [Simple 2x2] 1`] = `
+exports[`AlignRight([2,3]) HORIZONTAL_DOUBLE_VERTICAL_THIN [Simple 2x2] 1`] = `
 [
   "╒════════╤════════╤═════════╤════════╕",
   "│Column 1│Column 2│Column 3A│Column 4│",
@@ -24,7 +24,7 @@ exports[`AlignLeft([0,1]) HORIZONTAL_DOUBLE_VERTICAL_THIN [Simple 2x2] 1`] = `
 ]
 `;
 
-exports[`AlignLeft([0,1]) HORIZONTAL_THICK_VERTICAL_THIN [Simple 2x2] 1`] = `
+exports[`AlignRight([2,3]) HORIZONTAL_THICK_VERTICAL_THIN [Simple 2x2] 1`] = `
 [
   "┍━━━━━━━━┯━━━━━━━━┯━━━━━━━━━┯━━━━━━━━┑",
   "│Column 1│Column 2│Column 3A│Column 4│",
@@ -36,7 +36,7 @@ exports[`AlignLeft([0,1]) HORIZONTAL_THICK_VERTICAL_THIN [Simple 2x2] 1`] = `
 ]
 `;
 
-exports[`AlignLeft([0,1]) HORIZONTAL_THIN_VERTICAL_DOUBLE [Simple 2x2] 1`] = `
+exports[`AlignRight([2,3]) HORIZONTAL_THIN_VERTICAL_DOUBLE [Simple 2x2] 1`] = `
 [
   "╓────────╥────────╥─────────╥────────╖",
   "║Column 1║Column 2║Column 3A║Column 4║",
@@ -48,7 +48,7 @@ exports[`AlignLeft([0,1]) HORIZONTAL_THIN_VERTICAL_DOUBLE [Simple 2x2] 1`] = `
 ]
 `;
 
-exports[`AlignLeft([0,1]) HORIZONTAL_THIN_VERTICAL_THICK [Simple 2x2] 1`] = `
+exports[`AlignRight([2,3]) HORIZONTAL_THIN_VERTICAL_THICK [Simple 2x2] 1`] = `
 [
   "┎────────┰────────┰─────────┰────────┒",
   "┃Column 1┃Column 2┃Column 3A┃Column 4┃",
@@ -60,7 +60,7 @@ exports[`AlignLeft([0,1]) HORIZONTAL_THIN_VERTICAL_THICK [Simple 2x2] 1`] = `
 ]
 `;
 
-exports[`AlignLeft([0,1]) INNER_DOUBLE_OUTER_THIN [Simple 2x2] 1`] = `
+exports[`AlignRight([2,3]) INNER_DOUBLE_OUTER_THIN [Simple 2x2] 1`] = `
 [
   "┌────────╥────────╥─────────╥────────┐",
   "│Column 1║Column 2║Column 3A║Column 4│",
@@ -72,7 +72,7 @@ exports[`AlignLeft([0,1]) INNER_DOUBLE_OUTER_THIN [Simple 2x2] 1`] = `
 ]
 `;
 
-exports[`AlignLeft([0,1]) INNER_DOUBLE_OUTER_THIN_CURVE [Simple 2x2] 1`] = `
+exports[`AlignRight([2,3]) INNER_DOUBLE_OUTER_THIN_CURVE [Simple 2x2] 1`] = `
 [
   "╭────────╥────────╥─────────╥────────╮",
   "│Column 1║Column 2║Column 3A║Column 4│",
@@ -84,7 +84,7 @@ exports[`AlignLeft([0,1]) INNER_DOUBLE_OUTER_THIN_CURVE [Simple 2x2] 1`] = `
 ]
 `;
 
-exports[`AlignLeft([0,1]) INNER_THICK_OUTER_THIN [Simple 2x2] 1`] = `
+exports[`AlignRight([2,3]) INNER_THICK_OUTER_THIN [Simple 2x2] 1`] = `
 [
   "┌────────┰────────┰─────────┰────────┐",
   "│Column 1┃Column 2┃Column 3A┃Column 4│",
@@ -96,7 +96,7 @@ exports[`AlignLeft([0,1]) INNER_THICK_OUTER_THIN [Simple 2x2] 1`] = `
 ]
 `;
 
-exports[`AlignLeft([0,1]) INNER_THICK_OUTER_THIN_CURVE [Simple 2x2] 1`] = `
+exports[`AlignRight([2,3]) INNER_THICK_OUTER_THIN_CURVE [Simple 2x2] 1`] = `
 [
   "╭────────┰────────┰─────────┰────────╮",
   "│Column 1┃Column 2┃Column 3A┃Column 4│",
@@ -108,7 +108,7 @@ exports[`AlignLeft([0,1]) INNER_THICK_OUTER_THIN_CURVE [Simple 2x2] 1`] = `
 ]
 `;
 
-exports[`AlignLeft([0,1]) INNER_THIN_OUTER_DOUBLE [Simple 2x2] 1`] = `
+exports[`AlignRight([2,3]) INNER_THIN_OUTER_DOUBLE [Simple 2x2] 1`] = `
 [
   "╔════════╤════════╤═════════╤════════╗",
   "║Column 1│Column 2│Column 3A│Column 4║",
@@ -120,7 +120,7 @@ exports[`AlignLeft([0,1]) INNER_THIN_OUTER_DOUBLE [Simple 2x2] 1`] = `
 ]
 `;
 
-exports[`AlignLeft([0,1]) INNER_THIN_OUTER_THICK [Simple 2x2] 1`] = `
+exports[`AlignRight([2,3]) INNER_THIN_OUTER_THICK [Simple 2x2] 1`] = `
 [
   "┏━━━━━━━━┯━━━━━━━━┯━━━━━━━━━┯━━━━━━━━┓",
   "┃Column 1│Column 2│Column 3A│Column 4┃",
@@ -132,7 +132,7 @@ exports[`AlignLeft([0,1]) INNER_THIN_OUTER_THICK [Simple 2x2] 1`] = `
 ]
 `;
 
-exports[`AlignLeft([0,1]) THICK [Simple 2x2] 1`] = `
+exports[`AlignRight([2,3]) THICK [Simple 2x2] 1`] = `
 [
   "┏━━━━━━━━┳━━━━━━━━┳━━━━━━━━━┳━━━━━━━━┓",
   "┃Column 1┃Column 2┃Column 3A┃Column 4┃",
@@ -144,7 +144,7 @@ exports[`AlignLeft([0,1]) THICK [Simple 2x2] 1`] = `
 ]
 `;
 
-exports[`AlignLeft([0,1]) THIN [Simple 2x2] 1`] = `
+exports[`AlignRight([2,3]) THIN [Simple 2x2] 1`] = `
 [
   "┌────────┬────────┬─────────┬────────┐",
   "│Column 1│Column 2│Column 3A│Column 4│",
@@ -156,7 +156,7 @@ exports[`AlignLeft([0,1]) THIN [Simple 2x2] 1`] = `
 ]
 `;
 
-exports[`AlignLeft([0,1]) THINCURVE [Simple 2x2] 1`] = `
+exports[`AlignRight([2,3]) THINCURVE [Simple 2x2] 1`] = `
 [
   "╭────────┬────────┬─────────┬────────╮",
   "│Column 1│Column 2│Column 3A│Column 4│",

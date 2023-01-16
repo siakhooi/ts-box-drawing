@@ -1,13 +1,13 @@
 import {Console} from '../main/Console';
-import {BoxDrawingBuilder, HorizontalAlignmentEnum} from '../main/index';
+import {BoxDrawingBuilder} from '../main/index';
 import {
-  ALL_STYLES,
   ALIGN_TEST_DATA,
+  ALL_STYLES,
   TestDataUnit,
   TestStyleUnit,
 } from './TestData';
 
-describe.each(ALL_STYLES)('AlignLeft([0,1])', (testStyle: TestStyleUnit) => {
+describe.each(ALL_STYLES)('AlignRight([2,3])', (testStyle: TestStyleUnit) => {
   test.each(ALIGN_TEST_DATA)(
     `${testStyle.title} [$title]`,
     (testData: TestDataUnit) => {
@@ -18,11 +18,7 @@ describe.each(ALL_STYLES)('AlignLeft([0,1])', (testStyle: TestStyleUnit) => {
       new BoxDrawingBuilder()
         .setData(testData.data)
         .setStyle(testStyle.style)
-        .align(0, HorizontalAlignmentEnum.RIGHT)
-        .align(1, HorizontalAlignmentEnum.RIGHT)
-        .align(2, HorizontalAlignmentEnum.RIGHT)
-        .align(3, HorizontalAlignmentEnum.RIGHT)
-        .alignLeft([0, 1])
+        .alignRight([2, 3])
         .drawBox();
       expect(allData).toMatchSnapshot();
     }

@@ -5,6 +5,7 @@
 - add BoxDrawingBuilder().align(column, HorizontalAlignment)
 - add BoxDrawingBuilder().setDefaultPad(left_spaces, right_spaces)
 - add BoxDrawingBuilder().alignLeft(columns[])
+- add BoxDrawingBuilder().alignRight(columns[])
 
 ## `1.1.0` 13 Jan 2023
 
