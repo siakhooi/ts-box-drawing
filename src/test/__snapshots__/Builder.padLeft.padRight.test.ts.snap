@@ -139,3 +139,13 @@ exports[`PadLeft(1,2)PadRight(3,4) THINCURVE [Simple 2x2] 1`] = `
   "╰────────────┴──────────────╯",
 ]
 `;
+
+exports[`PadLeft(1,2)PadRight(3,4) VERTICALBAR_PLUS_MINUS [Simple 2x2] 1`] = `
+[
+  "+------------+--------------+",
+  "| Cell 1-1   |  Cell 2-1    |",
+  "+------------+--------------+",
+  "| Cell 1-2   |  Cell 2-2    |",
+  "+------------+--------------+",
+]
+`;

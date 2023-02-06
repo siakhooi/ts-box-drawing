@@ -419,3 +419,33 @@ exports[`Simple drawBoxThinCurve [null] 1`] = `
   "╰╯",
 ]
 `;
+
+exports[`Simple drawBoxVerticalBarPlusMinus [] 1`] = `
+[
+  "++",
+  "++",
+]
+`;
+
+exports[`Simple drawBoxVerticalBarPlusMinus [A] 1`] = `
+[
+  "+-+",
+  "|A|",
+  "+-+",
+]
+`;
+
+exports[`Simple drawBoxVerticalBarPlusMinus [Hello World] 1`] = `
+[
+  "+-----------+",
+  "|Hello World|",
+  "+-----------+",
+]
+`;
+
+exports[`Simple drawBoxVerticalBarPlusMinus [null] 1`] = `
+[
+  "++",
+  "++",
+]
+`;

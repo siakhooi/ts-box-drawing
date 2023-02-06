@@ -1,5 +1,9 @@
 # Change Log
 
+## `1.3.0`
+
+- add BoxStyles.VERTICALBAR_PLUS_MINUS
+
 ## `1.2.0` 15 Jan 2023
 
 - add BoxDrawingBuilder().align(column, horizontalAlignment)

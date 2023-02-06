@@ -84,6 +84,12 @@ const INNER_THICK_OUTER_THIN_CURVE = new BoxStyle(
   '\u254B',
   ['\u2530', '\u2538', '\u251d', '\u2525']
 );
+const VERTICALBAR_PLUS_MINUS = new BoxStyle(
+  ['-', '-', '|', '|'],
+  ['+', '+', '+', '+'],
+  '+',
+  ['+', '+', '+', '+']
+);
 
 export const BoxStyles = {
   THIN,
@@ -100,4 +106,5 @@ export const BoxStyles = {
   INNER_THICK_OUTER_THIN,
   INNER_DOUBLE_OUTER_THIN_CURVE,
   INNER_THICK_OUTER_THIN_CURVE,
+  VERTICALBAR_PLUS_MINUS,
 };

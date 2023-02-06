@@ -419,3 +419,33 @@ exports[`Builder THINCURVE [null] 1`] = `
   "╰╯",
 ]
 `;
+
+exports[`Builder VERTICALBAR_PLUS_MINUS [] 1`] = `
+[
+  "++",
+  "++",
+]
+`;
+
+exports[`Builder VERTICALBAR_PLUS_MINUS [A] 1`] = `
+[
+  "+-+",
+  "|A|",
+  "+-+",
+]
+`;
+
+exports[`Builder VERTICALBAR_PLUS_MINUS [Hello World] 1`] = `
+[
+  "+-----------+",
+  "|Hello World|",
+  "+-----------+",
+]
+`;
+
+exports[`Builder VERTICALBAR_PLUS_MINUS [null] 1`] = `
+[
+  "++",
+  "++",
+]
+`;
