@@ -1,9 +1,10 @@
 # Change Log
 
-## `1.3.0`
+## `1.3.0` 8 Feb 2023
 
 - add BoxStyles.VERTICALBAR_PLUS_MINUS
 - add BoxStyles.VERTICALBAR_PLUS_MINUS_SLASHES
+- add publish to paydevs.com
 
 ## `1.2.0` 15 Jan 2023
 

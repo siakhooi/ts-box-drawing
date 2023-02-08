@@ -16,3 +16,8 @@ run:
 clean:
 	npm run clean
 
+paydevs:
+	npm install -g npm-cli-login
+	npm set registry https://npm.paydevs.com/
+	npm-cli-login -u <username> -p <password> -e <email> -r https://npm.paydevs.com
+	npm publish

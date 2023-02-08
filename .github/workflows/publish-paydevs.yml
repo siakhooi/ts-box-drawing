@@ -1,0 +1,32 @@
+name: Publish to npm registry
+
+on:
+  workflow_call:
+    secrets:
+      PUBLISH_PAYDEVS_USERNAME:
+        required: true
+      PUBLISH_PAYDEVS_PASSWORD:
+        required: true
+      PUBLISH_PAYDEVS_EMAIL:
+        required: true
+
+jobs:
+  npmjs:
+    name: Publish to npm registry
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/download-artifact@v3
+        with:
+          name: dist
+          path: ./dist/
+      - uses: actions/setup-node@v3
+        with:
+          node-version: 16
+          registry-url: 'hhttps://npm.paydevs.com'
+      - run: npm install -g npm-cli-login
+      - run: npm install
+      - run: npm-cli-login -u ${{ secrets.PUBLISH_PAYDEVS_USERNAME }} -p ${{ secrets.PUBLISH_PAYDEVS_PASSWORD }} -e ${{ secrets.PUBLISH_PAYDEVS_EMAIL }} -r https://npm.paydevs.com
+      - run: npm publish
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.PUBLISH_NPM_TOKEN }}

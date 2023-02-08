@@ -16,3 +16,10 @@ jobs:
     uses: ./.github/workflows/publish-gpr.yml
     secrets:
       PUBLISH_GITHUB_TOKEN: ${{ secrets.PUBLISH_GITHUB_TOKEN }}
+  paydevs:
+    needs: build
+    uses: ./.github/workflows/publish-paydevs.yml
+    secrets:
+      PUBLISH_PAYDEVS_USERNAME: ${{ secrets.PUBLISH_PAYDEVS_USERNAME }}
+      PUBLISH_PAYDEVS_PASSWORD: ${{ secrets.PUBLISH_PAYDEVS_PASSWORD }}
+      PUBLISH_PAYDEVS_EMAIL: ${{ secrets.PUBLISH_PAYDEVS_EMAIL }}
