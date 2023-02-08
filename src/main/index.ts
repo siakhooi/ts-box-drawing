@@ -55,3 +55,6 @@ export function drawBoxInnerThickOuterThinCurve(text: string | string[][]) {
 export function drawBoxVerticalBarPlusMinus(text: string | string[][]) {
   drawBox(BoxStyles.VERTICALBAR_PLUS_MINUS, text);
 }
+export function drawBoxVerticalBarPlusMinusSlashes(text: string | string[][]) {
+  drawBox(BoxStyles.VERTICALBAR_PLUS_MINUS_SLASHES, text);
+}

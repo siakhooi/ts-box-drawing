@@ -149,3 +149,13 @@ exports[`PadRight[Default(1),(1,4)] VERTICALBAR_PLUS_MINUS [Simple 2x2] 1`] = `
   "+---------+------------+",
 ]
 `;
+
+exports[`PadRight[Default(1),(1,4)] VERTICALBAR_PLUS_MINUS_SLASHES [Simple 2x2] 1`] = `
+[
+  "/---------+------------\\",
+  "|Cell 1-1 |Cell 2-1    |",
+  "+---------+------------+",
+  "|Cell 1-2 |Cell 2-2    |",
+  "\\---------+------------/",
+]
+`;

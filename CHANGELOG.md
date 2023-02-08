@@ -3,6 +3,7 @@
 ## `1.3.0`
 
 - add BoxStyles.VERTICALBAR_PLUS_MINUS
+- add BoxStyles.VERTICALBAR_PLUS_MINUS_SLASHES
 
 ## `1.2.0` 15 Jan 2023
 

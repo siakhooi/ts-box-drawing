@@ -449,3 +449,33 @@ exports[`Builder VERTICALBAR_PLUS_MINUS [null] 1`] = `
   "++",
 ]
 `;
+
+exports[`Builder VERTICALBAR_PLUS_MINUS_SLASHES [] 1`] = `
+[
+  "/\\",
+  "\\/",
+]
+`;
+
+exports[`Builder VERTICALBAR_PLUS_MINUS_SLASHES [A] 1`] = `
+[
+  "/-\\",
+  "|A|",
+  "\\-/",
+]
+`;
+
+exports[`Builder VERTICALBAR_PLUS_MINUS_SLASHES [Hello World] 1`] = `
+[
+  "/-----------\\",
+  "|Hello World|",
+  "\\-----------/",
+]
+`;
+
+exports[`Builder VERTICALBAR_PLUS_MINUS_SLASHES [null] 1`] = `
+[
+  "/\\",
+  "\\/",
+]
+`;

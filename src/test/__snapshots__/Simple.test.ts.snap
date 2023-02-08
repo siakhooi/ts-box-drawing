@@ -449,3 +449,33 @@ exports[`Simple drawBoxVerticalBarPlusMinus [null] 1`] = `
   "++",
 ]
 `;
+
+exports[`Simple drawBoxVerticalBarPlusMinusSlashes [] 1`] = `
+[
+  "/\\",
+  "\\/",
+]
+`;
+
+exports[`Simple drawBoxVerticalBarPlusMinusSlashes [A] 1`] = `
+[
+  "/-\\",
+  "|A|",
+  "\\-/",
+]
+`;
+
+exports[`Simple drawBoxVerticalBarPlusMinusSlashes [Hello World] 1`] = `
+[
+  "/-----------\\",
+  "|Hello World|",
+  "\\-----------/",
+]
+`;
+
+exports[`Simple drawBoxVerticalBarPlusMinusSlashes [null] 1`] = `
+[
+  "/\\",
+  "\\/",
+]
+`;
