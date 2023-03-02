@@ -3,6 +3,7 @@
 ## `1.4.0`
 
 - add deploy to jfrog
+- npm up
 
 ## `1.3.0` 8 Feb 2023
 
