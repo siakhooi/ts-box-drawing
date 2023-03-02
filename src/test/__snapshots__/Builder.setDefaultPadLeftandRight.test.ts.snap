@@ -140,6 +140,16 @@ exports[`PadLeftRight[Default(1),(1,4)] THINCURVE [Simple 2x2] 1`] = `
 ]
 `;
 
+exports[`PadLeftRight[Default(1),(1,4)] VERTICALBAR_PLUS_EQUALS [Simple 2x2] 1`] = `
+[
+  "+==========+================+",
+  "| Cell 1-1 |    Cell 2-1    |",
+  "+==========+================+",
+  "| Cell 1-2 |    Cell 2-2    |",
+  "+==========+================+",
+]
+`;
+
 exports[`PadLeftRight[Default(1),(1,4)] VERTICALBAR_PLUS_MINUS [Simple 2x2] 1`] = `
 [
   "+----------+----------------+",

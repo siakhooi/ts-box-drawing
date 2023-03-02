@@ -4,6 +4,7 @@
 
 - add deploy to jfrog
 - npm up
+- add BoxStyles.VERTICALBAR_PLUS_EQUALS
 
 ## `1.3.0` 8 Feb 2023
 

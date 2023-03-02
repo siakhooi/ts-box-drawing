@@ -96,6 +96,12 @@ const VERTICALBAR_PLUS_MINUS_SLASHES = new BoxStyle(
   '+',
   ['+', '+', '+', '+']
 );
+const VERTICALBAR_PLUS_EQUALS = new BoxStyle(
+  ['=', '=', '|', '|'],
+  ['+', '+', '+', '+'],
+  '+',
+  ['+', '+', '+', '+']
+);
 
 export const BoxStyles = {
   THIN,
@@ -114,4 +120,5 @@ export const BoxStyles = {
   INNER_THICK_OUTER_THIN_CURVE,
   VERTICALBAR_PLUS_MINUS,
   VERTICALBAR_PLUS_MINUS_SLASHES,
+  VERTICALBAR_PLUS_EQUALS,
 };

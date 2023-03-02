@@ -168,6 +168,18 @@ exports[`setDefaultAlignment() Center THINCURVE [Simple 2x2] 1`] = `
 ]
 `;
 
+exports[`setDefaultAlignment() Center VERTICALBAR_PLUS_EQUALS [Simple 2x2] 1`] = `
+[
+  "+========+========+=========+========+",
+  "|Column 1|Column 2|Column 3A|Column 4|",
+  "+========+========+=========+========+",
+  "|  Left  |  Ctr   |   Ctr   | Right  |",
+  "+========+========+=========+========+",
+  "| Left 1 |  Ctr2  |  Ctr3   |Right 4 |",
+  "+========+========+=========+========+",
+]
+`;
+
 exports[`setDefaultAlignment() Center VERTICALBAR_PLUS_MINUS [Simple 2x2] 1`] = `
 [
   "+--------+--------+---------+--------+",
@@ -360,6 +372,18 @@ exports[`setDefaultAlignment() Left THINCURVE [Simple 2x2] 1`] = `
 ]
 `;
 
+exports[`setDefaultAlignment() Left VERTICALBAR_PLUS_EQUALS [Simple 2x2] 1`] = `
+[
+  "+========+========+=========+========+",
+  "|Column 1|Column 2|Column 3A|Column 4|",
+  "+========+========+=========+========+",
+  "|Left    |Ctr     |Ctr      |Right   |",
+  "+========+========+=========+========+",
+  "|Left 1  |Ctr2    |Ctr3     |Right 4 |",
+  "+========+========+=========+========+",
+]
+`;
+
 exports[`setDefaultAlignment() Left VERTICALBAR_PLUS_MINUS [Simple 2x2] 1`] = `
 [
   "+--------+--------+---------+--------+",
@@ -549,6 +573,18 @@ exports[`setDefaultAlignment() Right THINCURVE [Simple 2x2] 1`] = `
   "├────────┼────────┼─────────┼────────┤",
   "│  Left 1│    Ctr2│     Ctr3│ Right 4│",
   "╰────────┴────────┴─────────┴────────╯",
+]
+`;
+
+exports[`setDefaultAlignment() Right VERTICALBAR_PLUS_EQUALS [Simple 2x2] 1`] = `
+[
+  "+========+========+=========+========+",
+  "|Column 1|Column 2|Column 3A|Column 4|",
+  "+========+========+=========+========+",
+  "|    Left|     Ctr|      Ctr|   Right|",
+  "+========+========+=========+========+",
+  "|  Left 1|    Ctr2|     Ctr3| Right 4|",
+  "+========+========+=========+========+",
 ]
 `;
 

@@ -17,6 +17,7 @@ import {
   drawBoxThinCurve,
   drawBoxVerticalBarPlusMinus,
   drawBoxVerticalBarPlusMinusSlashes,
+  drawBoxVerticalBarPlusEquals,
 } from '../main/index';
 
 export const SIMPLE_TEST_DATA = ['A', '', 'Hello World', null];
@@ -84,6 +85,7 @@ export const ALL_FUNCTIONS = [
   drawBoxInnerThickOuterThinCurve,
   drawBoxVerticalBarPlusMinus,
   drawBoxVerticalBarPlusMinusSlashes,
+  drawBoxVerticalBarPlusEquals,
 ];
 export type TestStyleUnit = {
   title: string;
@@ -130,5 +132,9 @@ export const ALL_STYLES: TestStyleUnit[] = [
   {
     title: 'VERTICALBAR_PLUS_MINUS_SLASHES',
     style: BoxStyles.VERTICALBAR_PLUS_MINUS_SLASHES,
+  },
+  {
+    title: 'VERTICALBAR_PLUS_EQUALS',
+    style: BoxStyles.VERTICALBAR_PLUS_EQUALS,
   },
 ];

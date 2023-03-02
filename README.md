@@ -116,6 +116,7 @@ x.drawBoxInnerDoubleOuterThinCurve(text);
 x.drawBoxInnerThickOuterThinCurve(text);
 x.drawBoxVerticalBarPlusMinus(text);
 x.drawBoxVerticalBarPlusMinusSlashes(text);
+x.drawBoxVerticalBarPlusEquals(text);
 ```
 
 ### Array
@@ -146,6 +147,7 @@ x.drawBoxInnerDoubleOuterThinCurve(textInArray);
 x.drawBoxInnerThickOuterThinCurve(textInArray);
 x.drawBoxVerticalBarPlusMinus(textInArray);
 x.drawBoxVerticalBarPlusMinusSlashes(textInArray);
+x.drawBoxVerticalBarPlusEquals(textInArray);
 ```
 
 ### BoxDrawingBuilder
