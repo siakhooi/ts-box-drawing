@@ -1,5 +1,9 @@
 # Change Log
 
+## `1.5.0`
+
+- remove deploy to jfrog
+
 ## `1.4.0` 2 Mar 2023
 
 - add deploy to jfrog
