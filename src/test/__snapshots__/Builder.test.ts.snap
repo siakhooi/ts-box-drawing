@@ -450,6 +450,36 @@ exports[`Builder VERTICALBAR_PLUS_EQUALS [null] 1`] = `
 ]
 `;
 
+exports[`Builder VERTICALBAR_PLUS_EQUALS_SLASHES [] 1`] = `
+[
+  "/\\",
+  "\\/",
+]
+`;
+
+exports[`Builder VERTICALBAR_PLUS_EQUALS_SLASHES [A] 1`] = `
+[
+  "/=\\",
+  "|A|",
+  "\\=/",
+]
+`;
+
+exports[`Builder VERTICALBAR_PLUS_EQUALS_SLASHES [Hello World] 1`] = `
+[
+  "/===========\\",
+  "|Hello World|",
+  "\\===========/",
+]
+`;
+
+exports[`Builder VERTICALBAR_PLUS_EQUALS_SLASHES [null] 1`] = `
+[
+  "/\\",
+  "\\/",
+]
+`;
+
 exports[`Builder VERTICALBAR_PLUS_MINUS [] 1`] = `
 [
   "++",

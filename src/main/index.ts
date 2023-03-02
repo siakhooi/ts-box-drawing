@@ -61,3 +61,6 @@ export function drawBoxVerticalBarPlusMinusSlashes(text: string | string[][]) {
 export function drawBoxVerticalBarPlusEquals(text: string | string[][]) {
   drawBox(BoxStyles.VERTICALBAR_PLUS_EQUALS, text);
 }
+export function drawBoxVerticalBarPlusEqualsSlashes(text: string | string[][]) {
+  drawBox(BoxStyles.VERTICALBAR_PLUS_EQUALS_SLASHES, text);
+}

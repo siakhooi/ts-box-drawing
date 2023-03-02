@@ -18,6 +18,7 @@ import {
   drawBoxVerticalBarPlusMinus,
   drawBoxVerticalBarPlusMinusSlashes,
   drawBoxVerticalBarPlusEquals,
+  drawBoxVerticalBarPlusEqualsSlashes,
 } from '../main/index';
 
 export const SIMPLE_TEST_DATA = ['A', '', 'Hello World', null];
@@ -86,6 +87,7 @@ export const ALL_FUNCTIONS = [
   drawBoxVerticalBarPlusMinus,
   drawBoxVerticalBarPlusMinusSlashes,
   drawBoxVerticalBarPlusEquals,
+  drawBoxVerticalBarPlusEqualsSlashes,
 ];
 export type TestStyleUnit = {
   title: string;
@@ -136,5 +138,9 @@ export const ALL_STYLES: TestStyleUnit[] = [
   {
     title: 'VERTICALBAR_PLUS_EQUALS',
     style: BoxStyles.VERTICALBAR_PLUS_EQUALS,
+  },
+  {
+    title: 'VERTICALBAR_PLUS_EQUALS_SLASHES',
+    style: BoxStyles.VERTICALBAR_PLUS_EQUALS_SLASHES,
   },
 ];

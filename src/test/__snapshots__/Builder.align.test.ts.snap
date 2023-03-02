@@ -180,6 +180,18 @@ exports[`Align(0,LEFT),Align(1,CENTER),Align(2,RIGHT) VERTICALBAR_PLUS_EQUALS [S
 ]
 `;
 
+exports[`Align(0,LEFT),Align(1,CENTER),Align(2,RIGHT) VERTICALBAR_PLUS_EQUALS_SLASHES [Simple 2x2] 1`] = `
+[
+  "/========+========+=========+========\\",
+  "|Column 1|Column 2|Column 3A|Column 4|",
+  "+========+========+=========+========+",
+  "|Left    |  Ctr   |   Ctr   |   Right|",
+  "+========+========+=========+========+",
+  "|Left 1  |  Ctr2  |  Ctr3   | Right 4|",
+  "\\========+========+=========+========/",
+]
+`;
+
 exports[`Align(0,LEFT),Align(1,CENTER),Align(2,RIGHT) VERTICALBAR_PLUS_MINUS [Simple 2x2] 1`] = `
 [
   "+--------+--------+---------+--------+",

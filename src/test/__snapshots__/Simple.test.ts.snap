@@ -450,6 +450,36 @@ exports[`Simple drawBoxVerticalBarPlusEquals [null] 1`] = `
 ]
 `;
 
+exports[`Simple drawBoxVerticalBarPlusEqualsSlashes [] 1`] = `
+[
+  "/\\",
+  "\\/",
+]
+`;
+
+exports[`Simple drawBoxVerticalBarPlusEqualsSlashes [A] 1`] = `
+[
+  "/=\\",
+  "|A|",
+  "\\=/",
+]
+`;
+
+exports[`Simple drawBoxVerticalBarPlusEqualsSlashes [Hello World] 1`] = `
+[
+  "/===========\\",
+  "|Hello World|",
+  "\\===========/",
+]
+`;
+
+exports[`Simple drawBoxVerticalBarPlusEqualsSlashes [null] 1`] = `
+[
+  "/\\",
+  "\\/",
+]
+`;
+
 exports[`Simple drawBoxVerticalBarPlusMinus [] 1`] = `
 [
   "++",

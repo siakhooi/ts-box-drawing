@@ -1,10 +1,11 @@
 # Change Log
 
-## `1.4.0`
+## `1.4.0` 2 Mar 2023
 
 - add deploy to jfrog
 - npm up
 - add BoxStyles.VERTICALBAR_PLUS_EQUALS
+- add BoxStyles.VERTICALBAR_PLUS_EQUALS_SLASHES
 
 ## `1.3.0` 8 Feb 2023
 
