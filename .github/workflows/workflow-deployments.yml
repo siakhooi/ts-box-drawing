@@ -16,3 +16,8 @@ jobs:
     uses: ./.github/workflows/publish-gpr.yml
     secrets:
       PUBLISH_GITHUB_TOKEN: ${{ secrets.PUBLISH_GITHUB_TOKEN }}
+  jfrog:
+    needs: build
+    uses: ./.github/workflows/publish-jfrog.yml
+    secrets:
+      PUBLISH_JFROG_TOKEN: ${{ secrets.PUBLISH_JFROG_TOKEN }}

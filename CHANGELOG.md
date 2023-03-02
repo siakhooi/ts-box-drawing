@@ -1,5 +1,9 @@
 # Change Log
 
+## `1.4.0`
+
+- add deploy to jfrog
+
 ## `1.3.0` 8 Feb 2023
 
 - add BoxStyles.VERTICALBAR_PLUS_MINUS
