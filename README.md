@@ -77,7 +77,6 @@ npm package to draw box using unicode characters
 
 - <https://www.npmjs.com/package/@siakhooi/box-drawing>
 - <https://github.com/siakhooi/ts-box-drawing/pkgs/npm/box-drawing>
-- <https://siakhooi.jfrog.io/ui/packages>
 
 ### Code Quality
 
