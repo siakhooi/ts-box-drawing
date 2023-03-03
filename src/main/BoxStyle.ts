@@ -14,19 +14,20 @@ export class BoxStyle {
   MIDDLE_RIGHT: string;
 
   constructor(
-    horizontal_vertical: string[],
-    top_left_bottom_right: string[],
+    horizontal: string[],
+    vertical: string[],
+    corners: string[],
     cross: string,
     middles: string[]
   ) {
-    this.HORIZONTAL_INNER = horizontal_vertical[0];
-    this.HORIZONTAL_OUTER = horizontal_vertical[1];
-    this.VERTICAL_INNER = horizontal_vertical[2];
-    this.VERTICAL_OUTER = horizontal_vertical[3];
-    this.TOP_LEFT = top_left_bottom_right[0];
-    this.TOP_RIGHT = top_left_bottom_right[1];
-    this.BOTTOM_LEFT = top_left_bottom_right[2];
-    this.BOTTOM_RIGHT = top_left_bottom_right[3];
+    this.HORIZONTAL_INNER = horizontal[0];
+    this.HORIZONTAL_OUTER = horizontal[1];
+    this.VERTICAL_INNER = vertical[0];
+    this.VERTICAL_OUTER = vertical[1];
+    this.TOP_LEFT = corners[0];
+    this.TOP_RIGHT = corners[1];
+    this.BOTTOM_LEFT = corners[2];
+    this.BOTTOM_RIGHT = corners[3];
     this.CROSS = cross;
     this.TOP_MIDDLE = middles[0];
     this.BOTTOM_MIDDLE = middles[1];
