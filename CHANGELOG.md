@@ -2,6 +2,8 @@
 
 ## `1.5.0`
 
+- add Sudoku.drawBoard()
+- refactor BoxStyle
 - remove deploy to jfrog
 
 ## `1.4.0` 2 Mar 2023
