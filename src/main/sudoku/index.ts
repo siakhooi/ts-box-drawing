@@ -52,8 +52,13 @@ function drawTopLine() {
   );
 }
 function drawValueLine(values: string[]) {
+  if (values === undefined) values = [];
   for (let i = 0; i < 9; i++) {
     if (values[i] === undefined) values[i] = '   ';
+    else if (values[i].length === 0) values[i] = '   ';
+    else if (values[i].length === 1) values[i] = ' ' + values[i] + ' ';
+    else if (values[i].length > 1)
+      values[i] = ' ' + values[i].substring(0, 1) + ' ';
   }
   Console.printf(
     '%s'.repeat(19),
@@ -151,30 +156,30 @@ function drawBottomLine() {
     BOTTOM_RIGHT
   );
 }
-export function drawBoard() {
+export function drawBoard(values: string[][]) {
   drawTopLine();
 
-  drawValueLine([]);
+  drawValueLine(values[0]);
   drawThinLine();
-  drawValueLine([]);
+  drawValueLine(values[1]);
   drawThinLine();
-  drawValueLine([]);
+  drawValueLine(values[2]);
 
   drawThickLine();
 
-  drawValueLine([]);
+  drawValueLine(values[3]);
   drawThinLine();
-  drawValueLine([]);
+  drawValueLine(values[4]);
   drawThinLine();
-  drawValueLine([]);
+  drawValueLine(values[5]);
 
   drawThickLine();
 
-  drawValueLine([]);
+  drawValueLine(values[6]);
   drawThinLine();
-  drawValueLine([]);
+  drawValueLine(values[7]);
   drawThinLine();
-  drawValueLine([]);
+  drawValueLine(values[8]);
 
   drawBottomLine();
 }

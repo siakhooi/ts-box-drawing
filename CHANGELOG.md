@@ -2,7 +2,7 @@
 
 ## `1.5.0`
 
-- add Sudoku.drawBoard()
+- add Sudoku.drawBoard([])
 - refactor BoxStyle
 - remove deploy to jfrog
 
