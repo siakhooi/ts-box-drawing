@@ -27,9 +27,11 @@ const MIDDLE_LEFT_THICK = '\u2523';
 const MIDDLE_RIGHT_THIN = '\u2528';
 const MIDDLE_RIGHT_THICK = '\u252b';
 
+const ROW_PRINT_FORMAT = '%s'.repeat(19);
+
 function drawTopLine() {
   Console.printf(
-    '%s'.repeat(19),
+    ROW_PRINT_FORMAT,
     TOP_LEFT,
     HORIZONTAL_THICK,
     TOP_MIDDLE_THIN,
@@ -61,7 +63,7 @@ function drawValueLine(values: string[]) {
       values[i] = ' ' + values[i].substring(0, 1) + ' ';
   }
   Console.printf(
-    '%s'.repeat(19),
+    ROW_PRINT_FORMAT,
     VERTICAL_THICK,
     values[0],
     VERTICAL_THIN,
@@ -86,7 +88,7 @@ function drawValueLine(values: string[]) {
 
 function drawThinLine() {
   Console.printf(
-    '%s'.repeat(19),
+    ROW_PRINT_FORMAT,
     MIDDLE_LEFT_THIN,
     HORIZONTAL_THIN,
     CROSS_THIN,
@@ -110,7 +112,7 @@ function drawThinLine() {
 }
 function drawThickLine() {
   Console.printf(
-    '%s'.repeat(19),
+    ROW_PRINT_FORMAT,
     MIDDLE_LEFT_THICK,
     HORIZONTAL_THICK,
     CROSS_HORIZONTAL_THICK_VERTICAL_THIN,
@@ -134,7 +136,7 @@ function drawThickLine() {
 }
 function drawBottomLine() {
   Console.printf(
-    '%s'.repeat(19),
+    ROW_PRINT_FORMAT,
     BOTTOM_LEFT,
     HORIZONTAL_THICK,
     BOTTOM_MIDDLE_THIN,
