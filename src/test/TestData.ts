@@ -1,4 +1,4 @@
-import {BoxStyle} from '../main/BoxStyle';
+import {BoxStyle} from '../main/Box/BoxStyle';
 import {
   BoxStyles,
   drawBoxDouble,

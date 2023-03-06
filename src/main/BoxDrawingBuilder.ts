@@ -1,5 +1,5 @@
-import {BoxStyle} from './BoxStyle';
-import {BoxStyles} from './BoxStyles';
+import {BoxStyle} from './Box/BoxStyle';
+import {BoxStyles} from './Box/BoxStyles';
 import {Console} from './Console';
 import {HorizontalAlignment} from './HorizontalAlignment';
 import {HorizontalAlignmentEnum} from './HorizontalAlignmentEnum';

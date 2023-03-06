@@ -2,7 +2,8 @@
 
 ## `1.5.0`
 
-- refactor to BoardStyles, BoardStyle
+- refactor to BoxStyle, BoxStyles
+- refactor to BoardStyle, BoardStyles
 - add Sudoku.drawBoard([])
 - refactor BoxStyle
 - remove deploy to jfrog

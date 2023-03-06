@@ -1,9 +1,9 @@
 import {BoxDrawingBuilder} from './BoxDrawingBuilder';
-import {BoxStyle} from './BoxStyle';
-import {BoxStyles} from './BoxStyles';
+import {BoxStyle} from './Box/BoxStyle';
+import {BoxStyles} from './Box/BoxStyles';
 
 export {BoxDrawingBuilder} from './BoxDrawingBuilder';
-export {BoxStyles} from './BoxStyles';
+export {BoxStyles} from './Box/BoxStyles';
 
 export {HorizontalAlignmentEnum} from './HorizontalAlignmentEnum';
 
