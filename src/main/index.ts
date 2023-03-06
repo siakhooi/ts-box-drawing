@@ -7,8 +7,11 @@ export {BoxStyles} from './Box/BoxStyles';
 
 export {HorizontalAlignmentEnum} from './HorizontalAlignmentEnum';
 
-export * as Sudoku from './Sudoku/index';
+import {drawBoard} from './Sudoku/index';
 
+export function drawSudokuBoardThick(data: string[][]) {
+  drawBoard(data);
+}
 function drawBox(boxStyle: BoxStyle, data: string | string[][]) {
   new BoxDrawingBuilder().setData(data).setStyle(boxStyle).drawBox();
 }

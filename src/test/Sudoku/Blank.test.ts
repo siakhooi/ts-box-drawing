@@ -1,5 +1,5 @@
 import {Console} from '../../main/Console';
-import {Sudoku} from '../../main/index';
+import {drawSudokuBoardThick} from '../../main/index';
 import {
   TEST_DATA_BLANK_ARRAY_OUTER,
   SIMPLE_TEST_DATA_BLANK_ARRAY_INNER,
@@ -9,18 +9,18 @@ import {
 test('Blank Array Outer', () => {
   const allData: string[] = [];
   Console.println = jest.fn().mockImplementation(text => allData.push(text));
-  Sudoku.drawBoard(TEST_DATA_BLANK_ARRAY_OUTER);
+  drawSudokuBoardThick(TEST_DATA_BLANK_ARRAY_OUTER);
   expect(allData).toMatchSnapshot();
 });
 test('Blank Array Inner', () => {
   const allData: string[] = [];
   Console.println = jest.fn().mockImplementation(text => allData.push(text));
-  Sudoku.drawBoard(SIMPLE_TEST_DATA_BLANK_ARRAY_INNER);
+  drawSudokuBoardThick(SIMPLE_TEST_DATA_BLANK_ARRAY_INNER);
   expect(allData).toMatchSnapshot();
 });
 test('Blank Array Inner 2', () => {
   const allData: string[] = [];
   Console.println = jest.fn().mockImplementation(text => allData.push(text));
-  Sudoku.drawBoard(SIMPLE_TEST_DATA_BLANK_ARRAY_INNER2);
+  drawSudokuBoardThick(SIMPLE_TEST_DATA_BLANK_ARRAY_INNER2);
   expect(allData).toMatchSnapshot();
 });

@@ -2,6 +2,7 @@
 
 ## `1.5.0`
 
+- export drawSudokuBoardThick()
 - refactor to BoxStyle, BoxStyles
 - refactor to BoardStyle, BoardStyles
 - add Sudoku.drawBoard([])
