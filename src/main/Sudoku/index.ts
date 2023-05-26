@@ -1,163 +1,174 @@
 import {Console} from '../Console';
-import {BoardStyles} from './BoardStyles';
+import {BoardStyle} from './BoardStyle';
 
 const ROW_PRINT_FORMAT = '%s'.repeat(19);
 
-const boxStyle = BoardStyles.THICK;
+let boardStyle: BoardStyle;
 
 function drawTopLine() {
   Console.printf(
     ROW_PRINT_FORMAT,
-    boxStyle.TOP_LEFT,
-    boxStyle.HORIZONTAL_THICK,
-    boxStyle.TOP_MIDDLE_THIN,
-    boxStyle.HORIZONTAL_THICK,
-    boxStyle.TOP_MIDDLE_THIN,
-    boxStyle.HORIZONTAL_THICK,
-    boxStyle.TOP_MIDDLE_THICK,
-    boxStyle.HORIZONTAL_THICK,
-    boxStyle.TOP_MIDDLE_THIN,
-    boxStyle.HORIZONTAL_THICK,
-    boxStyle.TOP_MIDDLE_THIN,
-    boxStyle.HORIZONTAL_THICK,
-    boxStyle.TOP_MIDDLE_THICK,
-    boxStyle.HORIZONTAL_THICK,
-    boxStyle.TOP_MIDDLE_THIN,
-    boxStyle.HORIZONTAL_THICK,
-    boxStyle.TOP_MIDDLE_THIN,
-    boxStyle.HORIZONTAL_THICK,
-    boxStyle.TOP_RIGHT
+    boardStyle.TOP_LEFT,
+    boardStyle.HORIZONTAL_THICK,
+    boardStyle.TOP_MIDDLE_THIN,
+    boardStyle.HORIZONTAL_THICK,
+    boardStyle.TOP_MIDDLE_THIN,
+    boardStyle.HORIZONTAL_THICK,
+    boardStyle.TOP_MIDDLE_THICK,
+    boardStyle.HORIZONTAL_THICK,
+    boardStyle.TOP_MIDDLE_THIN,
+    boardStyle.HORIZONTAL_THICK,
+    boardStyle.TOP_MIDDLE_THIN,
+    boardStyle.HORIZONTAL_THICK,
+    boardStyle.TOP_MIDDLE_THICK,
+    boardStyle.HORIZONTAL_THICK,
+    boardStyle.TOP_MIDDLE_THIN,
+    boardStyle.HORIZONTAL_THICK,
+    boardStyle.TOP_MIDDLE_THIN,
+    boardStyle.HORIZONTAL_THICK,
+    boardStyle.TOP_RIGHT
   );
 }
 function drawValueLine(values: string[]) {
-  if (values === undefined) values = [];
-  for (let i = 0; i < 9; i++) {
-    if (values[i] === undefined) values[i] = '   ';
-    else if (values[i].length === 0) values[i] = '   ';
-    else if (values[i].length === 1) values[i] = ' ' + values[i] + ' ';
-    else if (values[i].length > 1)
-      values[i] = ' ' + values[i].substring(0, 1) + ' ';
-  }
   Console.printf(
     ROW_PRINT_FORMAT,
-    boxStyle.VERTICAL_THICK,
+    boardStyle.VERTICAL_THICK,
     values[0],
-    boxStyle.VERTICAL_THIN,
+    boardStyle.VERTICAL_THIN,
     values[1],
-    boxStyle.VERTICAL_THIN,
+    boardStyle.VERTICAL_THIN,
     values[2],
-    boxStyle.VERTICAL_THICK,
+    boardStyle.VERTICAL_THICK,
     values[3],
-    boxStyle.VERTICAL_THIN,
+    boardStyle.VERTICAL_THIN,
     values[4],
-    boxStyle.VERTICAL_THIN,
+    boardStyle.VERTICAL_THIN,
     values[5],
-    boxStyle.VERTICAL_THICK,
+    boardStyle.VERTICAL_THICK,
     values[6],
-    boxStyle.VERTICAL_THIN,
+    boardStyle.VERTICAL_THIN,
     values[7],
-    boxStyle.VERTICAL_THIN,
+    boardStyle.VERTICAL_THIN,
     values[8],
-    boxStyle.VERTICAL_THICK
+    boardStyle.VERTICAL_THICK
   );
 }
 
 function drawThinLine() {
   Console.printf(
     ROW_PRINT_FORMAT,
-    boxStyle.MIDDLE_LEFT_THIN,
-    boxStyle.HORIZONTAL_THIN,
-    boxStyle.CROSS_THIN,
-    boxStyle.HORIZONTAL_THIN,
-    boxStyle.CROSS_THIN,
-    boxStyle.HORIZONTAL_THIN,
-    boxStyle.CROSS_HORIZONTAL_THIN_VERTICAL_THICK,
-    boxStyle.HORIZONTAL_THIN,
-    boxStyle.CROSS_THIN,
-    boxStyle.HORIZONTAL_THIN,
-    boxStyle.CROSS_THIN,
-    boxStyle.HORIZONTAL_THIN,
-    boxStyle.CROSS_HORIZONTAL_THIN_VERTICAL_THICK,
-    boxStyle.HORIZONTAL_THIN,
-    boxStyle.CROSS_THIN,
-    boxStyle.HORIZONTAL_THIN,
-    boxStyle.CROSS_THIN,
-    boxStyle.HORIZONTAL_THIN,
-    boxStyle.MIDDLE_RIGHT_THIN
+    boardStyle.MIDDLE_LEFT_THIN,
+    boardStyle.HORIZONTAL_THIN,
+    boardStyle.CROSS_THIN,
+    boardStyle.HORIZONTAL_THIN,
+    boardStyle.CROSS_THIN,
+    boardStyle.HORIZONTAL_THIN,
+    boardStyle.CROSS_HORIZONTAL_THIN_VERTICAL_THICK,
+    boardStyle.HORIZONTAL_THIN,
+    boardStyle.CROSS_THIN,
+    boardStyle.HORIZONTAL_THIN,
+    boardStyle.CROSS_THIN,
+    boardStyle.HORIZONTAL_THIN,
+    boardStyle.CROSS_HORIZONTAL_THIN_VERTICAL_THICK,
+    boardStyle.HORIZONTAL_THIN,
+    boardStyle.CROSS_THIN,
+    boardStyle.HORIZONTAL_THIN,
+    boardStyle.CROSS_THIN,
+    boardStyle.HORIZONTAL_THIN,
+    boardStyle.MIDDLE_RIGHT_THIN
   );
 }
 function drawThickLine() {
   Console.printf(
     ROW_PRINT_FORMAT,
-    boxStyle.MIDDLE_LEFT_THICK,
-    boxStyle.HORIZONTAL_THICK,
-    boxStyle.CROSS_HORIZONTAL_THICK_VERTICAL_THIN,
-    boxStyle.HORIZONTAL_THICK,
-    boxStyle.CROSS_HORIZONTAL_THICK_VERTICAL_THIN,
-    boxStyle.HORIZONTAL_THICK,
-    boxStyle.CROSS_THICK,
-    boxStyle.HORIZONTAL_THICK,
-    boxStyle.CROSS_HORIZONTAL_THICK_VERTICAL_THIN,
-    boxStyle.HORIZONTAL_THICK,
-    boxStyle.CROSS_HORIZONTAL_THICK_VERTICAL_THIN,
-    boxStyle.HORIZONTAL_THICK,
-    boxStyle.CROSS_THICK,
-    boxStyle.HORIZONTAL_THICK,
-    boxStyle.CROSS_HORIZONTAL_THICK_VERTICAL_THIN,
-    boxStyle.HORIZONTAL_THICK,
-    boxStyle.CROSS_HORIZONTAL_THICK_VERTICAL_THIN,
-    boxStyle.HORIZONTAL_THICK,
-    boxStyle.MIDDLE_RIGHT_THICK
+    boardStyle.MIDDLE_LEFT_THICK,
+    boardStyle.HORIZONTAL_THICK,
+    boardStyle.CROSS_HORIZONTAL_THICK_VERTICAL_THIN,
+    boardStyle.HORIZONTAL_THICK,
+    boardStyle.CROSS_HORIZONTAL_THICK_VERTICAL_THIN,
+    boardStyle.HORIZONTAL_THICK,
+    boardStyle.CROSS_THICK,
+    boardStyle.HORIZONTAL_THICK,
+    boardStyle.CROSS_HORIZONTAL_THICK_VERTICAL_THIN,
+    boardStyle.HORIZONTAL_THICK,
+    boardStyle.CROSS_HORIZONTAL_THICK_VERTICAL_THIN,
+    boardStyle.HORIZONTAL_THICK,
+    boardStyle.CROSS_THICK,
+    boardStyle.HORIZONTAL_THICK,
+    boardStyle.CROSS_HORIZONTAL_THICK_VERTICAL_THIN,
+    boardStyle.HORIZONTAL_THICK,
+    boardStyle.CROSS_HORIZONTAL_THICK_VERTICAL_THIN,
+    boardStyle.HORIZONTAL_THICK,
+    boardStyle.MIDDLE_RIGHT_THICK
   );
 }
 function drawBottomLine() {
   Console.printf(
     ROW_PRINT_FORMAT,
-    boxStyle.BOTTOM_LEFT,
-    boxStyle.HORIZONTAL_THICK,
-    boxStyle.BOTTOM_MIDDLE_THIN,
-    boxStyle.HORIZONTAL_THICK,
-    boxStyle.BOTTOM_MIDDLE_THIN,
-    boxStyle.HORIZONTAL_THICK,
-    boxStyle.BOTTOM_MIDDLE_THICK,
-    boxStyle.HORIZONTAL_THICK,
-    boxStyle.BOTTOM_MIDDLE_THIN,
-    boxStyle.HORIZONTAL_THICK,
-    boxStyle.BOTTOM_MIDDLE_THIN,
-    boxStyle.HORIZONTAL_THICK,
-    boxStyle.BOTTOM_MIDDLE_THICK,
-    boxStyle.HORIZONTAL_THICK,
-    boxStyle.BOTTOM_MIDDLE_THIN,
-    boxStyle.HORIZONTAL_THICK,
-    boxStyle.BOTTOM_MIDDLE_THIN,
-    boxStyle.HORIZONTAL_THICK,
-    boxStyle.BOTTOM_RIGHT
+    boardStyle.BOTTOM_LEFT,
+    boardStyle.HORIZONTAL_THICK,
+    boardStyle.BOTTOM_MIDDLE_THIN,
+    boardStyle.HORIZONTAL_THICK,
+    boardStyle.BOTTOM_MIDDLE_THIN,
+    boardStyle.HORIZONTAL_THICK,
+    boardStyle.BOTTOM_MIDDLE_THICK,
+    boardStyle.HORIZONTAL_THICK,
+    boardStyle.BOTTOM_MIDDLE_THIN,
+    boardStyle.HORIZONTAL_THICK,
+    boardStyle.BOTTOM_MIDDLE_THIN,
+    boardStyle.HORIZONTAL_THICK,
+    boardStyle.BOTTOM_MIDDLE_THICK,
+    boardStyle.HORIZONTAL_THICK,
+    boardStyle.BOTTOM_MIDDLE_THIN,
+    boardStyle.HORIZONTAL_THICK,
+    boardStyle.BOTTOM_MIDDLE_THIN,
+    boardStyle.HORIZONTAL_THICK,
+    boardStyle.BOTTOM_RIGHT
   );
 }
-export function drawBoard(values: string[][]) {
+function updateData(values: string[][]): string[][] {
+  const data: string[][] = [];
+
+  for (let i = 0; i < 9; i++) {
+    data[i] = [];
+    for (let j = 0; j < 9; j++) {
+      if (values[i] === undefined) data[i][j] = '   ';
+      else if (values[i][j] === undefined) data[i][j] = '   ';
+      else if (values[i][j].length === 0) data[i][j] = '   ';
+      else if (values[i][j].length === 1) data[i][j] = ' ' + values[i][j] + ' ';
+      else if (values[i][j].length > 1)
+        data[i][j] = ' ' + values[i][j].substring(0, 1) + ' ';
+    }
+  }
+  return data;
+}
+export function drawBoard(values: string[][], boardStyle1: BoardStyle) {
+  boardStyle = boardStyle1;
+  const data = updateData(values);
+
   drawTopLine();
 
-  drawValueLine(values[0]);
+  drawValueLine(data[0]);
   drawThinLine();
-  drawValueLine(values[1]);
+  drawValueLine(data[1]);
   drawThinLine();
-  drawValueLine(values[2]);
+  drawValueLine(data[2]);
 
   drawThickLine();
 
-  drawValueLine(values[3]);
+  drawValueLine(data[3]);
   drawThinLine();
-  drawValueLine(values[4]);
+  drawValueLine(data[4]);
   drawThinLine();
-  drawValueLine(values[5]);
+  drawValueLine(data[5]);
 
   drawThickLine();
 
-  drawValueLine(values[6]);
+  drawValueLine(data[6]);
   drawThinLine();
-  drawValueLine(values[7]);
+  drawValueLine(data[7]);
   drawThinLine();
-  drawValueLine(values[8]);
+  drawValueLine(data[8]);
 
   drawBottomLine();
 }

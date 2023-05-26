@@ -8,7 +8,7 @@ init:
 	jest --init
 
 test:
-	npm test
+	npm test -- -u
 
 run:
 	node dist/main/index.js

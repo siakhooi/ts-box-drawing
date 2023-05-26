@@ -1,7 +1,7 @@
 export const TEST_DATA_BLANK_ARRAY_OUTER = [];
 export const SIMPLE_TEST_DATA_BLANK_ARRAY_INNER = [[]];
 export const SIMPLE_TEST_DATA_BLANK_ARRAY_INNER2 = [[], []];
-
+import {drawSudokuBoardThick, drawSudokuBoardDouble} from '../../main/index';
 export const TEST_DATA_SIMPLE = [
   ['1', '2', '3', '4', '5', '6', '7', '8', '9'],
   ['1', '2', '3', '4', '5', '6', '7', '8', '9'],
@@ -35,3 +35,4 @@ export const TEST_DATA_VARIABLE_LENGTH = [
     '90000',
   ],
 ];
+export const ALL_FUNCTIONS = [drawSudokuBoardThick, drawSudokuBoardDouble];

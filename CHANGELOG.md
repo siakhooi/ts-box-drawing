@@ -1,8 +1,9 @@
 # Change Log
 
-## `1.5.0`
+## `1.5.0` 26 May 2023
 
-- export drawSudokuBoardThick()
+- add drawSudokuBoardDouble()
+- add drawSudokuBoardThick()
 - refactor to BoxStyle, BoxStyles
 - refactor to BoardStyle, BoardStyles
 - add Sudoku.drawBoard([])

@@ -8,9 +8,13 @@ export {BoxStyles} from './Box/BoxStyles';
 export {HorizontalAlignmentEnum} from './HorizontalAlignmentEnum';
 
 import {drawBoard} from './Sudoku/index';
+import {BoardStyles} from './Sudoku/BoardStyles';
 
 export function drawSudokuBoardThick(data: string[][]) {
-  drawBoard(data);
+  drawBoard(data, BoardStyles.THICK);
+}
+export function drawSudokuBoardDouble(data: string[][]) {
+  drawBoard(data, BoardStyles.DOUBLE);
 }
 function drawBox(boxStyle: BoxStyle, data: string | string[][]) {
   new BoxDrawingBuilder().setData(data).setStyle(boxStyle).drawBox();
