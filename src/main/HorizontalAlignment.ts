@@ -23,9 +23,7 @@ export class HorizontalAlignment {
     this.alignmentByColumn[column] = horizontalAlignment;
   }
   private getAlignment(column: number): HorizontalAlignmentEnum {
-    return this.alignmentByColumn[column] === undefined
-      ? this.defaultAlignment
-      : this.alignmentByColumn[column];
+    return this.alignmentByColumn[column] ?? this.defaultAlignment;
   }
   alignAll(alignment: HorizontalAlignmentEnum, columns: number[]) {
     columns.forEach(n => this.setAlign(n, alignment));

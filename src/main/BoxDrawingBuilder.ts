@@ -37,43 +37,43 @@ export class BoxDrawingBuilder {
   private paddingRight = new Padding();
   private horizontalAlignment = new HorizontalAlignment();
 
-  setData(data: BoxDataType): BoxDrawingBuilder {
+  setData(data: BoxDataType): this {
     this.data = data;
     return this;
   }
-  setStyle(style: BoxStyle): BoxDrawingBuilder {
+  setStyle(style: BoxStyle): this {
     this.style = style;
     return this;
   }
-  setDefaultPadLeft(number_of_spaces: number): BoxDrawingBuilder {
+  setDefaultPadLeft(number_of_spaces: number): this {
     this.paddingLeft.setDefault(number_of_spaces);
     return this;
   }
-  setDefaultPadRight(number_of_spaces: number): BoxDrawingBuilder {
+  setDefaultPadRight(number_of_spaces: number): this {
     this.paddingRight.setDefault(number_of_spaces);
     return this;
   }
   setDefaultPad(
     number_of_spaces_on_left: number,
     number_of_spaces_on_right: number
-  ): BoxDrawingBuilder {
+  ): this {
     this.setDefaultPadLeft(number_of_spaces_on_left);
     this.setDefaultPadRight(number_of_spaces_on_right);
     return this;
   }
-  padLeftAll(numbers_of_spaces: number[]): BoxDrawingBuilder {
+  padLeftAll(numbers_of_spaces: number[]): this {
     this.paddingLeft.padAll(numbers_of_spaces);
     return this;
   }
-  padRightAll(numbers_of_spaces: number[]): BoxDrawingBuilder {
+  padRightAll(numbers_of_spaces: number[]): this {
     this.paddingRight.padAll(numbers_of_spaces);
     return this;
   }
-  padLeft(column: number, number_of_spaces: number): BoxDrawingBuilder {
+  padLeft(column: number, number_of_spaces: number): this {
     this.paddingLeft.setPadding(column, number_of_spaces);
     return this;
   }
-  padRight(column: number, number_of_spaces: number): BoxDrawingBuilder {
+  padRight(column: number, number_of_spaces: number): this {
     this.paddingRight.setPadding(column, number_of_spaces);
     return this;
   }
@@ -81,28 +81,28 @@ export class BoxDrawingBuilder {
     column: number,
     number_of_spaces_on_left: number,
     number_of_spaces_on_right: number
-  ): BoxDrawingBuilder {
+  ): this {
     this.padLeft(column, number_of_spaces_on_left);
     this.padRight(column, number_of_spaces_on_right);
     return this;
   }
-  setDefaultAlignment(alignment: HorizontalAlignmentEnum): BoxDrawingBuilder {
+  setDefaultAlignment(alignment: HorizontalAlignmentEnum): this {
     this.horizontalAlignment.setDefaultAlignment(alignment);
     return this;
   }
-  align(column: number, alignment: HorizontalAlignmentEnum): BoxDrawingBuilder {
+  align(column: number, alignment: HorizontalAlignmentEnum): this {
     this.horizontalAlignment.setAlign(column, alignment);
     return this;
   }
-  alignLeft(columns: number[]): BoxDrawingBuilder {
+  alignLeft(columns: number[]): this {
     this.horizontalAlignment.alignAll(HorizontalAlignmentEnum.LEFT, columns);
     return this;
   }
-  alignRight(columns: number[]): BoxDrawingBuilder {
+  alignRight(columns: number[]): this {
     this.horizontalAlignment.alignAll(HorizontalAlignmentEnum.RIGHT, columns);
     return this;
   }
-  alignCenter(columns: number[]): BoxDrawingBuilder {
+  alignCenter(columns: number[]): this {
     this.horizontalAlignment.alignAll(HorizontalAlignmentEnum.CENTER, columns);
     return this;
   }
@@ -149,7 +149,7 @@ export class BoxDrawingBuilder {
     for (let i = 0; i < columnCount; i++) {
       const padLeft = this.paddingLeft.getPad(i);
       const padRight = this.paddingRight.getPad(i);
-      const cellData = rowData[i] === undefined ? '' : rowData[i];
+      const cellData = rowData[i] ?? '';
       s += ' '.repeat(padLeft);
       s += this.horizontalAlignment.getLine(i, cellData, columnWidths[i]);
       s += ' '.repeat(padRight);

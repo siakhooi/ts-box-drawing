@@ -126,18 +126,22 @@ function drawBottomLine() {
     boardStyle.BOTTOM_RIGHT
   );
 }
+
+function isNoData(values: string[][], i: number, j: number): boolean {
+  return (
+    values[i] === undefined ||
+    values[i][j] === undefined ||
+    values[i][j].length === 0
+  );
+}
 function updateData(values: string[][]): string[][] {
   const data: string[][] = [];
 
   for (let i = 0; i < 9; i++) {
     data[i] = [];
     for (let j = 0; j < 9; j++) {
-      if (values[i] === undefined) data[i][j] = '   ';
-      else if (values[i][j] === undefined) data[i][j] = '   ';
-      else if (values[i][j].length === 0) data[i][j] = '   ';
-      else if (values[i][j].length === 1) data[i][j] = ' ' + values[i][j] + ' ';
-      else if (values[i][j].length > 1)
-        data[i][j] = ' ' + values[i][j].substring(0, 1) + ' ';
+      if (isNoData(values, i, j)) data[i][j] = '   ';
+      else data[i][j] = ' ' + values[i][j].substring(0, 1) + ' ';
     }
   }
   return data;

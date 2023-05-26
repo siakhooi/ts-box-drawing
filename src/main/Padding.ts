@@ -9,9 +9,7 @@ export class Padding {
     this.padByColumn[column] = number_of_spaces;
   }
   getPad(column: number): number {
-    return this.padByColumn[column] === undefined
-      ? this.defaultPad
-      : this.padByColumn[column];
+    return this.padByColumn[column] ?? this.defaultPad;
   }
   padAll(numbers_of_spaces: number[]) {
     numbers_of_spaces.forEach((value, index) => {

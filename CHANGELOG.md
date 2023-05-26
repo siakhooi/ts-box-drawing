@@ -1,5 +1,9 @@
 # Change Log
 
+## `1.5.1`
+
+- fix code smells
+
 ## `1.5.0` 26 May 2023
 
 - add drawSudokuBoardDouble()
