@@ -7,6 +7,11 @@ import {Padding} from './Padding';
 
 type BoxDataType = null | string | string[][];
 
+function calcColumnWidths(currentColumnWidth: number, newData: string): number {
+  return newData === undefined
+    ? currentColumnWidth
+    : Math.max(currentColumnWidth, newData.length);
+}
 function getColumnWidths(
   rowCount: number,
   columnCount: number,
@@ -16,9 +21,7 @@ function getColumnWidths(
   for (let i = 0; i < columnCount; i++) {
     columnWidths[i] = 0;
     for (let j = 0; j < rowCount; j++) {
-      if (data[j][i] !== undefined) {
-        columnWidths[i] = Math.max(columnWidths[i], data[j][i].length);
-      }
+      columnWidths[i] = calcColumnWidths(columnWidths[i], data[j][i]);
     }
   }
   return columnWidths;
