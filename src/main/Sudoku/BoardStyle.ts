@@ -1,19 +1,39 @@
-export type Line = {
+export class BoardLine {
   thickLeft: string;
-  thickMiddle: string;
   thickRight: string;
+  thickMiddle: string;
   thinMiddle: string;
   value: string;
-};
+
+  constructor(
+    thickLeft: string,
+    thickRight: string,
+    thickMiddle: string,
+    thinMiddle: string,
+    value: string
+  ) {
+    this.thickLeft = thickLeft;
+    this.thickRight = thickRight;
+    this.thickMiddle = thickMiddle;
+    this.thinMiddle = thinMiddle;
+    this.value = value;
+  }
+}
 
 export class BoardStyle {
-  Top: Line;
-  Bottom: Line;
-  Thin: Line;
-  Thick: Line;
-  Value: Line;
+  Top: BoardLine;
+  Bottom: BoardLine;
+  Thin: BoardLine;
+  Thick: BoardLine;
+  Value: BoardLine;
 
-  constructor(top: Line, bottom: Line, thin: Line, thick: Line, value: Line) {
+  constructor(
+    top: BoardLine,
+    bottom: BoardLine,
+    thin: BoardLine,
+    thick: BoardLine,
+    value: BoardLine
+  ) {
     this.Top = top;
     this.Bottom = bottom;
     this.Thin = thin;

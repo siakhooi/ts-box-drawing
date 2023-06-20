@@ -1,9 +1,9 @@
 import {Console} from '../Console';
-import {Line, BoardStyle} from './BoardStyle';
+import {BoardLine, BoardStyle} from './BoardStyle';
 
 const ROW_PRINT_FORMAT = '%s'.repeat(19);
 
-function drawValueLine(line: Line, values: string[]) {
+function drawValueLine(line: BoardLine, values: string[]) {
   Console.printf(
     ROW_PRINT_FORMAT,
     line.thickLeft,
@@ -27,7 +27,7 @@ function drawValueLine(line: Line, values: string[]) {
     line.thickRight
   );
 }
-function drawLine(line: Line) {
+function drawLine(line: BoardLine) {
   Console.printf(
     ROW_PRINT_FORMAT,
     line.thickLeft,
