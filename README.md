@@ -33,12 +33,10 @@ npm package to draw box using unicode characters
 ![npms.io (final)](https://img.shields.io/npms-io/quality-score/@siakhooi/box-drawing?logo=npm)
 ![npms.io (final)](https://img.shields.io/npms-io/popularity-score/@siakhooi/box-drawing?logo=npm)
 
-![Quality-CodeClimate](https://img.shields.io/badge/Quality-CodeClimate-purple)
-[![Maintainability](https://api.codeclimate.com/v1/badges/b0155bde6c18b4bf37ee/maintainability)](https://codeclimate.com/github/siakhooi/ts-box-drawing/maintainability)
-![Code Climate maintainability](https://img.shields.io/codeclimate/maintainability-percentage/siakhooi/ts-box-drawing)
-![Code Climate issues](https://img.shields.io/codeclimate/issues/siakhooi/ts-box-drawing)
-![Code Climate technical debt](https://img.shields.io/codeclimate/tech-debt/siakhooi/ts-box-drawing)
-[![Test Coverage](https://api.codeclimate.com/v1/badges/b0155bde6c18b4bf37ee/test_coverage)](https://codeclimate.com/github/siakhooi/ts-box-drawing/test_coverage)
+![Quality-Qlty](https://img.shields.io/badge/Quality-Qlty-purple)
+[![Maintainability](https://qlty.sh/gh/siakhooi/projects/ts-box-drawing/maintainability.svg)](https://qlty.sh/gh/siakhooi/projects/ts-box-drawing)
+[![Code Coverage](https://qlty.sh/gh/siakhooi/projects/ts-box-drawing/coverage.svg)](https://qlty.sh/gh/siakhooi/projects/ts-box-drawing)
+
 ![Quality-Sonar](https://img.shields.io/badge/Quality-SonarCloud-purple)
 [![Code Smells](https://sonarcloud.io/api/project_badges/measure?project=siakhooi_ts-box-drawing&metric=code_smells)](https://sonarcloud.io/summary/new_code?id=siakhooi_ts-box-drawing)
 [![Duplicated Lines (%)](https://sonarcloud.io/api/project_badges/measure?project=siakhooi_ts-box-drawing&metric=duplicated_lines_density)](https://sonarcloud.io/summary/new_code?id=siakhooi_ts-box-drawing)
