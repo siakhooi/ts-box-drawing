@@ -1,14 +1,13 @@
-name: SonarCloud.io
+name: Qlty.sh
 
 on:
   workflow_call:
     secrets:
-      SONAR_TOKEN:
+      QLTY_COVERAGE_TOKEN:
         required: true
 
 jobs:
-  SonarCloud:
-    name: SonarCloud.io
+  QltySh:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v5
@@ -17,8 +16,6 @@ jobs:
           name: coverage-report
           path: ./coverage/
       - run: ls -R
-      - name: SonarCloud Scan
-        uses: SonarSource/sonarcloud-github-action@master
+      - run: .github/bin/qlty-coverage-publish.sh
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
+          QLTY_COVERAGE_TOKEN: ${{ secrets.QLTY_COVERAGE_TOKEN }}

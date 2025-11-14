@@ -11,9 +11,14 @@ jobs:
     needs: test
     uses: ./.github/workflows/quality-sonarcloud.yml
     secrets:
-      SONARCLOUD_TOKEN: ${{ secrets.SONARCLOUD_TOKEN }}
-  codeclimate:
+      SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
+  # codeclimate:
+  #   needs: test
+  #   uses: ./.github/workflows/quality-codeclimate.yml
+  #   secrets:
+  #     CODE_CLIMATE_REPORT_TOKEN: ${{ secrets.CODE_CLIMATE_REPORT_TOKEN }}
+  qltysh:
     needs: test
-    uses: ./.github/workflows/quality-codeclimate.yml
+    uses: ./.github/workflows/quality-qltysh.yml
     secrets:
-      CODE_CLIMATE_REPORT_TOKEN: ${{ secrets.CODE_CLIMATE_REPORT_TOKEN }}
+      QLTY_COVERAGE_TOKEN: ${{ secrets.QLTY_COVERAGE_TOKEN }}
