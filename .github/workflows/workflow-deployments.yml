@@ -15,4 +15,4 @@ jobs:
     needs: build
     uses: ./.github/workflows/publish-gpr.yml
     secrets:
-      PUBLISH_GITHUB_TOKEN: ${{ secrets.PUBLISH_GITHUB_TOKEN }}
+      PUBLISH_TO_GITHUB_REPO_TOKEN: ${{ secrets.PUBLISH_TO_GITHUB_REPO_TOKEN }}
