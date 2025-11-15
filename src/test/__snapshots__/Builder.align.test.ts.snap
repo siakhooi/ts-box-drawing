@@ -1,4 +1,4 @@
-// Jest Snapshot v1, https://goo.gl/fbAQLP
+// Jest Snapshot v1, https://jestjs.io/docs/snapshot-testing
 
 exports[`Align(0,LEFT),Align(1,CENTER),Align(2,RIGHT) DOUBLE [Simple 2x2] 1`] = `
 [

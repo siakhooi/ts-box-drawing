@@ -22,6 +22,6 @@ describe.each(ALL_STYLES)('AlignLeft([0,1])', (testStyle: TestStyleUnit) => {
         .alignLeft([0, 1])
         .drawBox();
       expect(allData).toMatchSnapshot();
-    }
+    },
   );
 });

@@ -21,6 +21,6 @@ describe.each(ALL_STYLES)('PadRight[1,4]', (testStyle: TestStyleUnit) => {
         .padRightAll([1, 4])
         .drawBox();
       expect(allData).toMatchSnapshot();
-    }
+    },
   );
 });

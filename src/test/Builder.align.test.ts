@@ -26,7 +26,7 @@ describe.each(ALL_STYLES)(
           .align(3, HorizontalAlignmentEnum.RIGHT)
           .drawBox();
         expect(allData).toMatchSnapshot();
-      }
+      },
     );
-  }
+  },
 );

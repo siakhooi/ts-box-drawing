@@ -1,4 +1,4 @@
-// Jest Snapshot v1, https://goo.gl/fbAQLP
+// Jest Snapshot v1, https://jestjs.io/docs/snapshot-testing
 
 exports[`PadLeftRight[Default(2),(1,4)] DOUBLE [Simple 2x2] 1`] = `
 [

@@ -13,6 +13,6 @@ describe.each(ALL_STYLES)('Builder', (testStyle: TestStyleUnit) => {
 
       new BoxDrawingBuilder().setData(text).setStyle(testStyle.style).drawBox();
       expect(allData).toMatchSnapshot();
-    }
+    },
   );
 });

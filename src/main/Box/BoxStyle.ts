@@ -18,7 +18,7 @@ export class BoxStyle {
     vertical: string[],
     corners: string[],
     cross: string,
-    middles: string[]
+    middles: string[],
   ) {
     this.HORIZONTAL_INNER = horizontal[0];
     this.HORIZONTAL_OUTER = horizontal[1];

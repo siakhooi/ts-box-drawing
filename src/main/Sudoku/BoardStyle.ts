@@ -10,7 +10,7 @@ export class BoardLine {
     thickRight: string,
     thickMiddle: string,
     thinMiddle: string,
-    value: string
+    value: string,
   ) {
     this.thickLeft = thickLeft;
     this.thickRight = thickRight;
@@ -32,7 +32,7 @@ export class BoardStyle {
     bottom: BoardLine,
     thin: BoardLine,
     thick: BoardLine,
-    value: BoardLine
+    value: BoardLine,
   ) {
     this.Top = top;
     this.Bottom = bottom;

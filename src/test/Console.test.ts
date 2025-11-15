@@ -5,7 +5,7 @@ test('Console.println', () => {
   let allData = '';
   console.log = jest.fn().mockImplementation(text => (allData = text));
   Console.println('Hello World');
-  expect(console.log).toBeCalledTimes(1);
+  expect(console.log).toHaveBeenCalledTimes(1);
   expect(allData).toMatch('Hello World');
   console.log = f;
 });
@@ -13,6 +13,6 @@ test('Console.printf', () => {
   let allData = '';
   Console.println = jest.fn().mockImplementation(text => (allData = text));
   Console.printf('%s %s', 'Hello', 'World');
-  expect(Console.println).toBeCalledTimes(1);
+  expect(Console.println).toHaveBeenCalledTimes(1);
   expect(allData).toMatch('Hello World');
 });

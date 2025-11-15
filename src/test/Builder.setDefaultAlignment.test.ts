@@ -28,8 +28,8 @@ describe.each(ALL_STYLES)(
             .setDefaultAlignment(horizontalAlignment)
             .drawBox();
           expect(allData).toMatchSnapshot();
-        }
+        },
       );
     });
-  }
+  },
 );

@@ -28,7 +28,7 @@ describe.each(ALL_STYLES)(
           .setDefaultPadRight(2)
           .drawBox();
         expect(allData).toMatchSnapshot();
-      }
+      },
     );
-  }
+  },
 );

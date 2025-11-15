@@ -15,7 +15,7 @@ function calcColumnWidths(currentColumnWidth: number, newData: string): number {
 function getColumnWidths(
   rowCount: number,
   columnCount: number,
-  data: string[][]
+  data: string[][],
 ): number[] {
   const columnWidths: number[] = [];
   for (let i = 0; i < columnCount; i++) {
@@ -58,7 +58,7 @@ export class BoxDrawingBuilder {
   }
   setDefaultPad(
     number_of_spaces_on_left: number,
-    number_of_spaces_on_right: number
+    number_of_spaces_on_right: number,
   ): this {
     this.setDefaultPadLeft(number_of_spaces_on_left);
     this.setDefaultPadRight(number_of_spaces_on_right);
@@ -83,7 +83,7 @@ export class BoxDrawingBuilder {
   pad(
     column: number,
     number_of_spaces_on_left: number,
-    number_of_spaces_on_right: number
+    number_of_spaces_on_right: number,
   ): this {
     this.padLeft(column, number_of_spaces_on_left);
     this.padRight(column, number_of_spaces_on_right);
@@ -111,7 +111,7 @@ export class BoxDrawingBuilder {
   }
   private getHorizontalLines(
     columnCount: number,
-    columnWidths: number[]
+    columnWidths: number[],
   ): string[] {
     let lineTop = '',
       lineMiddle = '',
@@ -145,7 +145,7 @@ export class BoxDrawingBuilder {
   private getDataLine(
     columnCount: number,
     columnWidths: number[],
-    rowData: string[]
+    rowData: string[],
   ): string {
     const boxStyle = this.style;
     let s = boxStyle.VERTICAL_OUTER;
@@ -174,7 +174,7 @@ export class BoxDrawingBuilder {
       lineBottom = '';
     [lineTop, lineMiddle, lineBottom] = this.getHorizontalLines(
       columnCount,
-      columnWidths
+      columnWidths,
     );
 
     Console.println(lineTop);

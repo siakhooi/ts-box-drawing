@@ -24,7 +24,7 @@ function drawValueLine(line: BoardLine, values: string[]) {
     values[7],
     line.thinMiddle,
     values[8],
-    line.thickRight
+    line.thickRight,
   );
 }
 function drawLine(line: BoardLine) {
@@ -48,7 +48,7 @@ function drawLine(line: BoardLine) {
     line.value,
     line.thinMiddle,
     line.value,
-    line.thickRight
+    line.thickRight,
   );
 }
 

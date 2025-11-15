@@ -12,6 +12,6 @@ describe.each(ALL_FUNCTIONS)('Array', (drawBoxFunction: Function) => {
 
       drawBoxFunction(testData.data);
       expect(allData).toMatchSnapshot();
-    }
+    },
   );
 });

@@ -24,7 +24,7 @@ describe.each(ALL_STYLES)(
           .padRight(1, 2)
           .drawBox();
         expect(allData).toMatchSnapshot();
-      }
+      },
     );
-  }
+  },
 );
