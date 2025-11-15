@@ -21,3 +21,14 @@ paydevs:
 	npm set registry https://npm.paydevs.com/
 	npm-cli-login -u <username> -p <password> -e <email> -r https://npm.paydevs.com
 	npm publish
+
+release:
+  # update CHANGELOG.md
+  # update package.json version
+  # npm install
+  # npm test
+#     git add CHANGELOG.md package.json
+#     git commit -m "release: v$(shell cat package.json | jq -r .version)"
+#     git tag v$(shell cat package.json | jq -r .version)
+#     git push origin v$(shell cat package.json | jq -r .version)
+#     git push origin main
