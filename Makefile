@@ -7,6 +7,10 @@ init:
 	npm install -g jest-cli
 	jest --init
 
+build:
+	npm install
+	npm test
+
 test:
 	npm test -- -u
 

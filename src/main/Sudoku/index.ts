@@ -1,5 +1,6 @@
 import {Console} from '../Console';
 import {BoardLine, BoardStyle} from './BoardStyle';
+import {isNoData} from '../ArrayUtil';
 
 const ROW_PRINT_FORMAT = '%s'.repeat(19);
 
@@ -52,9 +53,6 @@ function drawLine(line: BoardLine) {
   );
 }
 
-function isNoData(values: string[][], i: number, j: number): boolean {
-  return values[i]?.[j] === undefined || values[i]?.[j]?.length === 0;
-}
 function calcCell(values: string[][], row: number, col: number): string {
   return isNoData(values, row, col)
     ? '   '
