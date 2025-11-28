@@ -53,11 +53,7 @@ function drawLine(line: BoardLine) {
 }
 
 function isNoData(values: string[][], i: number, j: number): boolean {
-  return (
-    values[i] === undefined ||
-    values[i][j] === undefined ||
-    values[i][j].length === 0
-  );
+  return values[i]?.[j] === undefined || values[i]?.[j]?.length === 0;
 }
 function calcCell(values: string[][], row: number, col: number): string {
   return isNoData(values, row, col)

@@ -36,9 +36,9 @@ export class BoxDrawingBuilder {
   private data: BoxDataType = [];
   private style = BoxStyles.THIN;
 
-  private paddingLeft = new Padding();
-  private paddingRight = new Padding();
-  private horizontalAlignment = new HorizontalAlignment();
+  private readonly paddingLeft = new Padding();
+  private readonly paddingRight = new Padding();
+  private readonly horizontalAlignment = new HorizontalAlignment();
 
   setData(data: BoxDataType): this {
     this.data = data;
