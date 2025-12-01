@@ -20,12 +20,12 @@ run:
 clean:
 	npm run clean
 
-paydevs:
-	npm install -g npm-cli-login
-	npm set registry https://npm.paydevs.com/
-	npm-cli-login -u <username> -p <password> -e <email> -r https://npm.paydevs.com
-	npm publish
+all: clean set-version build
 
+set-version:
+	scripts/set-version.sh
+commit:
+	scripts/git-commit-and-push.sh
 release:
 	scripts/create-release.sh
 # update CHANGELOG.md
