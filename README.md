@@ -1,27 +1,27 @@
-# ts-box-drawing
+# box-drawing
 
 npm package to draw box using unicode characters
 
-![GitHub](https://img.shields.io/github/license/siakhooi/ts-box-drawing?logo=github)
+![GitHub](https://img.shields.io/github/license/siakhooi/box-drawing?logo=github)
 [![Code Style: Google](https://img.shields.io/badge/code%20style-google-blueviolet.svg)](https://github.com/google/gts)
-![GitHub last commit](https://img.shields.io/github/last-commit/siakhooi/ts-box-drawing?logo=github)
-![GitHub tag (latest by date)](https://img.shields.io/github/v/tag/siakhooi/ts-box-drawing?logo=github)
-![GitHub issues](https://img.shields.io/github/issues/siakhooi/ts-box-drawing?logo=github)
-![GitHub closed issues](https://img.shields.io/github/issues-closed/siakhooi/ts-box-drawing?logo=github)
-![GitHub pull requests](https://img.shields.io/github/issues-pr-raw/siakhooi/ts-box-drawing?logo=github)
-![GitHub closed pull requests](https://img.shields.io/github/issues-pr-closed-raw/siakhooi/ts-box-drawing?logo=github)
-![GitHub top language](https://img.shields.io/github/languages/top/siakhooi/ts-box-drawing?logo=github)
-![GitHub language count](https://img.shields.io/github/languages/count/siakhooi/ts-box-drawing?logo=github)
-![Lines of code](https://img.shields.io/tokei/lines/github/siakhooi/ts-box-drawing?logo=github)
-![GitHub repo size](https://img.shields.io/github/repo-size/siakhooi/ts-box-drawing?logo=github)
-![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/siakhooi/ts-box-drawing?logo=github)
+![GitHub last commit](https://img.shields.io/github/last-commit/siakhooi/box-drawing?logo=github)
+![GitHub tag (latest by date)](https://img.shields.io/github/v/tag/siakhooi/box-drawing?logo=github)
+![GitHub issues](https://img.shields.io/github/issues/siakhooi/box-drawing?logo=github)
+![GitHub closed issues](https://img.shields.io/github/issues-closed/siakhooi/box-drawing?logo=github)
+![GitHub pull requests](https://img.shields.io/github/issues-pr-raw/siakhooi/box-drawing?logo=github)
+![GitHub closed pull requests](https://img.shields.io/github/issues-pr-closed-raw/siakhooi/box-drawing?logo=github)
+![GitHub top language](https://img.shields.io/github/languages/top/siakhooi/box-drawing?logo=github)
+![GitHub language count](https://img.shields.io/github/languages/count/siakhooi/box-drawing?logo=github)
+![Lines of code](https://img.shields.io/tokei/lines/github/siakhooi/box-drawing?logo=github)
+![GitHub repo size](https://img.shields.io/github/repo-size/siakhooi/box-drawing?logo=github)
+![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/siakhooi/box-drawing?logo=github)
 ![Workflow](https://img.shields.io/badge/Workflow-github-purple)
-![workflow](https://github.com/siakhooi/ts-box-drawing/actions/workflows/workflow-build-with-quality-checks.yml/badge.svg)
-![workflow](https://github.com/siakhooi/ts-box-drawing/actions/workflows/workflow-deployments.yml/badge.svg)
+![workflow](https://github.com/siakhooi/box-drawing/actions/workflows/workflow-build-with-quality-checks.yml/badge.svg)
+![workflow](https://github.com/siakhooi/box-drawing/actions/workflows/workflow-deployments.yml/badge.svg)
 ![Release](https://img.shields.io/badge/Release-github-purple)
-![GitHub release (latest by date)](https://img.shields.io/github/v/release/siakhooi/ts-box-drawing?label=GPR%20release&logo=github)
-![GitHub all releases](https://img.shields.io/github/downloads/siakhooi/ts-box-drawing/total?color=33cb56&logo=github)
-![GitHub Release Date](https://img.shields.io/github/release-date/siakhooi/ts-box-drawing?logo=github)
+![GitHub release (latest by date)](https://img.shields.io/github/v/release/siakhooi/box-drawing?label=GPR%20release&logo=github)
+![GitHub all releases](https://img.shields.io/github/downloads/siakhooi/box-drawing/total?color=33cb56&logo=github)
+![GitHub Release Date](https://img.shields.io/github/release-date/siakhooi/box-drawing?logo=github)
 ![Release](https://img.shields.io/badge/Release-npm-purple)
 ![npm](https://img.shields.io/npm/v/@siakhooi/box-drawing?color=0e7fc0&label=NPM%20release&logo=npm)
 ![npm](https://img.shields.io/npm/dt/@siakhooi/box-drawing?logo=npm)
@@ -34,8 +34,8 @@ npm package to draw box using unicode characters
 ![npms.io (final)](https://img.shields.io/npms-io/popularity-score/@siakhooi/box-drawing?logo=npm)
 
 ![Quality-Qlty](https://img.shields.io/badge/Quality-Qlty-purple)
-[![Maintainability](https://qlty.sh/gh/siakhooi/projects/ts-box-drawing/maintainability.svg)](https://qlty.sh/gh/siakhooi/projects/ts-box-drawing)
-[![Code Coverage](https://qlty.sh/gh/siakhooi/projects/ts-box-drawing/coverage.svg)](https://qlty.sh/gh/siakhooi/projects/ts-box-drawing)
+[![Maintainability](https://qlty.sh/gh/siakhooi/projects/box-drawing/maintainability.svg)](https://qlty.sh/gh/siakhooi/projects/box-drawing)
+[![Code Coverage](https://qlty.sh/gh/siakhooi/projects/box-drawing/coverage.svg)](https://qlty.sh/gh/siakhooi/projects/box-drawing)
 
 ![Quality-Sonar](https://img.shields.io/badge/Quality-SonarCloud-purple)
 [![Code Smells](https://sonarcloud.io/api/project_badges/measure?project=siakhooi_ts-box-drawing&metric=code_smells)](https://sonarcloud.io/summary/new_code?id=siakhooi_ts-box-drawing)
@@ -69,17 +69,17 @@ npm package to draw box using unicode characters
 
 ### Source Code
 
-- <https://github.com/siakhooi/ts-box-drawing>
+- <https://github.com/siakhooi/box-drawing>
 
 ### Distribution
 
 - <https://www.npmjs.com/package/@siakhooi/box-drawing>
-- <https://github.com/siakhooi/ts-box-drawing/pkgs/npm/box-drawing>
+- <https://github.com/siakhooi/box-drawing/pkgs/npm/box-drawing>
 
 ### Code Quality
 
 - <https://sonarcloud.io/project/overview?id=siakhooi_ts-box-drawing>
-- <https://codeclimate.com/github/siakhooi/ts-box-drawing>
+- <https://qlty.sh/gh/siakhooi/projects/box-drawing>
 
 ### Reference
 

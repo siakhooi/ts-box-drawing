@@ -5,7 +5,7 @@
   "main": "dist/main/index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/siakhooi/ts-box-drawing.git"
+    "url": "git+https://github.com/siakhooi/box-drawing.git"
   },
   "keywords": [
     "box-drawing"
@@ -17,13 +17,13 @@
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/siakhooi/ts-box-drawing/issues"
+    "url": "https://github.com/siakhooi/box-drawing/issues"
   },
   "funding": [
     "https://www.buymeacoffee.com/siakhooi",
     "https://ko-fi.com/siakhooi"
   ],
-  "homepage": "https://github.com/siakhooi/ts-box-drawing",
+  "homepage": "https://github.com/siakhooi/box-drawing",
   "devDependencies": {
     "@types/jest": "^30.0.0",
     "@types/node": "^25.0.2",
