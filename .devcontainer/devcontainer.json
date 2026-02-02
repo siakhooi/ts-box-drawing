@@ -1,24 +1,28 @@
-// For format details, see https://aka.ms/devcontainer.json. For config options, see the
-// README at: https://github.com/devcontainers/templates/tree/main/src/javascript-node
 {
-	"name": "Node.js",
-	// Or use a Dockerfile or Docker Compose file. More info: https://containers.dev/guide/dockerfile
-	"image": "mcr.microsoft.com/devcontainers/javascript-node:0-18",
-
-	// Configure tool-specific properties.
+	"name": "Node.js 24 Development Dev Container",
+	"image": "siakhooi/devcontainer:nodejs24",
+	"remoteUser": "maui",
+	"containerUser": "maui",
+	"updateRemoteUserUID": true,
+	"features": {},
 	"customizations": {
 		"vscode": {
 			"extensions": [
+				"github.copilot",
+				"github.copilot-chat",
+				"lfm.vscode-makefile-term",
+				"kisstkondoros.vscode-codemetrics",
 				"dbaeumer.vscode-eslint",
+				"redhat.vscode-yaml",
 				"esbenp.prettier-vscode",
-				"ampcpmgp.cognitive-complexity-show"
+				"github.vscode-github-actions"
 			]
 		}
 	},
-
-	// Features to add to the dev container. More info: https://containers.dev/features.
-	// "features": {},
-
-	// Use 'postCreateCommand' to run commands after the container is created.
-	"postCreateCommand": "npm install"
+	"mounts": [
+		"source=${localEnv:HOME}${localEnv:USERPROFILE}/.ssh,target=/home/maui/.ssh,type=bind,consistency=cached"
+	],
+	"remoteEnv": {
+		"LOCAL_WORKSPACE_FOLDER": "${localWorkspaceFolder}"
+	}
 }
